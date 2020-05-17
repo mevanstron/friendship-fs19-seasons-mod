@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUIProfiles>
+    <Presets>
+        <Preset name="colorTransparent" value="0 0 0 0"/>
+
+        <Preset name="colorGlass" value="0.018 0.016 0.015 0.6"/>
+        <Preset name="colorGlass_50" value="0.018 0.016 0.015 0.25"/>
+
+        <Preset name="colorGlassVeryLight" value="0.718 0.716 0.715 0.04"/>
+        <Preset name="colorGlassExtremelyLight" value="0.918 0.916 0.915 0.15"/>
+        <Preset name="colorGlassMedium" value="0.118 0.116 0.115 0.20"/>
+        <Preset name="colorGlassDark" value="0.018 0.016 0.015 0.65"/>
+        <Preset name="colorGlassLight" value="0.718 0.716 0.715 0.25"/>
+        <Preset name="colorGlassLight_50" value="0.718 0.716 0.715 0.0625"/>
+        <Preset name="colorGlassLight_75" value="0.718 0.716 0.715 0.09375"/>
+
+        <Preset name="colorMainUI" value="0.9910 0.3865 0.0100 1"/>
+        <!-- <Preset name="colorMainUI" value="0.0260 0.3944 0.7373 1"/> -->
+        <Preset name="colorMainUIAlt" value="0.9900 0.4640 0.0010 1"/>
+        <Preset name="colorDisabled" value="0.4 0.4 0.4 1"/>
+
+        <Preset name="colorWhite" value="1 1 1 1"/>
+        <Preset name="colorWhite_50" value="1 1 1 0.5"/>
+        <Preset name="colorWhite_25" value="1 1 1 0.25"/>
+        <Preset name="colorRed" value="0.8069 0.0097 0.0097 1"/>
+        <Preset name="colorDarkRed" value="0.2832 0.0091 0.0091 1"/>
+        <Preset name="colorBlue" value="0.0742 0.4341 0.6939 1"/>
+        <Preset name="colorGreen" value="0.3763 0.6038 0.0782 1"/>
+        <Preset name="colorGreen2" value="0.2122 0.5271 0.0307 1" />
+
+        <Preset name="colorBlack" value="0 0 0 1"/>
+        <Preset name="colorBlack2" value="0.0075 0.0075 0.0075 1"/>
+        <Preset name="colorBlack3" value="0.013 0.013 0.013 1"/>
+        <Preset name="colorBlack3_97" value="0.013 0.013 0.013 0.97"/>
+        <Preset name="colorBlack3_70" value="0.013 0.013 0.013 0.7"/>
+        <Preset name="colorBlack3_0" value="0.013 0.013 0.013 0"/>
+
+        <Preset name="colorDarkGrey" value="0.0284 0.0284 0.0284 1"/>
+        <Preset name="colorDarkGrey_0" value="0.0284 0.0284 0.0284 0"/>
+        <Preset name="colorDarkGrey2" value="0.0630 0.0630 0.0630 1"/>
+        <Preset name="colorDarkGrey2_50" value="0.0630 0.0630 0.0630 0.5"/>
+        <Preset name="colorDarkGrey2_70" value="0.0630 0.0630 0.0630 0.7"/>
+        <Preset name="colorDarkGrey3" value="0.0194 0.0194 0.0194 1"/>
+        <Preset name="colorDarkGrey4" value="0.0723 0.0723 0.0723 1"/>
+        <Preset name="colorDarkGrey5" value="0.1356 0.1356 0.1356 1"/>
+        <Preset name="colorDarkGrey6" value="0.03 0.03 0.03 1"/>
+        <Preset name="colorDarkGrey7" value="0.0212 0.0212 0.0212 1"/>
+
+        <Preset name="colorLightGrey" value="0.0482 0.0482 0.0482 1"/>
+        <Preset name="colorDescriptionText" value="0.2918 0.2918 0.2918 1"/>
+        <Preset name="colorDescriptionText2" value="0.6 0.6 0.6 1"/>
+        <Preset name="colorDescriptionText3" value="0.1845 0.1845 0.1845 1"/>
+        <Preset name="colorDescriptionText4" value="0.6307 0.6307 0.6307 1"/>
+
+        <!-- Content based presets -->
+        <Preset name="colorListRowBackground" value="$preset_colorGlassLight_50" />
+        <Preset name="colorListRowAlternateBackground" value="$preset_colorGlassMedium" />
+        <Preset name="colorListHeaderBackground" value="$preset_colorGlassLight_75" />
+        <Preset name="colorSliderBackground" value="$preset_colorGlassLight_50" />
+        <Preset name="colorSlider" value="$preset_colorGlassLight" />
+        <Preset name="colorSliderHighlight" value="$preset_colorGlassMedium" />
+        <Preset name="colorSliderKnob" value="$preset_colorWhite" />
+        <Preset name="colorDialogBackdrop" value="$preset_colorBlack3_70" />
+
+        <Preset name="colorColdBlue" value="0.0260 0.3944 0.7373 1" />
+
+        <!-- UVs -->
+        <Preset name="colorUVs" value="10px 1010px 4px 4px"/> <!-- small 4 pixel box in D:\code\lsim2019\bin\dataS2\menu\hud\ui_elements_1080p.png -->
+    </Presets>
+
+    <Traits>
+        <Trait name="debugging">
+            <Value name="debugEnabled" value="true" />
+        </Trait>
+
+        <!-- Often used anchors -->
+        <Trait name="anchorTopLeft">
+            <Value name="screenAlign" value="topLeft" />
+            <Value name="positionOrigin" value="topLeft" />
+        </Trait>
+        <Trait name="anchorTopCenter">
+            <Value name="screenAlign" value="topCenter" />
+            <Value name="positionOrigin" value="topCenter" />
+        </Trait>
+        <Trait name="anchorTopRight">
+            <Value name="screenAlign" value="topRight" />
+            <Value name="positionOrigin" value="topRight" />
+        </Trait>
+        <Trait name="anchorMiddleLeft">
+            <Value name="screenAlign" value="middleLeft" />
+            <Value name="positionOrigin" value="middleLeft" />
+        </Trait>
+        <Trait name="anchorMiddleCenter">
+            <Value name="screenAlign" value="middleCenter" />
+            <Value name="positionOrigin" value="middleCenter" />
+        </Trait>
+        <Trait name="anchorMiddleRight">
+            <Value name="screenAlign" value="middleRight" />
+            <Value name="positionOrigin" value="middleRight" />
+        </Trait>
+        <Trait name="anchorBottomLeft">
+            <Value name="screenAlign" value="bottomLeft" />
+            <Value name="positionOrigin" value="bottomLeft" />
+        </Trait>
+        <Trait name="anchorBottomCenter">
+            <Value name="screenAlign" value="bottomCenter" />
+            <Value name="positionOrigin" value="bottomCenter" />
+        </Trait>
+        <Trait name="anchorBottomRight">
+            <Value name="screenAlign" value="bottomRight" />
+            <Value name="positionOrigin" value="bottomRight" />
+        </Trait>
+        <Trait name="anchorFullscreenScalable">
+            <!-- Use this trait for elements which need to always span the entire screen regardless of resolution. -->
+            <Value name="screenAlign" value="none" />
+            <Value name="positionOrigin" value="none" />
+        </Trait>
+
+        <!-- The default frame with the fat bottom. No background -->
+        <Trait name="defaultGameFrame">
+            <Value name="hasFrame" value="true" />
+            <Value name="frameThickness" value="1dp 1dp 1dp 4px"/>
+            <Value name="frameLeftColor" value="$preset_colorGlassLight" />
+            <Value name="frameTopColor" value="$preset_colorGlassLight" />
+            <Value name="frameRightColor" value="$preset_colorGlassLight" />
+            <Value name="frameBottomColor" value="$preset_colorMainUI" />
+        </Trait>
+
+        <!-- A light gray frame -->
+        <Trait name="lightFrame">
+            <Value name="hasFrame" value="true" />
+            <Value name="frameThickness" value="1dp 1dp 1dp 1dp"/>
+            <Value name="frameLeftColor" value="$preset_colorGlassLight" />
+            <Value name="frameTopColor" value="$preset_colorGlassLight" />
+            <Value name="frameRightColor" value="$preset_colorGlassLight" />
+            <Value name="frameBottomColor" value="$preset_colorGlassLight" />
+        </Trait>
+
+        <!-- Alternate row background. Simply extend the normal row with this trait -->
+        <Trait name="alternateRow">
+            <Value name="imageColor" value="$preset_colorListRowAlternateBackground"/>
+        </Trait>
+    </Traits>
+
+
+    <Profile name="seasonsDockedInfo" extends="textDefault" with="anchorBottomRight">
+        <Value name="size" value="1000px 40px" />
+        <Value name="position" value="0 -50px" />
+        <Value name="textAlignment" value="right" />
+        <Value name="textOffset" value="-10px 0" />
+        <Value name="textWrapWidth" value="1000px" />
+        <Value name="textMaxNumLines" value="3" />
+        <Value name="textVerticalAlignment" value="top" />
+    </Profile>
+
+    <!-- Tab icons -->
+    <Profile name="seasonsMenuCalendarIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="imageFilename" value="g_seasonsUIFilename"/>
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="0px 0px 65px 65px"/>
+    </Profile>
+    <Profile name="seasonsMenuForecastIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="65px 144px 65px 65px"/>
+    </Profile>
+    <Profile name="seasonsMenuCropsIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="imageFilename" value="g_seasonsUIFilename"/>
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="260px 0px 65px 65px"/>
+    </Profile>
+    <Profile name="seasonsMenuEconomyIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="imageFilename" value="g_seasonsUIFilename"/>
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="65px 0px 65px 65px"/>
+    </Profile>
+    <Profile name="seasonsMenuSettingsIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="390px 144px 65px 65px"/>
+    </Profile>
+    <Profile name="seasonsMenuCropRotationIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="imageFilename" value="g_seasonsUIFilename"/>
+        <Value name="size" value="64px 64px"/>
+        <Value name="imageUVs" value="130px 0px 65px 65px"/>
+    </Profile>
+
+    <!-- CALENDAR -->
+
+    <Profile name="seasonsCalendarHeaderBox" extends="emptyPanel" with="anchorTopLeft">
+        <Value name="size" value="1658px 104px"/>
+        <Value name="alignmentX" value="left"/>
+        <Value name="alignmentY" value="bottom"/>
+        <Value name="imageColor" value="$preset_colorListHeaderBackground"/>
+        <Value name="flowDirection" value="horizontal"/>
+        <Value name="wrapAround" value="true"/>
+        <Value name="lateralFlowSize" value="104px"/>
+        <Value name="fitToElements" value="true"/>
+        <Value name="autoValidateLayout" value="true"/>
+        <Value name="hasFrame" value="false"/>
+    </Profile>
+    <Profile name="seasonsCalendarHeader" extends="wideButton" with="anchorBottomLeft">
+        <Value name="fitToContent" value="false"/>
+        <Value name="position" value="0px 0px"/>
+        <Value name="textAlignment" value="center"/>
+        <Value name="textVerticalAlignment" value="middle"/>
+
+        <Value name="iconSize" value="0px 0px"/>
+        <Value name="iconTextOffset" value="0px 0px"/>
+        <Value name="iconUVs" value="0 0 1 1"/>
+
+        <Value name="size" value="100px 104px"/>
+        <Value name="imageColor" value="$preset_colorTransparent"/>
+    </Profile>
+    <Profile name="seasonsCalendarHeaderPeriod" extends="textDefault">
+        <Value name="textAlignment" value="center" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="size" value="100px 28px" />
+        <Value name="textSize" value="16px" />
+        <Value name="hasFrame" value="true" />
+        <Value name="frameThickness" value="0dp 0 1dp 0" />
+        <Value name="frameLeftColor" value="$preset_colorGlassLight" />
+        <Value name="frameRightColor" value="$preset_colorGlassLight" />
+    </Profile>
+
+    <Profile name="seasonsCalendarTable" extends="list" with="anchorTopLeft">
+        <Value name="size" value="1630px 600px"/>
+        <!-- <Value name="selectOnScroll" value="true"/> -->
+        <Value name="isHorizontalList" value="false"/>
+        <Value name="itemsPerCol" value="12"/>
+        <Value name="listItemHeight" value="50px"/>
+        <Value name="listItemWidth" value="1630px"/>
+        <Value name="rowBackgroundProfile" value="seasonsCalendarFruitRowBackground"/>
+        <Value name="rowBackgroundProfileAlternate" value="ingameMenuPriceRowBackgroundAlternate"/>
+    </Profile>
+
+    <Profile name="seasonsCalendarFruitRow" extends="listItem">
+        <Value name="size" value="1630px 50px"/>
+    </Profile>
+
+    <!-- Single fruit row -->
+    <Profile name="seasonsCalendarFruitRowBackground" extends="seasonsCalendarFruitRow">
+        <Value name="imageColor" value="$preset_colorListRowBackground"/>
+        <Value name="imageSelectedColor" value="$preset_colorListRowBackground"/>
+    </Profile>
+    <Profile name="ingameMenuPriceRowBackgroundAlternate" extends="seasonsCalendarFruitRowBackground" with="alternateRow">
+        <Value name="imageSelectedColor" value="$preset_colorListRowAlternateBackground"/>
+    </Profile>
+
+    <Profile name="seasonsCalendarFruitIconCell" extends="baseReference">
+        <Value name="imageColor" value="$preset_colorWhite" />
+        <Value name="imageUVs" value="0 0 1 1" />
+        <Value name="size" value="38px 38px" />
+        <Value name="margin" value="6px 6px 6px 6px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarFruitNameCell" extends="textDefault">
+        <Value name="imageColor" value="0 0 1 1" />
+        <Value name="size" value="300px 50px" />
+        <Value name="textAutoSize" value="false" />
+        <!-- <Value name="textSize" value="22px" /> -->
+    </Profile>
+
+    <Profile name="seasonsCalendarGerminationCell" extends="textDefault">
+        <Value name="size" value="80px 50px" />
+        <Value name="textAlignment" value="center" />
+        <!-- <Value name="textSize" value="22px" /> -->
+    </Profile>
+    <Profile name="seasonsCalendarGerminationCellTooCold" extends="seasonsCalendarGerminationCell">
+        <Value name="textColor" value="$preset_colorColdBlue" />
+        <Value name="textSelectedColor" value="$preset_colorColdBlue" />
+        <Value name="textHighlightedColor" value="$preset_colorColdBlue" />
+    </Profile>
+
+    <!-- Cell in the calendar (single period for single fruit) -->
+    <Profile name="seasonsCalendarPeriodCell" extends="baseReference">
+        <Value name="imageColor" value="$preset_colorTransparent" />
+        <Value name="size" value="100px 50px" />
+
+        <Value name="hasFrame" value="true" />
+        <Value name="frameThickness" value="0 0 1dp 0" />
+        <Value name="frameLeftColor" value="$preset_colorGlassLight" />
+        <Value name="frameRightColor" value="$preset_colorGlassLight" />
+    </Profile>
+
+    <Profile name="seasonsCalendarPeriodCellPlant" extends="baseReference">
+        <Value name="imageColor" value="$preset_colorTransparent" />
+        <Value name="size" value="100px 25px" />
+        <Value name="position" value="0px 25px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarPeriodCellHarvest" extends="baseReference">
+        <Value name="imageColor" value="$preset_colorTransparent" />
+        <Value name="size" value="100px 25px" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarHeaderSeason" extends="baseReference">
+        <Value name="positionOrigin" value="topCenter" />
+        <Value name="screenAlign" value="topLeft" />
+        <Value name="size" value="48px 49px" />
+        <Value name="imageColor" value="$preset_colorWhite" />
+        <Value name="imageSize" value="48px 48px" />
+        <Value name="imageFilename" value="dataS2/menu/hud/hud_elements_1080p.png" />
+    </Profile>
+
+    <Profile name="seasonsCalendarTodayBar" extends="baseReference" anchor="topLeft">
+        <Value name="imageColor" value="$preset_colorRed" />
+        <Value name="size" value="2dp 600px" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarDividerBar" extends="baseReference" anchor="topLeft">
+        <Value name="imageColor" value="$preset_colorGlassLight" />
+        <Value name="size" value="1dp 600px" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarLegendBox" extends="baseReference" with="anchorBottomRight">
+        <Value name="flowDirection" value="horizontal" />
+        <Value name="alignmentX" value="right" />
+        <Value name="autoValidateLayout" value="true" />
+        <Value name="size" value="600px 35px" />
+        <Value name="position" value="0px -35px" />
+        <Value name="imageColor" value="$preset_colorTransparent" />
+    </Profile>
+
+    <Profile name="seasonsCalendarLegendIcon" extends="baseReference">
+        <Value name="size" value="50px 25px" />
+        <Value name="imageColor" value="1 0 0 1" />
+        <Value name="margin" value="5px 5px 5px 5px" />
+    </Profile>
+
+    <Profile name="seasonsCalendarLegendText" extends="textDefault">
+        <Value name="size" value="10px 25px" />
+        <Value name="textAutoSize" value="true" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="margin" value="5px 5px 5px 5px" />
+    </Profile>
+
+    <!-- CROPS -->
+
+    <Profile name="seasonsCropsHeaderTop" extends="textDefault" with="anchorTopLeft">
+        <Value name="imageColor" value="$preset_colorRed" />
+
+        <Value name="textAlignment" value="center" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="size" value="600px 52px" />
+        <Value name="textAutoSize" value="false" />
+        <Value name="textSize" value="24px" />
+    </Profile>
+
+    <Profile name="seasonsCropsHeaderBottom" extends="textDefault">
+        <Value name="size" value="200px 52px" />
+        <Value name="textAlignment" value="center" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textAutoSize" value="false" />
+        <Value name="textSize" value="20px" />
+    </Profile>
+
+    <Profile name="seasonsCropsCell" extends="baseReference">
+        <Value name="size" value="200px 50px" />
+
+        <Value name="textAlignment" value="center" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textAutoSize" value="false" />
+        <Value name="textSize" value="18px" />
+        <Value name="textMaxWidth" value="100px" />
+        <Value name="textBold" value="false" />
+
+        <Value name="handleFocus" value="false" />
+    </Profile>
+
+    <Profile name="seasonsCropsCellIcon" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="size" value="20px 20px" />
+        <Value name="position" value="25px 0px" />
+
+        <Value name="imageUVs" value="534px 390px 48px 48px"/>
+    </Profile>
+
+    <!-- FORECAST -->
+
+    <Profile name="seasonsForecastHeader" extends="baseReference" with="anchorTopLeft">
+        <Value name="size" value="378px 704px" />
+        <Value name="imageColor" value="$preset_colorListHeaderBackground" />
+        <Value name="flowDirection" value="vertical" />
+        <Value name="alignmentY" value="top" />
+    </Profile>
+
+    <Profile name="seasonsForecastList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="1280px 704px" /> <!-- 1658 - hader -->
+        <Value name="position" value="378px 0" />
+
+        <Value name="isHorizontalList" value="true" />
+        <Value name="itemsPerCol" value="1" />
+        <Value name="itemsPerRow" value="16" />
+
+        <Value name="listItemAutoSize" value="true" />
+        <!-- <Value name="listItemWidth" value="80px" /> -->
+        <!-- <Value name="listItemHeight" value="704px" /> -->
+    </Profile>
+
+    <Profile name="seasonsForecastColumn" extends="listItem">
+        <Value name="size" value="80px 704px" />
+    </Profile>
+
+    <Profile name="seasonsForecastColumnLayout" extends="baseReference" with="anchorTopLeft">
+        <Value name="imageColor" value="$preset_colorTransparent" />
+        <Value name="size" value="80px 704px" />
+
+        <Value name="flowDirection" value="vertical" />
+        <Value name="alignmentY" value="top" />
+    </Profile>
+
+    <Profile name="seasonsForecastHeaderCell" extends="textDefault">
+        <Value name="size" value="360px 50px" />
+        <Value name="margin" value="8px 0 8px 0" />
+    </Profile>
+
+    <!-- background rows (least amount of bitmaps) -->
+    <Profile name="seasonsForecastBackground" extends="baseReference">
+        <Value name="size" value="1280px 708px" />
+        <Value name="position" value="378px 0" />
+        <Value name="imageColor" value="$preset_colorTransparent" />
+        <Value name="flowDirection" value="vertical" />
+        <Value name="alignmentY" value="top" />
+    </Profile>
+
+    <Profile name="seasonsForecastBackgroundRow" extends="baseReference">
+        <Value name="size" value="1280px 50px" />
+        <Value name="imageColor" value="$preset_colorListRowBackground" />
+    </Profile>
+    <Profile name="seasonsForecastBackgroundRowAlternate" extends="seasonsForecastBackgroundRow" with="alternateRow" />
+
+    <!-- First rows fill up and look like another header -->
+    <Profile name="seasonsForecastHeaderCellFirst" extends="seasonsForecastHeaderCell">
+        <Value name="size" value="360px 104px" />
+    </Profile>
+
+    <Profile name="seasonsForecastBackgroundRowFirst" extends="seasonsForecastBackgroundRow">
+        <Value name="imageColor" value="$preset_colorListHeaderBackground"/>
+        <Value name="size" value="1280px 104px" />
+    </Profile>
+
+    <!-- Cells -->
+
+    <Profile name="seasonsForecastCellText" extends="textDefault">
+        <Value name="size" value="70px 50px" />
+        <Value name="margin" value="5px 0 5px 0" />
+        <Value name="textAlignment" value="center" />
+        <Value name="textMaxWidth" value="75px" />
+    </Profile>
+
+    <Profile name="seasonsForecastCellIcon" extends="baseReference">
+        <Value name="size" value="40px 40px" />
+        <Value name="margin" value="20px 5px 20px 5px" />
+    </Profile>
+
+    <Profile name="seasonsForecastCellSpacing" extends="seasonsForecastCellText">
+    </Profile>
+
+    <Profile name="seasonsForecastHeaderCellSpacing" extends="seasonsForecastHeaderCell">
+    </Profile>
+
+    <!-- ECONOMY -->
+
+    <Profile name="seasonsEconomyListBox" extends="framedEmptyPanel" with="anchorTopLeft">
+        <Value name="position" value="0px 0px" />
+        <Value name="size" value="455px 708px"/>
+    </Profile>
+
+    <Profile name="seasonsEconomyContentBox" extends="framedEmptyPanel" with="anchorTopLeft">
+        <Value name="position" value="475px 0px" />
+        <Value name="size" value="1185px 708px" />
+    </Profile>
+
+    <!-- list -->
+    <Profile name="seasonsEconomyList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="426px 703px"/>
+        <Value name="selectOnScroll" value="true"/>
+        <Value name="isHorizontalList" value="false"/>
+        <Value name="itemsPerCol" value="15"/>
+        <Value name="listItemHeight" value="46.86px"/>
+        <Value name="listItemWidth" value="426px"/>
+        <Value name="rowBackgroundProfile" value="seasonsEconomyListItem"/>
+        <Value name="rowBackgroundProfileAlternate" value="seasonsEconomyListItemAlternate"/>
+    </Profile>
+
+    <Profile name="seasonsEconomyListItem" extends="listItem">
+        <Value name="imageColor" value="$preset_colorListRowBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colorMainUI"/>
+        <Value name="imageSelectedColor" value="$preset_colorMainUI"/>
+        <Value name="size" value="426px 46.86px"/>
+        <Value name="position" value="0px 0px"/>
+    </Profile>
+    <Profile name="seasonsEconomyListItemAlternate" extends="seasonsEconomyListItem" with="alternateRow" />
+
+    <Profile name="seasonsEconomyListItemTitle" extends="textDefault">
+        <Value name="size" value="426px 46px" />
+        <Value name="textMaxWidth" value="360px" />
+        <Value name="textVerticalAlignment" value="middle"/>
+        <Value name="textSize" value="16px"/>
+        <Value name="textBold" value="false"/>
+        <Value name="textOffset" value="40px 2px"/>
+        <Value name="textFocusedOffset" value="40px 2px"/>
+    </Profile>
+
+    <Profile name="seasonsEconomyListCategory" extends="seasonsEconomyListItem">
+        <Value name="imageColor" value="$preset_colorGlassExtremelyLight" />
+        <Value name="allowFocus" value="false" />
+    </Profile>
+
+    <Profile name="seasonsEconomyListCategoryTitle" extends="seasonsEconomyListItemTitle">
+        <Value name="textBold" value="true"/>
+        <Value name="textOffset" value="30px 2px"/>
+        <Value name="textFocusedOffset" value="30px 2px"/>
+        <Value name="textSize" value="18px"/>
+    </Profile>
+
+    <!-- graph -->
+
+    <Profile name="seasonsEconomyGraphBox" extends="baseReference" with="anchorMiddleCenter">
+        <Value name="size" value="1000px 604px" />
+    </Profile>
+
+    <Profile name="seasonsEconomyGraph" extends="baseReference" with="anchorTopLeft">
+        <Value name="size" value="1000px 500px" />
+        <Value name="position" value="0px 0px" />
+    </Profile>
+
+    <Profile name="seasonsEconomyGraphHeaderBox" extends="seasonsCalendarHeaderBox" with="anchorBottomLeft">
+        <Value name="size" value="1000px 104px"/>
+        <Value name="position" value="0px 0px" />
+        <Value name="alignmentY" value="top"/>
+    </Profile>
+
+    <Profile name="seasonsEconomyGraphHeaderPeriod" extends="seasonsCalendarHeaderPeriod" with="anchorTopLeft">
+        <Value name="size" value="81.8px 28px" />
+    </Profile>
+
+    <Profile name="seasonsEconomyGraphHeaderSeason" extends="seasonsCalendarHeaderSeason">
+        <Value name="positionOrigin" value="bottomCenter" />
+        <Value name="screenAlign" value="bottomLeft" />
+    </Profile>
+
+    <Profile name="seasonsEconomyGraphHeader" extends="seasonsCalendarHeader" with="anchorTopLeft" />
+
+    <!-- crop rotation page -->
+
+    <Profile name="seasonsRotationResult" extends="textDefault" with="anchorMiddleRight">
+        <Value name="position" value="40px 0px" />
+    </Profile>
+
+    <Profile name="seasonsRotationBlockTitle" extends="textDefault">
+        <Value name="textSize" value="22px" />
+        <Value name="size" value="316px 24px"/>
+        <Value name="margin" value="30px 0px 49px 0px"/>
+    </Profile>
+    <Profile name="seasonsRotationItem" extends="multiTextOptionSettings">
+        <Value name="size" value="316px 48px"/>
+        <Value name="margin" value="30px 32px 49px 16px"/>
+    </Profile>
+
+    <Profile name="seasonsRotationHelpBg" extends="baseReference" with="anchorBottomCenter lightFrame">
+        <Value name="position" value="0px 4px"/>
+        <Value name="frameThickness" value="0 1dp 0 0"/>
+        <Value name="size" value="1660px 60px"/>
+        <Value name="imageColor" value="$preset_colorGlassMedium" />
+    </Profile>
+    <Profile name="seasonsRotationHelpText" extends="textDefault" with="anchorMiddleCenter">
+        <Value name="size" value="1600px 50px"/>
+        <Value name="textMaxWidth" value="1600px" />
+        <Value name="textMaxNumLines" value="2" />
+        <Value name="textSize" value="16px" />
+        <Value name="textWrapWidth" value="1600px" />
+    </Profile>
+
+    <!-- Measurement dialog -->
+
+    <Profile name="seasonsMeasurementDialogBg" extends="dialogBg">
+        <Value name="size" value="500px 405px" />
+    </Profile>
+    <Profile name="seasonsMeasurementsList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="470px 400px" />
+        <Value name="position" value="1px -1px" />
+        <Value name="selectOnScroll" value="true"/>
+        <Value name="isHorizontalList" value="false"/>
+        <Value name="itemsPerCol" value="8"/>
+        <Value name="listItemHeight" value="50px"/>
+        <Value name="listItemWidth" value="470px"/>
+        <Value name="rowBackgroundProfile" value="seasonsMeasurementsListItem"/>
+        <Value name="rowBackgroundProfileAlternate" value="seasonsMeasurementsListItemAlternate"/>
+    </Profile>
+    <Profile name="seasonsMeasurementsListItem" extends="listItem">
+        <Value name="size" value="470px 50px" />
+
+        <Value name="imageColor" value="$preset_colorListRowBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colorMainUI"/>
+        <Value name="imageSelectedColor" value="$preset_colorMainUI"/>
+    </Profile>
+    <Profile name="seasonsMeasurementsListItemAlternate" extends="seasonsMeasurementsListItem" with="alternateRow" />
+
+    <Profile name="seasonsMeasurementsListItemImage" extends="baseReference" with="anchorMiddleLeft">
+        <Value name="size" value="40px 40px" />
+        <Value name="position" value="5px 0px" />
+        <Value name="imageFilename" value="g_seasonsUIFilename" />
+    </Profile>
+    <Profile name="seasonsMeasurementsListItemText" extends="textDefault" with="anchorMiddleRight">
+        <Value name="size" value="400px 40px" />
+        <Value name="position" value="-5px 0px" />
+        <Value name="textMaxWidth" value="380px" />
+        <Value name="textSize" value="22px"/>
+    </Profile>
+
+    <!-- Animals frame -->
+
+    <Profile name="seasonsAnimalsColumn" extends="baseReference" with="lightFrame anchorTopLeft">
+        <Value name="size" value="400px 708px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryListBox" extends="seasonsAnimalsColumn">
+        <Value name="size" value="400px 708px" />
+        <Value name="position" value="130px -124px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="370px 706px" />
+        <Value name="position" value="1px -1px" />
+
+        <Value name="isHorizontalList" value="false"/>
+        <Value name="itemsPerCol" value="9"/>
+        <Value name="listItemHeight" value="78.44px"/>
+        <Value name="listItemWidth" value="370px"/>
+
+        <Value name="selectOnScroll" value="true"/>
+
+        <Value name="rowBackgroundProfile" value="seasonsAnimalsHusbandryListItem"/>
+        <Value name="rowBackgroundProfileAlternate" value="seasonsAnimalsHusbandryListItemAlternate"/>
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryListItem" extends="listItem">
+        <Value name="size" value="370px 78.44px" />
+
+        <Value name="imageColor" value="$preset_colorListRowBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colorMainUI"/>
+        <Value name="imageSelectedColor" value="$preset_colorMainUI"/>
+    </Profile>
+    <Profile name="seasonsAnimalsHusbandryListItemAlternate" extends="seasonsAnimalsHusbandryListItem" with="alternateRow" />
+
+    <Profile name="seasonsAnimalsHusbandryListItemTypeIcon" extends="ingameMenuAnimalsListItemTypeIcon">
+        <Value name="position" value="8px 0px" />
+    </Profile>
+    <Profile name="seasonsAnimalsHusbandryListItemTypeName" extends="ingameMenuAnimalsListItemTypeName" with="anchorTopLeft">
+        <Value name="size" value="220px 30px"/>
+        <Value name="textSize" value="22px"/>
+        <Value name="textMaxWidth" value="220px"/>
+        <Value name="textResizeWidth" value="220px"/>
+        <Value name="textResetSize" value="true"/>
+        <Value name="position" value="64px -6px" />
+    </Profile>
+    <Profile name="seasonsAnimalsHusbandryListItemTypeNum" extends="ingameMenuAnimalsListItemTypeName" with="anchorTopRight">
+        <Value name="size" value="80px 30px"/>
+        <Value name="textSize" value="22px"/>
+        <Value name="textMaxWidth" value="80px"/>
+        <Value name="textResizeWidth" value="80px"/>
+        <Value name="textResetSize" value="true"/>
+        <Value name="textAlignment" value="right"/>
+        <Value name="position" value="-8px -6px" />
+        <Value name="textBold" value="false" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryListItemStatusBarBackground" extends="seasonsAnimalsSmallStatusBarBackground" with="anchorTopLeft">
+        <Value name="size" value="300px 10px" />
+        <Value name="position" value="64px -50px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryListItemStatusBar" extends="seasonsAnimalsSmallStatusBar">
+        <Value name="size" value="300px 8px" />
+    </Profile>
+    <Profile name="seasonsAnimalsHusbandryListItemStatusBarMedium" extends="seasonsAnimalsHusbandryListItemStatusBar">
+        <Value name="imageColor" value="$preset_colorMainUI"/>
+        <Value name="imageSelectedColor" value="$preset_colorWhite"/>
+    </Profile>
+    <Profile name="seasonsAnimalsHusbandryListItemStatusBarLow" extends="seasonsAnimalsHusbandryListItemStatusBar">
+        <Value name="imageColor" value="$preset_colorRed"/>
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryDetailBox" extends="seasonsAnimalsColumn">
+        <Value name="position" value="550px -124px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalListBox" extends="seasonsAnimalsColumn">
+        <Value name="size" value="400px 708px" />
+        <Value name="position" value="970px -124px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalList" extends="list" with="anchorTopLeft">
+        <Value name="size" value="370px 706px" />
+        <Value name="position" value="1px -1px" />
+
+        <Value name="isHorizontalList" value="false"/>
+        <Value name="itemsPerCol" value="13"/>
+        <Value name="listItemHeight" value="54.3px"/>
+        <Value name="listItemWidth" value="370px"/>
+
+        <Value name="selectOnScroll" value="true"/>
+
+        <Value name="rowBackgroundProfile" value="seasonsAnimalsAnimalListItem"/>
+        <Value name="rowBackgroundProfileAlternate" value="seasonsAnimalsAnimalListItemAlternate"/>
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalListItem" extends="list">
+        <Value name="size" value="370px 54.3px" />
+
+        <Value name="imageColor" value="$preset_colorListRowBackground"/>
+        <Value name="imageFocusedColor" value="$preset_colorMainUI"/>
+        <Value name="imageSelectedColor" value="$preset_colorMainUI"/>
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalListItemAlternate" extends="seasonsAnimalsAnimalListItem" with="alternateRow" />
+
+    <Profile name="seasonsAnimalsAnimalListItemTypeName" extends="ingameMenuAnimalsListItemTypeName" with="anchorMiddleLeft">
+        <Value name="size" value="250px 30px"/>
+        <Value name="textSize" value="22px"/>
+        <Value name="textMaxWidth" value="250px"/>
+        <Value name="textResizeWidth" value="250px"/>
+        <Value name="textResetSize" value="true"/>
+        <Value name="position" value="8px 3px" />
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalListItemWeight" extends="ingameMenuAnimalsListItemTypeName" with="anchorMiddleRight">
+        <Value name="size" value="100px 30px"/>
+        <Value name="textSize" value="22px"/>
+        <Value name="textMaxWidth" value="100px"/>
+        <Value name="textResizeWidth" value="100px"/>
+        <Value name="textResetSize" value="true"/>
+        <Value name="textAlignment" value="right"/>
+        <Value name="position" value="-8px 3px" />
+        <Value name="textBold" value="false" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalDetailBox" extends="seasonsAnimalsColumn">
+        <Value name="position" value="1390px -124px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalDetailImage" extends="baseReference" with="anchorTopCenter">
+        <Value name="size" value="300px 300px" />
+        <Value name="position" value="0 0" />
+        <Value name="imageUVs" value="0 0 1 1"/>
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalDetailTitle" extends="textDefault" with="anchorTopCenter">
+        <Value name="size" value="350px 25px" />
+        <Value name="position" value="0 -310px" />
+
+        <Value name="textWrapWidth" value="380px" />
+        <Value name="textAlignment" value="center" />
+        <Value name="textSize" value="22px" />
+        <Value name="textVerticalAlignment" value="top" />
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalDetailBreed" extends="textDefault" with="anchorTopCenter">
+        <Value name="size" value="350px 25px" />
+        <Value name="position" value="0 -340px" />
+
+        <Value name="textWrapWidth" value="380px" />
+        <Value name="textAlignment" value="center" />
+        <Value name="textSize" value="16px" />
+        <Value name="textVerticalAlignment" value="top" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsNoAnimalsBox" extends="baseReference" with="anchorTopLeft lightFrame">
+        <Value name="size" value="820px 708px" />
+        <Value name="position" value="970px -124px" />
+    </Profile>
+    <Profile name="seasonsAnimalsNoAnimalsText" extends="textDefault" with="anchorMiddleCenter">
+        <Value name="textAlignment" value="center" />
+        <Value name="textVerticalAlignment" value="middle" />
+        <Value name="textSize" value="24px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsNoHusbandriesBox" extends="baseReference" with="anchorTopLeft lightFrame">
+        <Value name="size" value="1660px 708px" />
+        <Value name="position" value="130px -124px" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsAnimalDetailsLayout" extends="baseReference" with="anchorTopCenter">
+        <Value name="size" value="350px 200px" />
+        <Value name="position" value="0 -400px" />
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalDetailsLabel" extends="textDefault" with="anchorTopLeft">
+        <Value name="textResetSize" value="true" />
+    </Profile>
+    <Profile name="seasonsAnimalsAnimalDetailsValue" extends="textDefault" with="anchorTopRight">
+        <Value name="textAlignment" value="right" />
+        <Value name="textResetSize" value="true" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsRequirementsLayout" extends="emptyPanel" with="anchorTopCenter">
+        <Value name="size" value="350px 500px"/>
+        <Value name="fitFlowToElements" value="true"/>
+        <Value name="alignmentX" value="left"/>
+        <Value name="alignmentY" value="top"/>
+        <Value name="flowDirection" value="vertical"/>
+        <Value name="numFlows" value="1"/>
+        <Value name="autoValidateLayout" value="true" />
+    </Profile>
+
+    <Profile name="seasonsAnimalsRequirementRow" extends="ingameMenuAnimalsRequirementsRow">
+        <Value name="size" value="350px 44px" />
+        <Value name="margin" value="0px 0px 0px 6px"/>
+    </Profile>
+    <Profile name="seasonsAnimalsRequirementRowTextPanel" extends="ingameMenuAnimalsRequirementsRowTextPanel">
+        <Value name="size" value="350px 40px" />
+    </Profile>
+    <Profile name="seasonsAnimalsRequirementLabel" extends="ingameMenuAnimalsRequirementsLabel">
+        <Value name="textResizeWidth" value="250px"/>
+        <Value name="textResetSize" value="true" />
+    </Profile>
+    <Profile name="seasonsAnimalsRequirementValue" extends="ingameMenuAnimalsRequirementsValue">
+        <Value name="textResizeWidth" value="100px"/>
+        <Value name="textResetSize" value="true" />
+    </Profile>
+
+
+    <Profile name="seasonsAnimalsRequirementsHeader" extends="ingameMenuAnimalsRequirementsHeader">
+        <Value name="size" value="350px 30px" />
+        <Value name="margin" value="0px 5px 0px 5px"/>
+    </Profile>
+
+    <Profile name="seasonsAnimalsSmallStatusBarBackground" extends="ingameMenuAnimalsSmallStatusBarBackground" with="anchorBottomCenter">
+        <Value name="size" value="350px 10px" />
+    </Profile>
+    <Profile name="seasonsAnimalsSmallStatusBar" extends="ingameMenuAnimalsSmallStatusBar" with="anchorMiddleLeft">
+        <Value name="size" value="350px 8px" />
+        <Value name="position" value="0 0" />
+    </Profile>
+    <Profile name="seasonsAnimalsSmallStatusBarMedium" extends="seasonsAnimalsSmallStatusBar">
+        <Value name="imageColor" value="$preset_colorMainUI"/>
+    </Profile>
+    <Profile name="seasonsAnimalsSmallStatusBarLow" extends="seasonsAnimalsSmallStatusBar">
+        <Value name="imageColor" value="$preset_colorRed"/>
+    </Profile>
+
+    <Profile name="seasonsAnimalsHusbandryDetailRow" extends="ingameMenuAnimalsRequirementsRow">
+        <Value name="size" value="350px 24px" />
+        <Value name="margin" value="0px 0px 0px 6px"/>
+    </Profile>
+
+
+
+
+</GUIProfiles>

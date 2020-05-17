@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsForecast">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="seasonsMenuForecastIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_seasons_ui_weatherForecast"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" position="130px -124px" id="container">
+
+            <GuiElement type="boxLayout" profile="seasonsForecastBackground">
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowFirst" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRowAlternate" />
+                <GuiElement type="bitmap" profile="seasonsForecastBackgroundRow" />
+            </GuiElement>
+
+            <GuiElement type="boxLayout" profile="seasonsForecastHeader">
+                <GuiElement type="text" profile="seasonsForecastHeaderCellFirst" text="" />
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_type" />
+
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_maximumTemperature" />
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_averageTemperature" />
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_minimumTemperature" />
+
+                <GuiElement type="empty" profile="seasonsForecastHeaderCellSpacing" />
+
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_precipitationInMm" />
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_precipitationPercentage" />
+
+                <GuiElement type="empty" profile="seasonsForecastHeaderCellSpacing" />
+
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_windSpeed" />
+
+                <GuiElement type="empty" profile="seasonsForecastHeaderCellSpacing" />
+
+                <GuiElement type="text" profile="seasonsForecastHeaderCell" text="$l10n_seasons_forecast_dryingPotential" />
+            </GuiElement>
+
+            <GuiElement type="list" profile="seasonsForecastList" id="forecast" itemTemplateId="forecastColumnTemplate">
+                <GuiElement type="listItem" profile="seasonsForecastColumn" id="forecastColumnTemplate" handleFocus="false">
+                    <GuiElement type="boxLayout" profile="seasonsForecastColumnLayout">
+
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="date" size="70px 52px" />
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="time" size="70px 52px" />
+
+                        <GuiElement type="bitmap" profile="seasonsForecastCellIcon" name="type" />
+
+                        <GuiElement type="localizedText" profile="seasonsForecastCellText" name="highTemp" />
+                        <GuiElement type="localizedText" profile="seasonsForecastCellText" name="avgTemp" />
+                        <GuiElement type="localizedText" profile="seasonsForecastCellText" name="lowTemp" textColor="0.6 0.6 0.6 0.9" textSelectedColor="0.6 0.6 0.6 0.9" />
+
+                        <GuiElement type="empty" profile="seasonsForecastCellSpacing" />
+
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="precipitationAmount" />
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="probabilityOfPrecipitation" />
+
+                        <GuiElement type="empty" profile="seasonsForecastCellSpacing" />
+
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="windSpeed" />
+
+                        <GuiElement type="empty" profile="seasonsForecastCellSpacing" />
+
+                        <GuiElement type="text" profile="seasonsForecastCellText" name="dryingPotential" textSize="20px" />
+
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="text" profile="seasonsDockedInfo" text="$l10n_seasons_forecast_info" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

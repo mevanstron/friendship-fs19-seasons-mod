@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsCrops">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="seasonsMenuCropsIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_seasons_ui_crop_info"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" position="130px -124px" id="container">
+            <!-- Header with season icons -->
+            <GuiElement type="boxLayout" profile="seasonsCalendarHeaderBox" position="1px 0px" id="tableHeaderBox">
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="50px 50px"  />
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="300px 50px" />
+
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_seed" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_young" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_mature" />
+                </GuiElement>
+
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_seed" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_young" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="200px 104px">
+                    <GuiElement type="text" profile="seasonsCropsHeaderBottom" text="$l10n_seasons_ui_crops_mature" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="text" profile="seasonsCropsHeaderTop" text="$l10n_seasons_ui_crops_frostResistance" position="351px 0px" />
+            <GuiElement type="text" profile="seasonsCropsHeaderTop" text="$l10n_seasons_ui_crops_droughtResistance" position="951px 0px" />
+
+            <!-- set row for periods -->
+
+            <GuiElement type="list" profile="seasonsCalendarTable" position="1px -104px" itemTemplateId="fruitRowTemplate" id="fruitList" handleFocus="false">
+                <GuiElement type="listItem" profile="seasonsCalendarFruitRow" id="fruitRowTemplate" handleFocus="false">
+                    <GuiElement type="flowLayout" flowDirection="horizontal" size="1630px 50px" screenAlign="topLeft" positionOrigin="topLeft">
+                        <GuiElement type="bitmap" profile="seasonsCalendarFruitIconCell" name="fruitIcon" />
+                        <GuiElement type="text" profile="seasonsCalendarFruitNameCell" name="fruitName" />
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="frostSeed">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="frostYoung">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="frostMature">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="droughtSeed">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="droughtYoung">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                        <GuiElement type="text" profile="seasonsCropsCell" name="draightMature">
+                            <GuiElement type="bitmap" profile="seasonsCropsCellIcon" />
+                        </GuiElement>
+
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="verticalGlassListSliderBackground" position="-1px -104px" size="28px 600px">
+                <GuiElement type="slider" profile="verticalGlassListSlider" size="16px 588px" id="cropsSlider" dataElementId="fruitList" focusInit="onOpen" />
+            </GuiElement>
+
+
+            <GuiElement type="text" profile="seasonsDockedInfo" id="infoText" />
+        </GuiElement>
+    </GuiElement>
+</GUI>

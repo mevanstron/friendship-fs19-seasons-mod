@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsEconomy">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="seasonsMenuEconomyIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_seasons_ui_economy"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="emptyPanel" position="130px -124px" size="1660px 708px" screenAlign="topLeft" positionOrigin="topLeft" id="container">
+            <!-- List of items -->
+            <GuiElement type="empty" profile="ingameMenuContractsListBox" id="contractsListBox">
+                <GuiElement type="list" profile="seasonsEconomyList" position="1px -1px" onSelectionChanged="onListSelectionChanged" id="list" focusInit="onOpen">
+                    <GuiElement type="listItem" profile="seasonsEconomyListItem" id="listItemTemplate">
+                        <GuiElement type="text" profile="seasonsEconomyListItemTitle" name="title" />
+                    </GuiElement>
+                    <GuiElement type="listItem" profile="seasonsEconomyListCategory" id="listCategoryTemplate">
+                        <GuiElement type="text" profile="seasonsEconomyListCategoryTitle" name="title"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="bitmap" profile="verticalGlassListSliderBackground" size="28px 703px" position="-1px -1px">
+                    <GuiElement type="slider" profile="verticalGlassListSlider" size="16px 691px" dataElementId="list" handleFocus="false"/>
+                </GuiElement>
+            </GuiElement>
+
+            <!-- Info about item -->
+            <GuiElement type="empty" profile="seasonsEconomyContentBox">
+
+                <GuiElement type="empty" profile="seasonsEconomyGraphBox">
+                    <GuiElement type="barChart" id="chart" profile="seasonsEconomyGraph" />
+
+                    <GuiElement type="boxLayout" profile="seasonsEconomyGraphHeaderBox" position="1px 0px">
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="1-3" profile="seasonsEconomyGraphHeaderPeriod" frameThickness="1dp 0 1dp 0" id="graphHeader[1]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="4-6" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[2]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[3]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[4]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[5]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[6]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[7]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[8]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[9]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[10]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[11]" />
+                        </GuiElement>
+                        <GuiElement type="tableHeader" profile="seasonsEconomyGraphHeader" size="83.3px 28px">
+                            <GuiElement type="text" text="7-9" profile="seasonsEconomyGraphHeaderPeriod" id="graphHeader[12]" />
+                        </GuiElement>
+                    </GuiElement>
+
+                    <GuiElement type="bitmap" profile="seasonsEconomyGraphHeaderSeason" imageUVs="384px 240px 48px 48px" position="125px 12px" />
+                    <GuiElement type="bitmap" profile="seasonsEconomyGraphHeaderSeason" imageUVs="432px 240px 48px 48px" position="375px 12px" />
+                    <GuiElement type="bitmap" profile="seasonsEconomyGraphHeaderSeason" imageUVs="480px 240px 48px 48px" position="625px 12px" />
+                    <GuiElement type="bitmap" profile="seasonsEconomyGraphHeaderSeason" imageUVs="336px 240px 48px 48px" position="875px 12px" />
+
+                </GuiElement>
+            </GuiElement>
+
+        </GuiElement>
+    </GuiElement>
+</GUI>

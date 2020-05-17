@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="windScale"        target="windScale"        type="float"  group="base"     defaultValue="1"                     minValue="0"               maxValue="1"/>
+        <Parameter name="colorScaleSpring" target="colorScaleSpring" type="float4" group="seasonal" defaultValue="0.561 0.698 0.086 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+        <Parameter name="colorScaleSummer" target="colorScaleSummer" type="float4" group="seasonal" defaultValue="0.408 0.486 0.235 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+        <Parameter name="colorScaleAutumn" target="colorScaleAutumn" type="float4" group="seasonal" defaultValue="0.800 0.300 0.133 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+    </Parameters>
+    <Textures>
+        <Texture name="mArrayNoiseMap" group="seasonal" defaultColorProfile="linearRGB" defaultFilename="../shared/noise.png"/>
+        <Texture name="mMaskMap"       group="seasonal" defaultColorProfile="linearRGB"/>
+    </Textures>
+    <Variations>
+        <Variation name = "billboard180" groups="base">
+<![CDATA[
+    #define BILLBOARD_180
+]]>
+        </Variation>
+        <Variation name="SEASONAL_BILLBOARD180" groups="base seasonal">
+<![CDATA[
+    #define SEASONAL
+    #define BILLBOARD_180
+]]>
+        </Variation>
+    </Variations>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="CONFIG_DEFINES">
+<![CDATA[
+#define ALPHA_TESTED
+#undef GEOMETRIC_SPECULAR_ANTIALISING
+]]>
+            </CodeInjection>
+            <CodeInjection position="SAMPLERS">
+<![CDATA[
+#if defined(SEASONAL)
+    sampler2D mArrayNoiseMap;
+    sampler2D mMaskMap;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="MATERIALINFO">
+<![CDATA[
+uniform float windScale;
+
+#if defined(SEASONAL)
+    /*
+    Season states:
+        1 = spring
+        2 = summer
+        3 = autumn
+        4 = winter
+    */
+    uniform float4 colorScaleSpring;
+    uniform float4 colorScaleSummer;
+    uniform float4 colorScaleAutumn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="FS_GLOBALS">
+<![CDATA[
+#if defined(SEASONAL)
+    float gBranchesMask;
+    float gLeavesMask;
+    float gLeavesTint;
+    float gFactor;
+    float gTransition;
+    float4 gSeasonNoise;
+    float4x4 gSeasonColorMatrix;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="LIB_FUNCTION_FS">
+<![CDATA[
+    float4 getSeasonColor(float state, float factor, float4x4 matrix) {
+        float mIndex = floor(state);
+        float4 source = matrix[min(mIndex, 3)];
+        float4 target = matrix[min(mIndex + 1, 3)];
+
+        return lerp(source, target, factor);
+    }
+]]>
+            </CodeInjection>
+            <CodeInjection position="VS_OUTPUT">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    float2 texCoords2: TEXCOORDn;
+    float texCoords2Weight: TEXCOORDn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_GET_WORLD_POSE_VS">
+<![CDATA[
+float3 upVector     = float3(modelMatrix[0][1], modelMatrix[1][1], modelMatrix[2][1]);
+float3 camToPos     = float3(modelMatrix[0][3], modelMatrix[1][3], modelMatrix[2][3]);
+
+
+#if defined(BILLBOARD_180)
+    float mUVShift;
+    float mUVShift2;
+    {
+        float3 mProjectCamToPos      = normalize(camToPos -upVector*dot(upVector,camToPos));
+        float3 mProjectedWorldNormal = normalize(worldNormal -upVector*dot(upVector,worldNormal));
+
+        float3 camCross     = cross( mProjectCamToPos, mProjectedWorldNormal );
+        float mEyeAngle     = acos(clamp(-dot( mProjectCamToPos, mProjectedWorldNormal), -1.0, 1.0));
+        float mUVShiftTileF = 8.0 * 0.5 * mEyeAngle / 3.1415926535897932384626433832795;
+        if (camCross.y > 0) {
+            mUVShiftTileF *= -1;
+        }
+        float mUVShiftTile1 = floor(mUVShiftTileF);
+        mUVShift            = mUVShiftTile1/8.0;
+#if defined(CHECKERBOARD_BLENDING)
+        Out.texCoords2Weight = floor(saturate(2*(mUVShiftTileF-mUVShiftTile1) - 0.5)*4);
+#else
+        Out.texCoords2Weight = saturate(2*(mUVShiftTileF-mUVShiftTile1) - 0.5);
+#endif
+        mUVShift2           = mUVShift + 1.0/8.0;
+    }
+#endif
+
+float3 sideVector   = normalize(cross(camToPos, upVector));
+
+
+// Wind animation
+float windXMovement = 0;
+float3 windDirection = float3(1,0,0);
+float windStrength = cShared0*windScale;
+#if !defined(DEPTH_VIS) // avoid shadow artefacts by not animating in the shadow map
+if (windStrength > 0.0001) {
+    float3 treePos = float3(modelMatrix[0][3] + invViewMatrix[0][3],
+                            modelMatrix[1][3] + invViewMatrix[1][3],
+                            modelMatrix[2][3] + invViewMatrix[2][3]);
+    float3 windSideDirection = cross(float3(0,1,0), windDirection);
+    float treeVarSeed = treePos.x + treePos.y + treePos.z;
+
+    float3 trunkMoveDirection = windDirection;
+    trunkMoveDirection = normalize(trunkMoveDirection + windSideDirection*sin(0.9 * cTime_s + treeVarSeed + 0.1)*0.3);
+
+    float normalizedTreeY = In.position.y/30;
+    float trunkOffsetScale = (1*max(windStrength-0.1,0)/0.9 + sin( 1.5 * cTime_s + treeVarSeed)*0.7*windStrength)*normalizedTreeY*normalizedTreeY;
+    float3 trunkOffset = trunkMoveDirection.xyz * trunkOffsetScale;
+
+    windXMovement = dot(trunkOffset, sideVector);
+}
+#endif
+
+// Allow scaling
+float xScale = length(float3(modelMatrix[0][0], modelMatrix[1][0], modelMatrix[2][0]));
+float xPos = In.position.x*xScale;
+float xOffset = xPos+windXMovement;
+
+#if defined(DEPTH_VIS)
+xOffset = -xOffset;
+#endif
+worldPosition = camToPos + sideVector*xOffset + upVector*In.position.y;
+
+#if defined(DEPTH_VIS)
+worldPosition -= float3(invViewMatrix[0][2], invViewMatrix[1][2], invViewMatrix[2][2])*abs(xPos)*1.1; //*length(sideVector)*5;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_GET_NORMALS_VS">
+<![CDATA[
+{
+    float3 tangent      = getTangent(In);
+    float tangentSide   = In.tangent.w;
+    float3 bitangent    = getBitangent(In);
+    float3 normal       = getNormal(In);
+
+    normal      = float3(0,0,1);
+    tangent     = float3(1,0,0);
+    tangentSide = 1;
+
+    worldNormal.xyz  = float3(invViewMatrix[0][2], 0, invViewMatrix[2][2]);
+    worldNormal     = normalize(worldNormal);
+
+    worldTangent.xyz = float3(invViewMatrix[0][0], 0, invViewMatrix[2][0]);
+    worldTangent    = normalize(worldTangent);
+
+    worldBitangent  = normalize(cross(worldNormal.xyz, worldTangent.xyz)*tangentSide);
+}
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_SET_TEXCOORDS_VS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    Out.texCoords2 = Out.defaultTexCoords;
+    Out.texCoords2.x += mUVShift2;
+    Out.defaultTexCoords.x += mUVShift;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "FS_GLOBALS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    float blendScale;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="START_FS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    {
+#if defined(CHECKERBOARD_BLENDING)
+        float2 pixelPosFloor = floor(viewportSize.xy * (In.vs.screenPos.xy/In.vs.screenPosW + 0.5));
+        float2 blockPixelPos = fmod(pixelPosFloor, 2);
+        // This will in 2x2 pixel block indices:
+        // 1 2
+        // 3 0
+        float pixelIndex = fmod(blockPixelPos.x + 2*blockPixelPos.y + 1, 4);
+        // texCoords2Weight: 0-4 means blending out 0: all visible, 4: nothing visible
+        globals.blendScale = pixelIndex < In.vs.texCoords2Weight;
+#else
+        globals.blendScale = In.vs.texCoords2Weight;
+#endif
+    }
+#endif
+
+#if defined(SEASONAL)
+    globals.gSeasonColorMatrix = float4x4(
+        colorScaleSummer,
+        colorScaleSpring,
+        colorScaleSummer,
+        colorScaleAutumn
+    );
+
+    const float s = cShared3; // current season
+    globals.gTransition = (s - floor(s));
+    float f1 = 1 - globals.gTransition;
+    float f2 = 1 - (globals.gTransition + 0.001);
+
+    // Fade down the leaves after autumn
+    if (s > 3) {
+        f1 = globals.gTransition;
+        f2 = max(0, globals.gTransition - 0.01);
+    }
+    float2 mMask = tex2D(mMaskMap, In.vs.ALBEDOMAP_TEXCOORD).xy;
+    globals.gBranchesMask = mMask.x;
+    globals.gLeavesMask   = mMask.y;
+    globals.gLeavesTint   = tex2D(baseMap, In.vs.ALBEDOMAP_TEXCOORD).a;
+    globals.gFactor = mMask.y;
+    globals.gFactor = smoothstep(f1, f2, globals.gFactor);
+    globals.gSeasonNoise = tex2D(mArrayNoiseMap, 3*float2(8,1) * In.vs.ALBEDOMAP_TEXCOORD);
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_DIFFUSE_COLOR_FS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    #if defined(ALBEDO_MAP)
+        float4 combinedDiffuseAlpha = lerp(tex2D(baseMap, In.vs.ALBEDOMAP_TEXCOORD), tex2D(baseMap, In.vs.texCoords2), globals.blendScale);
+        diffuseColor = combinedDiffuseAlpha.xyz;
+    #endif
+#endif
+
+#if defined(SEASONAL)
+    const float transitionState = cShared3;
+    const float3 localPos = normalize(mul(float3(1, 0, 1), (float3x3)modelMatrix));
+    // Apply offset based on tree position
+    const float matrixOffset = (localPos.x + localPos.y + localPos.z) * 0.1;
+    const float factor = globals.gTransition + matrixOffset;
+
+    float4 seasonColor = getSeasonColor(transitionState, globals.gTransition, globals.gSeasonColorMatrix);
+    float3 color = globals.gLeavesTint * seasonColor.rgb;
+
+    // Note: the hardcoded multiplications are based on the current noise map.. it might need changes in the future noises.
+    const float3 greenLerpColor = float3(0.392, 0.550, 0.007);
+    color = lerp(color * seasonColor.rgb, color * greenLerpColor, globals.gSeasonNoise.g * 1.5 * seasonColor.a);
+
+    // Lerp hardcoded yellow when transitioning to autumn
+    if (transitionState > 2) {
+        const float3 yellowLerpColor = float3(0.9386, 0.4678, 0.0123);
+        color = lerp(color * yellowLerpColor, color, globals.gSeasonNoise.b * 2);
+    }
+
+    if (4==transitionState || 0==transitionState) {
+        // do nothing during winter (assumed that diffuse texture contains only branches)
+    } else {
+        // Colored leaves, plus the branches from the diffuse wherever no leaves are
+        diffuseColor = globals.gLeavesMask * color + globals.gBranchesMask * (1 - globals.gLeavesMask) * diffuseColor;
+    }
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="ALPHA_FS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    #if defined(ALBEDO_MAP) && !defined(SEASONAL)
+        alpha = combinedDiffuseAlpha.w;
+    #endif
+#endif
+
+#if defined(SEASONAL)
+    alpha = clamp(globals.gBranchesMask + globals.gLeavesMask, 0, 1);
+
+    const bool loseLeafs = transitionState > 3 || transitionState < 1;
+    if (loseLeafs) {
+        alpha = lerp(alpha, globals.gBranchesMask, globals.gFactor);
+    }
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "GET_UNNORMALIZED_TANGENT_SPACE_NORMAL_FS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    #if defined( NORMAL_MAP )
+        return lerp(tex2D(normalMap, In.vs.NORMALMAP_TEXCOORD).xyz, tex2D(normalMap, In.vs.texCoords2).xyz, globals.blendScale) - 0.5;
+    #endif
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position = "GET_TANGENT_SPACE_NORMAL_FS">
+<![CDATA[
+#if defined(BILLBOARD_180)
+    #if defined( NORMAL_MAP )
+        return normalize(getUnnormalizedTangentSpaceNormal(In, globals));
+    #endif
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_GET_LIGHTING_FS">
+<![CDATA[
+{
+    float NdotL = dot(normal, lightDir);
+    if (NdotL < 0) {
+        NdotL = -NdotL*0.35;
+    }
+    NdotL = min(NdotL, 1);
+    float3 lighting = atten*NdotL * (diffuseShading + specularShading) * lightColor;
+    return lighting;
+}
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

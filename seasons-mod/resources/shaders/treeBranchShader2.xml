@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CustomShader version="4">
+    <Parameters>
+        <Parameter name="windScale"           target="windScale"           type="float"  group="base" defaultValue="1"                minValue="0"                  maxValue="1"/>
+        <Parameter name="windParams"          target="windParams"          type="float4" group="base" defaultValue="0.25 1.0 0.2 0.0" minValue="0.0 0.0 0.0 0.0"    maxValue="10.0 10.0 10.0 10.0"/>
+        <Parameter name="waveSpeed"           target="waveSpeed"           type="float4" group="base" defaultValue="1.2 2 1.6 4.8"    minValue="0.0 0.0 0.0 0.0"    maxValue="10.0 10.0 10.0 10.0"/>
+        <Parameter name="colorScaleSpring" target="colorScaleSpring" type="float4" group="seasonal" defaultValue="0.561 0.698 0.086 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+        <Parameter name="colorScaleSummer" target="colorScaleSummer" type="float4" group="seasonal" defaultValue="0.408 0.486 0.235 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+        <Parameter name="colorScaleAutumn" target="colorScaleAutumn" type="float4" group="seasonal" defaultValue="0.800 0.300 0.133 1.0" minValue="0.0 0.0 0.0 0.0" maxValue="1.0 1.0 1.0 1.0"/>
+    </Parameters>
+    <Textures>
+        <Texture name="mArrayNoiseMap" group="seasonal" defaultColorProfile="linearRGB" defaultFilename="../shared/noise.png"/>
+        <Texture name="mMaskMap"       group="seasonal" defaultColorProfile="linearRGB"/>
+    </Textures>
+    <Variations>
+        <Variation name="SEASONAL" groups="base seasonal">
+<![CDATA[
+#define SEASONAL
+]]>
+        </Variation>
+    </Variations>
+    <LodLevel startDistance="0">
+        <CodeInjections>
+            <CodeInjection position="CONFIG_DEFINES">
+<![CDATA[
+#define ALPHA_TESTED
+#undef GEOMETRIC_SPECULAR_ANTIALISING
+]]>
+            </CodeInjection>
+            <CodeInjection position="SAMPLERS">
+<![CDATA[
+#if defined(SEASONAL)
+    sampler2D mArrayNoiseMap;
+    sampler2D mMaskMap;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="MATERIALINFO">
+<![CDATA[
+uniform float windScale;
+uniform float4 windParams; // Could be hardcoded but fun to play around with
+uniform float4 waveSpeed; // To control wind squalls.. random wind squalls by script
+
+#if defined(SEASONAL)
+    /*
+    Season states:
+        1 = spring
+        2 = summer
+        3 = autumn
+        4 = winter
+    */
+    uniform float4 colorScaleSpring;
+    uniform float4 colorScaleSummer;
+    uniform float4 colorScaleAutumn;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="FS_GLOBALS">
+<![CDATA[
+#if defined(SEASONAL)
+    float gBranchesMask;
+    float gLeavesMask;
+    float gLeavesTint;
+    float gFactor;
+    float gTransition;
+    float4 gSeasonNoise;
+    float4x4 gSeasonColorMatrix;
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="LIB_FUNCTION_FS">
+<![CDATA[
+// Calculate an 4 fast sin-cos pairs
+void computeTaylorSeriesSinCos (float4 value, out float4 s, out float4 c) {
+    value = value * 6.408849 - 3.1415927;
+    // Powers for taylor series
+    float4 r5 = value * value;
+    float4 r6 = r5 * r5;
+    float4 r7 = r6 * r5;
+    float4 r8 = r6 * r5;
+    float4 r1 = r5 * value;
+    float4 r2 = r1 * r5;
+    float4 r3 = r2 * r5;
+    // Vectors for taylor's series expansion of sin and cos
+    const float4 sin7 = {1, -0.16161616, 0.0083333, -0.00019841};
+    const float4 cos8 = {-0.5, 0.041666666, -0.0013888889, 0.000024801587};
+
+    // Sin
+    s =  value + r1 * sin7.y + r2 * sin7.z + r3 * sin7.w;
+    // Cos
+    c = 1 + r5 * cos8.x + r6 * cos8.y + r7 * cos8.z + r8 * cos8.w;
+}
+
+float4 getSeasonColor(float state, float factor, float4x4 matrix) {
+    float mIndex = floor(state);
+    float4 source = matrix[min(mIndex, 3)];
+    float4 target = matrix[min(mIndex + 1, 3)];
+
+    return lerp(source, target, factor);
+}
+]]>
+            </CodeInjection>
+            <CodeInjection position="START_FS">
+<![CDATA[
+#if defined(SEASONAL)
+    globals.gSeasonColorMatrix = float4x4(
+        colorScaleSummer,
+        colorScaleSpring,
+        colorScaleSummer,
+        colorScaleAutumn
+    );
+
+    const float s = cShared3; // current season
+    globals.gTransition = (s - floor(s));
+    float f1 = 1 - globals.gTransition;
+    float f2 = 1 - (globals.gTransition + 0.001);
+
+    // Fade down the leaves after autumn
+    if (s > 3) {
+        f1 = globals.gTransition;
+        f2 = max(0, globals.gTransition - 0.01);
+    }
+
+    float2 mMask = tex2D(mMaskMap, In.vs.ALBEDOMAP_TEXCOORD).xy;
+    globals.gBranchesMask = mMask.x;
+    globals.gLeavesMask   = mMask.y;
+    globals.gLeavesTint   = tex2D(baseMap, In.vs.ALBEDOMAP_TEXCOORD).a;
+    globals.gFactor = mMask.y;
+    globals.gFactor = smoothstep(f1, f2, globals.gFactor);
+    globals.gSeasonNoise = tex2D(mArrayNoiseMap, 1.5 * In.vs.ALBEDOMAP_TEXCOORD);
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_DIFFUSE_COLOR_FS">
+<![CDATA[
+#if defined(SEASONAL)
+    const float transitionState = cShared3;
+    const float3 localPos = normalize(mul(float3(1, 0, 1), (float3x3)modelMatrix));
+    // Apply offset based on tree position
+    const float matrixOffset = (localPos.x + localPos.y + localPos.z) * 0.1;
+    const float factor = globals.gTransition + matrixOffset;
+
+    float4 seasonColor = getSeasonColor(transitionState, globals.gTransition, globals.gSeasonColorMatrix);
+    float3 color = globals.gLeavesTint * seasonColor.rgb; // leaves
+
+    // Note: the hardcoded multiplications are based on the current noise map.. it might need changes in the future noises.
+    const float3 greenLerpColor = float3(0.392, 0.550, 0.007);
+    color = lerp(color * seasonColor.rgb, color * greenLerpColor, globals.gSeasonNoise.g * 1.5 * seasonColor.a);
+
+    // Lerp hardcoded yellow when transitioning to autumn
+    if (transitionState > 2) {
+        const float3 yellowLerpColor = float3(0.9386, 0.4678, 0.0123);
+        color = lerp(color * yellowLerpColor, color, globals.gSeasonNoise.b * 2);
+    }
+
+    if (4==transitionState || 0==transitionState) {
+        // do nothing during winter (assumed that diffuse texture contains only branches)
+    }else{
+        // Colored leaves, plus the branches from the diffuse wherever no leaves are
+        diffuseColor = globals.gLeavesMask * color + globals.gBranchesMask * (1 - globals.gLeavesMask) * diffuseColor;
+    }
+    // NEED FOR LOD BAKING (uncomment bake, comment back)
+    //diffuseColor = float3(globals.gLeavesMask,globals.gLeavesTint,0.0);
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="ALPHA_FS">
+<![CDATA[
+#if defined(SEASONAL)
+    alpha = globals.gBranchesMask + globals.gLeavesMask;
+    // When reached winter state force winter diffuse because we lose leaves
+    // Note: at transition state 3.3 we lose the autumn leafs fast.
+    const bool loseLeafs = transitionState > 3 || transitionState < 1;
+    if (loseLeafs) {
+        // Adjust alpha based on camera distance due to clipping pixels.
+        /*const float p = 0.005 * In.vs.vertToEyeVectorProjDistance;
+        const float f = saturate(1 - p);*/
+        alpha = lerp(alpha, globals.gBranchesMask, globals.gFactor);
+    }
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_GET_WORLD_POSE_VS">
+<![CDATA[
+#if !defined(DEPTH_VIS) // avoid shadow artefacts by not animating in the shadow map
+    float windStrength = cShared0 * windScale;
+
+    if (windStrength > 0.0001) {
+        float3 windDirection = float3(cShared1, 0, cShared2); // todo: we can control this by params? y (up/down) shouldn't be used
+
+        // Old trunk part
+        // Trunk animation
+        float3 treePos = float3(modelMatrix[0][3] + invViewMatrix[0][3],
+                                modelMatrix[1][3] + invViewMatrix[1][3],
+                                modelMatrix[2][3] + invViewMatrix[2][3]);
+        float3 windSideDirection = cross(float3(0,1,0), windDirection);
+
+        float treeVarSeed = treePos.x + treePos.y + treePos.z;
+
+        float3 trunkMoveDirection = windDirection;
+        trunkMoveDirection = normalize(trunkMoveDirection + windSideDirection*sin(0.9 * cTime_s + treeVarSeed + 0.1)*0.3);
+
+        float normalizedTreeY = In.position.y/30;
+        float trunkOffsetScale = (1*max(windStrength-0.1,0)/0.9 + sin( 1.5 * cTime_s + treeVarSeed)*0.7*windStrength)*normalizedTreeY*normalizedTreeY;
+        float3 trunkOffset = trunkMoveDirection * trunkOffsetScale;
+        // EO Old trunk part
+
+        // Trunk animation new
+        // todo: trunk should have a stiffness offset (bigger trees won't swing that much.. perhaps per growth state)
+        // todo: get rid of boring sin wave.. but do follow a precomputed path. So it's still consisted in combination with the trunkshader
+        //
+
+        // Branch animation new
+        const float4 X_WAVE_SIZE = float4(.048, .06, .24, .096);
+        const float4 Y_WAVE_SIZE = float4(0, -0.5, 0, .15);
+        const float4 Z_WAVE_SIZE = float4(.024, .08, .08, .2);
+        const float4 X_WAVE_MOVE = float4(.024, .04, -.12, .096);
+        const float4 Y_WAVE_MOVE = float4(0, 0, -1, .05);
+        const float4 Z_WAVE_MOVE = float4(.006, .02, -.02, .1);
+
+        float4 s, c;
+        float4 waves = In.position.x * X_WAVE_SIZE;
+
+        waves += In.position.y * Y_WAVE_SIZE;
+        waves += In.position.z * Z_WAVE_SIZE;
+
+        // waves += cTime_s * (1 - windParams.b * 2 - In.color.b) * waveSpeed * windParams.r;
+        // todo: affect wave areas based on vertex color ^
+        waves += cTime_s * (1 - windParams.b * 2 - 1) * waveSpeed * windParams.r;
+        waves = frac(waves);
+
+        computeTaylorSeriesSinCos(waves, s, c);
+
+        // todo: shake bending control based on texCoords and vertex color?
+        float shakeBending = windParams.g * 4;
+        float waveAmount = shakeBending; // In.texCoords0.y * (In.color.a + shakeBending);
+        s *= waveAmount;
+        s *= normalize(waveSpeed);
+        s = s * s;
+
+        float3 waveMove = float3(dot(s, X_WAVE_MOVE), dot(s, Y_WAVE_MOVE), dot(s, Z_WAVE_MOVE));
+
+        // Old probably needs tweaks
+        float3 branchMoveDirection = windDirection;
+        branchMoveDirection = normalize(branchMoveDirection - windSideDirection * waveMove * 0.3);
+        float branchDistanceToTrunk = saturate(In.normal.w * 100 / 50.0);
+        float windBranchStrenght = (windStrength * 0.8 + 0.2) * 0.25;
+        //
+
+        waveMove.x *= branchDistanceToTrunk;
+        waveMove.y *= branchDistanceToTrunk;
+        waveMove.z *= branchDistanceToTrunk;
+
+        worldPosition += branchMoveDirection * mul((float3x3)modelMatrix, waveMove * windBranchStrenght).xyz + trunkOffset;
+    }
+#endif
+]]>
+            </CodeInjection>
+            <CodeInjection position="POST_GET_LIGHTING_FS">
+<![CDATA[
+{
+    float NdotLNegative = dot(normal, lightDir);
+    if (NdotLNegative < 0) {
+        NdotLNegative = -NdotLNegative*0.35;
+    }
+    NdotLNegative = min(NdotLNegative, 1);
+    NdotL = saturate(dot(normal, lightDir));
+    float3 lighting = ((atten*NdotLNegative) * diffuseShading + (atten*NdotL)* specularShading )* lightColor;
+    return lighting;
+}
+]]>
+            </CodeInjection>
+        </CodeInjections>
+    </LodLevel>
+</CustomShader>

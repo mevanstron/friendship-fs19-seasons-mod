@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sound>
+    <surface>
+        <material materialId="50"  name="snow" type="wheel" loopCount="0" file="resources/sounds/vehicles/surfaces/snow_loop.wav" innerRadius="2.0" outerRadius="30.0" fadeIn="0.25" fadeOut="0.25">
+            <volume indoor="0.05" outdoor="0.7" >
+                <modifier type="SPEED" value="0" modifiedValue="0"/>
+                <modifier type="SPEED" value="30" modifiedValue="2.6"/>
+                <modifier type="SPEED" value="31" modifiedValue="2.6"/>
+            </volume>
+            <pitch indoor="1.00" outdoor="1.00">
+                <modifier type="SPEED" value="0" modifiedValue="0.6" />
+                <modifier type="SPEED" value="30" modifiedValue="1.0" />
+            </pitch>
+            <lowpassGain indoor="0.2" outdoor="1.00" />
+        </material>
+
+        <material materialId="50" name="snow" type="footstep" loopCount="1" file="resources/sounds/player/footsteps/step_snow_1.wav" innerRadius="2.0" outerRadius="10.0">
+            <volume indoor="0.05" outdoor="0.15" />
+            <pitch indoor="0.9" outdoor="0.9" />
+            <randomization minVolume="0.1" maxVolume="0.2" minPitch="0.8" maxPitch="1.1" minLowpassGain="0" maxLowpassGain="0" />
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_2.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_3.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_4.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_5.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_6.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_7.wav"/>
+            <sourceRandomization file="resources/sounds/player/footsteps/step_snow_8.wav"/>
+        </material>
+
+        <material materialId="50" name="snow" type="hoofstep" loopCount="1" file="$data/sounds/animals/horse/rideable/locomotion/horse_step_field_1.wav" innerRadius="5.0" outerRadius="45.0" >
+            <volume indoor="0.2" outdoor="0.2" />
+            <pitch indoor="0.9" outdoor="0.9" />
+            <randomization minVolume="0.1" maxVolume="0.2" minPitch="0.1" maxPitch="0.2" minLowpassGain="0" maxLowpassGain="0" />
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_2.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_3.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_4.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_5.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_6.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_7.wav"/>
+            <sourceRandomization file="resources/sounds/animals/horse/rideable/locomotion/horse_step_snow_8.wav"/>
+        </material>
+    </surface>
+
+    <ambient>
+
+        <weather name="rain" layer="downfall">
+            <!-- sound for fading in / fading out, as we currently don't have volume modifiers -->
+            <sound file="resources/sounds/environment/rain_int1_loop.wav" minIntensity="0.0" maxIntensity="0.06">
+                <volume indoor="0.03" outdoor="0.03" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/rain_int1_loop.wav" minIntensity="0.03" maxIntensity="0.6">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/rain_int2_loop.wav" minIntensity="0.3" maxIntensity="0.9">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/rain_int3_loop.wav" minIntensity="0.6" maxIntensity="1.0">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+        </weather>
+
+        <weather name="hail" layer="downfall">
+            <!-- sound for fading in / fading out, as we currently don't have volume modifiers -->
+            <sound file="resources/sounds/environment/hail_int1_loop.wav" minIntensity="0.0" maxIntensity="0.06">
+                <volume indoor="0.03" outdoor="0.03" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/hail_int1_loop.wav" minIntensity="0.03" maxIntensity="0.6">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/hail_int2_loop.wav" minIntensity="0.3" maxIntensity="0.9">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/hail_int3_loop.wav" minIntensity="0.6" maxIntensity="1.0">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+        </weather>
+
+        <!-- The wind layer is mixing both intensity based on wind speed, and volume based on wind speed. -->
+        <weather name="wind" layer="wind">
+            <sound file="resources/sounds/environment/wind_int1_loop.wav" minIntensity="0.00" maxIntensity="0.30">
+                <volume indoor="0.00" outdoor="0.25" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/wind_int2_loop.wav" minIntensity="0.20" maxIntensity="0.45">
+                <volume indoor="0.00" outdoor="0.40" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/wind_int3_loop.wav" minIntensity="0.35" maxIntensity="0.6">
+                <volume indoor="0.00" outdoor="0.55" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/wind_int4_loop.wav" minIntensity="0.50" maxIntensity="0.75">
+                <volume indoor="0.00" outdoor="0.70" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/wind_int5_loop.wav" minIntensity="0.65" maxIntensity="0.90">
+                <volume indoor="0.00" outdoor="0.85" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="resources/sounds/environment/wind_int6_loop.wav" minIntensity="0.80" maxIntensity="1.0">
+                <volume indoor="0.00" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+        </weather>
+
+        <weather name="thunder" layer="thunder">
+            <sound file="$data/sounds/maps/environment/shared/in_map/thunder1.wav" minIntensity="0.0" maxIntensity="1.0" probabilityMultiplier="5">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="$data/sounds/maps/environment/shared/in_map/thunder2.wav" minIntensity="0.0" maxIntensity="1.0" probabilityMultiplier="1">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="$data/sounds/maps/environment/shared/in_map/thunder3.wav" minIntensity="0.0" maxIntensity="1.0" probabilityMultiplier="1">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="$data/sounds/maps/environment/shared/in_map/thunder4.wav" minIntensity="0.0" maxIntensity="1.0" probabilityMultiplier="1">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+            <sound file="$data/sounds/maps/environment/shared/in_map/thunder5.wav" minIntensity="0.0" maxIntensity="1.0" probabilityMultiplier="2">
+                <volume indoor="0.50" outdoor="1.00" />
+                <lowpassGain indoor="0.50" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+            </sound>
+        </weather>
+
+    </ambient>
+</sound>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsSettings">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="seasonsMenuSettingsIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_ui_inGameMenuModeSettings"/>
+        </GuiElement>
+
+        <!-- Layouted settings box -->
+        <GuiElement type="bitmap" profile="ingameMenuSettingsBox" position="130px -124px" id="settingsContainer">
+            <GuiElement type="boxLayout" profile="ingameMenuSettingsLayout" position="50px -50px" id="boxLayout">
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="temperatureUnitElement" focusInit="onOpen" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_toolTip_useFahrenheit">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_setting_temperatureUnit"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="seasonIntroductionsElement" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_seasons_tooltip_seasonIntros">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasons_setting_seasonIntros"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="seasonLengthElement" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_seasons_tooltip_seasonLength">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasons_setting_seasonLength"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="cropMoistureElement" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_seasons_tooltip_moisture">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasons_setting_moisture"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+                <GuiElement type="checkedOption" profile="multiTextOptionSettings" id="snowTracksElement" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_seasons_tooltip_snowTracks">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasons_setting_snowTracks"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+                <GuiElement type="multiTextOption" profile="multiTextOptionSettings" id="snowModeElement" toolTipElementId="settingsHelpBoxText" toolTipText="$l10n_seasons_tooltip_snow">
+                    <GuiElement type="button" profile="multiTextOptionLeft"  />
+                    <GuiElement type="button" profile="multiTextOptionRight" />
+                    <GuiElement type="text"   profile="multiTextOptionText" />
+                    <GuiElement type="text"   profile="multiTextOptionTitle" text="$l10n_seasons_setting_snow"/>
+                    <GuiElement type="bitmap" profile="multiTextOptionBg" />
+                </GuiElement>
+
+            </GuiElement>
+        </GuiElement>
+
+        <!-- Tool tip display -->
+        <GuiElement type="bitmap" profile="ingameMenuHelpRowBg" position="210px 64px" id="settingsHelpBox" visible="true">
+            <GuiElement type="bitmap" profile="ingameMenuHelpRowIcon" />
+            <GuiElement type="text" profile="ingameMenuHelpRowText" id="settingsHelpBoxText" text="" onTextChanged="onToolTipBoxTextChanged"/>
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

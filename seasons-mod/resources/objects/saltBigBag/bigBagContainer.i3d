@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="bigBagContainer" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="2" filename="$data/objects/bigBagContainer/bigBagContainer_normal.png" />
+    <File fileId="5" filename="$data/objects/bigBagContainer/bigBagContainerAlpha_normal.png" />
+    <File fileId="4" filename="$data/objects/bigBagContainer/bigBagContainerAlpha_diffuse.dds" />
+    <File fileId="1" filename="bigBagSalt_diffuse.png" />
+    <File fileId="3" filename="$data/objects/bigBagContainer/bigBagContainer_specular.png" />
+    <File fileId="6" filename="$data/objects/bigBagContainer/bigBagContainerAlpha_specular.png" />
+    <File fileId="7" filename="$data/shared/default_normal.png" />
+  </Files>
+
+  <Materials>
+    <Material name="lambert1" materialId="1" diffuseColor="0.5 0.5 0.5 1" specularColor="0 0 0" ambientColor="1 1 1">
+    </Material>
+    <Material name="bigBagSalt_mat" materialId="3" cosPower="25" specularColor="1 1 1" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="bigBagContainerAlpha_mat" materialId="4" cosPower="20" specularColor="1 1 1" ambientColor="1 1 1">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <Glossmap fileId="6"/>
+    </Material>
+    <Material name="default_mat" materialId="2" diffuseColor="0.5 0.5 0.5 1" specularColor="0 0 0" ambientColor="1 1 1">
+      <Normalmap fileId="7"/>
+    </Material>
+  </Materials>
+
+  <Shapes externalShapesFile="bigBagContainer.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="bigBagContainer_main_component1" shapeId="1" dynamic="true" compound="true" density="0.1" collisionMask="25178120" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" clipDistance="300" nodeId="1">
+      <Shape name="dynamicMountTrigger" translation="-0.00649741 0.0776865 -0.0213836" shapeId="2" kinematic="true" trigger="true" collisionMask="8192" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" clipDistance="100" nodeId="2"/>
+      <TransformGroup name="functionalNodes" nodeId="3">
+        <TransformGroup name="raycastNode" translation="0 -1.11022e-16 0" nodeId="4"/>
+        <TransformGroup name="effects" nodeId="5">
+          <Shape name="pipeEffect" translation="0 0.0220006 -4.88512e-18" rotation="90 0 0" shapeId="3" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="100" nodeId="6"/>
+          <Shape name="smokeEffect" translation="0 -2.18029 0" visibility="false" shapeId="4" castsShadows="true" receiveShadows="true" materialIds="2" clipDistance="100" nodeId="7"/>
+        </TransformGroup>
+        <Shape name="fillTrigger" translation="0 0.348315 0" visibility="false" shapeId="5" kinematic="true" compound="true" trigger="true" collisionMask="1082130432" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" clipDistance="300" nodeId="8"/>
+        <Shape name="dischargeActivationTrigger" translation="0 -1.79605 0" visibility="false" shapeId="6" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="9"/>
+      </TransformGroup>
+      <TransformGroup name="visable" nodeId="10">
+        <Shape name="bigBagContainer_vis" shapeId="7" castsShadows="true" receiveShadows="true" materialIds="3" clipDistance="300" nodeId="11">
+          <Shape name="grid" shapeId="8" castsShadows="true" receiveShadows="true" materialIds="4" clipDistance="300" nodeId="12"/>
+        </Shape>
+      </TransformGroup>
+      <TransformGroup name="collisions" visibility="false" nodeId="18">
+        <Shape name="colSupport" translation="-0.00649741 0.0776865 -0.0213836" shapeId="14" compoundChild="true" density="0.5" collisionMask="16781314" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" clipDistance="100" nodeId="19"/>
+      </TransformGroup>
+    </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="1">
+      <Attribute name="capacity" type="integer" value="1000"/>
+      <Attribute name="dynamicMountForceLimit" type="float" value="0"/>
+      <Attribute name="dynamicMountTriggerIndex" type="string" value="0"/>
+      <Attribute name="fillType" type="string" value="salt"/>
+      <Attribute name="startFillLevel" type="integer" value="0"/>
+      <Attribute name="visibilityNodesAdditive" type="boolean" value="false"/>
+      <Attribute name="raycastNode" type="string" value="1"/>
+      <Attribute name="fillTrigger" type="string" value="2"/>
+      <Attribute name="fillTriggerClass" type="string" value="FillTrigger"/>
+      <Attribute name="meshNodes" type="string" value="3"/>
+      <Attribute name="fillableTriggerDischargeInfoNode" type="string" value="4|0"/>
+      <Attribute name="fillableTrigger" type="string" value="4"/>
+    </UserAttribute>
+  </UserAttributes>
+</i3D>

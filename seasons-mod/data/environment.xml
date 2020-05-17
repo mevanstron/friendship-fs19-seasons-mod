@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<environment>
+    <annotation>Copyright (c) Realismus Modding, 2018</annotation>
+
+    <latitude>51.9</latitude>
+
+    <daylight dst="yes" />
+</environment>

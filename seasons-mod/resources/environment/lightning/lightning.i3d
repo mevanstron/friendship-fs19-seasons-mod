@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="lightning" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="cloudLight.png" />
+    <File fileId="2" filename="$data/shaders/emissiveLightsShader.xml" />
+  </Files>
+
+  <Materials>
+    <Material name="cloudLightning_mat" materialId="1" cosPower="40" specularColor="0 0 0" ambientColor="1 1 1" alphaBlending="true" customShaderId="2">
+      <CustomParameter name="blinkOffset" value="0.0 0.0 0.0 0.0"/>
+      <Emissivemap fileId="1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="lightning.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="lightning" nodeId="1">
+      <Shape name="clouds" rotation="0 0 180" shapeId="1" castsShadows="true" receiveShadows="true" materialIds="1" clipDistance="1e+06" nodeId="2"/>
+      <Light name="pointLight" translation="0 1000 0" rotation="-90 0 0" type="point" color="0.9 0.9 0.9" emitDiffuse="true" emitSpecular="true" decayRate="0" range="4000" clipDistance="1e+06" nodeId="3"/>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+  </UserAttributes>
+</i3D>

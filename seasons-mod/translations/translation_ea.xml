@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>Vanquish081</translationContributors>
+    <texts>
+        <text name="action_toggle_plant_distance" text="Alternar la distancia de siembra (% d m)" />
+        <text name="fillType_salt" text="Sal de carretera" />
+        <text name="fillType_snow" text="Nieve" />
+        <text name="input_SEASONS_SHOW_MENU" text="Abrir menú Seasons" />
+        <text name="seasons_forecast_averageTemperature" text="Temp. Media" />
+        <text name="seasons_forecast_maximumTemperature" text="Temp. Máx." />
+        <text name="seasons_forecast_minimumTemperature" text="Temp. Mín." />
+        <text name="seasons_forecast_precipitationInMm" text="Precipitación (mm)" />
+        <text name="seasons_forecast_precipitationPercentage" text="Precipitación (%)" />
+        <text name="seasons_forecast_type" text="Tipo" />
+        <text name="seasons_forecast_windSpeed" text="Velc. del viento (m / s)" />
+        <text name="seasons_forecast_dryingPotential" text="Potencial de secado" />
+        <text name="seasons_forecast_info" text="La incertidumbre del pronóstico aumenta con el tiempo." />
+        <text name="seasons_function_baleCutter" text="Se puede usar un cutter para cortar y abrir pacas." />
+        <text name="seasons_function_bigBagSalt" text="Bigbags se utilizan para rellenar sus esparcidores de sal." />
+        <text name="seasons_function_measureTool" text="Usando una herramienta de medición, puede obtener información sobre el suelo, árboles, pacas y otros objetos." />
+        <text name="seasons_helpCategory_1" text="Seasons" />
+        <text name="seasons_intro_0" text="La primavera está aquí; Flores y árboles florecen. Es hora de cultivar y sembrar sus campos." />
+        <text name="seasons_intro_1" text="Los días son largos y cálidos en verano. Es hora de hacer heno y ver crecer los cultivos." />
+        <text name="seasons_intro_2" text="Las hojas se están volviendo marrones y se está volviendo más frío, el otoño ha llegado. Asegúrate de cosechar los cultivos antes de que llegue el invierno." />
+        <text name="seasons_intro_3" text="El invierno ha caído y los animales necesitan más cuidados. El suelo se congelará y no podrá trabajar sus campos. Es tiempo de silvicultura y pasar el quitanieves." />
+        <text name="seasons_measuretool_failed" text="Medición fallida" />
+        <text name="seasons_measuretool_fermentation_time" text="%d horas para ir" />
+        <text name="seasons_measuretool_fermentation_time_low" text="menos de 1 hora para ir" />
+        <text name="seasons_measuretool_no_info" text="Medición fallida: no hay información" />
+        <text name="seasons_measuretool_title" text="Medición" />
+        <text name="seasons_message_failedHeightTypes" text="Seasons was unable to load on the selected map: the map is not compatible with Seasons. (too many fruits on the ground)" />
+        <text name="seasons_notification_animalsKilled" text="(%d) animales han muerto" />
+        <text name="seasons_notification_animalsDiedOfAge" text="(%d) animales han muerto de vejez" />
+        <text name="seasons_notification_horseDied" text="%s caballos han muerto" />
+        <text name="seasons_notification_animalsDiedInTrailer" text="(%d) animales han muerto en el trailer" />
+        <text name="seasons_periodNameFull_1" text="Inicio primavera" />
+        <text name="seasons_periodNameFull_10" text="Principio de Invierno" />
+        <text name="seasons_periodNameFull_11" text="Mediados invierno" />
+        <text name="seasons_periodNameFull_12" text="Finales de Invierno" />
+        <text name="seasons_periodNameFull_2" text="Mediados de primavera" />
+        <text name="seasons_periodNameFull_3" text="Finales de primavera" />
+        <text name="seasons_periodNameFull_4" text="Inicio del verano" />
+        <text name="seasons_periodNameFull_5" text="Mediados de verano" />
+        <text name="seasons_periodNameFull_6" text="Finales de verano" />
+        <text name="seasons_periodNameFull_7" text="Principios de otoño" />
+        <text name="seasons_periodNameFull_8" text="Mediados de otoño" />
+        <text name="seasons_periodNameFull_9" text="Finales de otoño" />
+        <text name="seasons_rotationCategory_0" text="Barbecho" />
+        <text name="seasons_rotationCategory_1" text="Semillas oleaginosas" />
+        <text name="seasons_rotationCategory_2" text="Cereal" />
+        <text name="seasons_rotationCategory_3" text="Legumbre" />
+        <text name="seasons_rotationCategory_4" text="Tubérculos" />
+        <text name="seasons_rotationCategory_5" text="Patatas" />
+        <text name="seasons_rotationCategory_6" text="Hierba" />
+        <text name="seasons_rotation_recommendationAny" text="Alguna" />
+        <text name="seasons_seasonName_0" text="Primavera" />
+        <text name="seasons_seasonName_1" text="Verano" />
+        <text name="seasons_seasonName_2" text="Otoño" />
+        <text name="seasons_seasonName_3" text="Invierno" />
+        <text name="seasons_setting_moisture" text="Humedad de la cosecha" />
+        <text name="seasons_setting_seasonIntros" text="Introducciones de temporada" />
+        <text name="seasons_setting_seasonLength" text="Longitud de la temporada" />
+        <text name="seasons_setting_snow" text="Modo de nieve" />
+        <text name="seasons_setting_snowTracks" text="Pistas de nieve" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BLACK" text="Cruz de Cornualles" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BROWN" text="Rhode Island Red" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_ROOSTER" text="Gallo" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_WHITE" text="Leghorn Blanco" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK" text="Saler" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK_WHITE" text="Holstein" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_BROWN" text="Brahman (marrón)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_GREY" text="Brahman (gris)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="Brahman (marrón claro)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_WHITE" text="Brahman (blanco)" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN" text="Limousin" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN_WHITE" text="Ayrshire" />
+        <text name="seasons_shopItem_HORSE_TYPE_BEIGE" text="Haflinger" />
+        <text name="seasons_shopItem_HORSE_TYPE_BLACK" text="Negro arabe" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN" text="Pura sangre" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN_WHITE" text="Pintado" />
+        <text name="seasons_shopItem_HORSE_TYPE_DARK_BROWN" text="Tennessee Walking Horse" />
+        <text name="seasons_shopItem_HORSE_TYPE_GREY" text="Andaluz" />
+        <text name="seasons_shopItem_HORSE_TYPE_LIGHT_BROWN" text="Morgan" />
+        <text name="seasons_shopItem_HORSE_TYPE_RED_BROWN" text="Cuarto caballo" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK" text="Berkshire" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK_WHITE" text="Manchado" />
+        <text name="seasons_shopItem_PIG_TYPE_RED" text="Yorkshire" />
+        <text name="seasons_shopItem_PIG_TYPE_WHITE" text="Gloucestershire Old Spot" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK" text="Dorper" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK_WHITE" text="Suffolk" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BROWN" text="Merino" />
+        <text name="seasons_shopItem_SHEEP_TYPE_WHITE" text="Dorset" />
+        <text name="seasons_shopItem_baleCutter" text="Cortador de balas" />
+        <text name="seasons_shopItem_bigBagSalt" text="Bigbag de sal de carretera" />
+        <text name="seasons_shopItem_waterPump" text="Bomba de agua" />
+        <text name="seasons_statistic_health" text="Salud" />
+        <text name="seasons_tooltip_moisture" text="No se permite cosechar cuando los cultivos tienen humedad excesiva (+20%)" />
+        <text name="seasons_tooltip_seasonIntros" text="Mostrar una introducción de temporada al comienzo de una temporada." />
+        <text name="seasons_tooltip_seasonLength" text="La duración de una temporada en días. Un año son cuatro estaciones." />
+        <text name="seasons_tooltip_snow" text="La nieve caerá en inviernos fríos y bloqueará las carreteras." />
+        <text name="seasons_tooltip_snowTracks" text="Los vehículos comprimen la nieve al conducir sobre ella." />
+        <text name="seasons_ui_beforePreviousFruit" text="Previo al Anterior" />
+        <text name="seasons_ui_calendar" text="Calendario" />
+        <text name="seasons_ui_cropRotation" text="La rotación de cultivos" />
+        <text name="seasons_ui_cropRotationExplanation" text="La rotación de cultivos comienza desde el principio, después del último cultivo. Cajas con 'none' se saltan para una rotación más corta." />
+        <text name="seasons_ui_cropRotationPlanner" text="Planificador de rotación de cultivos" />
+        <text name="seasons_ui_cropRotation_1" text="Rotación 1" />
+        <text name="seasons_ui_cropRotation_2" text="Rotación 2" />
+        <text name="seasons_ui_cropRotation_3" text="Rotación 3" />
+        <text name="seasons_ui_cropRotation_4" text="Rotación 4" />
+        <text name="seasons_ui_crop_info" text="Información de la cosecha" />
+        <text name="seasons_ui_crops_seed" text="Semilla" />
+        <text name="seasons_ui_crops_young" text="Joven" />
+        <text name="seasons_ui_crops_mature" text="Maduro" />
+        <text name="seasons_ui_crops_frostResistance" text="Resistencia a las heladas" />
+        <text name="seasons_ui_crops_droughtResistance" text="Resistencia a la sequia" />
+        <text name="seasons_ui_crops_high" text="Alto" />
+        <text name="seasons_ui_crops_medium" text="Medio" />
+        <text name="seasons_ui_crops_low" text="Bajo" />
+        <text name="seasons_ui_crops_high_none" text="Ninguna" />
+        <text name="seasons_ui_days" text="%d días" />
+        <text name="seasons_ui_dontShowAgain" text="No mostrar de nuevo" />
+        <text name="seasons_ui_economy" text="Economía" />
+        <text name="finance_seasons_livery_stable" text="Ingresos caballeriza" />
+        <text name="seasons_livery_stable" text="Caballeriza" />
+        <text name="seasons_ui_pcf_info" text="El potencial de daño por heladas aumenta a medida que la temperatura del aire cae por debajo de %s. El potencial de daños por sequía aumenta cuando el contenido de agua del suelo está por debajo del 12%%. Utilice la herramienta de medición para controlar el contenido de agua del suelo." />
+        <text name="seasons_ui_fruitGerminated" text="Germinado" />
+        <text name="seasons_ui_growthMapGerminationFailed" text="La germinación falló" />
+        <text name="seasons_ui_growthMapPlanted" text="Plantado" />
+        <text name="seasons_ui_harvestSeason" text="Temporada de cosecha" />
+        <text name="seasons_ui_plantingSeason" text="Temporada de siembra" />
+        <text name="seasons_ui_previousFruit" text="Anterior" />
+        <text name="seasons_ui_products" text="Productos" />
+        <text name="seasons_ui_recommendation" text="Recomendación" />
+        <text name="seasons_ui_repaint" text="Repintar" />
+        <text name="seasons_ui_repaintDialog" text="¿Realmente quieres repintar el vehículo por %s?" />
+        <text name="seasons_ui_resetGrowth" text="Cargaste Seasons en un antiguo juego guardado. Seasons quiere restablecer todos los campos (vaciarlos) para sincronizarse con el día de juego. Perderás todos los cultivos. Si no restablece el crecimiento, es posible que Seasons no funcione como se esperaba." />
+        <text name="seasons_ui_resetGrowth_no" text="Mantener el crecimiento" />
+        <text name="seasons_ui_resetGrowth_title" text="Reinicio del crecimiento" />
+        <text name="seasons_ui_resetGrowth_yes" text="Reiniciar" />
+        <text name="seasons_ui_snowOneLayer" text="Solo 1 capa" />
+        <text name="seasons_ui_weatherForecast" text="Pronóstico del tiempo" />
+        <text name="seasons_warning_catchingUp" text="El juego se está sincronizando después del avance rápido." />
+        <text name="seasons_warning_doNotThreshWithMoistCrops" text="¡No cosechar cuando los cultivos están demasiado húmedos!" />
+        <text name="seasons_warning_soilIsFrozen" text="El suelo está congelado. ¡No puedes trabajarlo!" />
+        <text name="seasons_weekday1" text="Lun" />
+        <text name="seasons_weekday2" text="Mar" />
+        <text name="seasons_weekday3" text="Mie" />
+        <text name="seasons_weekday4" text="Jue" />
+        <text name="seasons_weekday5" text="Vie" />
+        <text name="seasons_weekday6" text="Sab" />
+        <text name="seasons_weekday7" text="Dom" />
+        <text name="unit_feetShort" text="pie" />
+        <text name="unit_meterShort" text="metro" />
+        <text name="seasons_animal_sex_male" text="Masculino" />
+        <text name="seasons_animal_sex_female" text="Hembra" />
+        <text name="seasons_animal_sex_male_short" text="Masc." />
+        <text name="seasons_animal_sex_female_short" text="Fem." />
+        <text name="seasons_animal_age" text="años" />
+        <text name="seasons_animal_age_short" text="A" />
+        <text name="seasons_unit_lbs" text="libras" />
+        <text name="seasons_unit_kg" text="kg" />
+        <text name="seasons_unit_lbsShort" text="lbs" />
+        <text name="seasons_unit_kgShort" text="kg" />
+        <text name="seasons_statistic_age" text="Edad" />
+        <text name="seasons_statistic_weight" text="Peso" />
+        <text name="seasons_ui_animalsFoodInfo" text="En este corral se requiere %d litros de comida para alimentar a sus animales durante el próximo año." />
+
+        <!-- Missing translation of "There are no animals in this pen" -->
+        <text name="seasons_ui_noAnimalsInHusbandry" text="There are no animals in this pen" />
+        <!-- Missing translation of "Production" -->
+        <text name="seasons_ui_production" text="Production" />
+        <!-- Missing translation of "Estimated food required" -->
+        <text name="seasons_ui_estimatedFoodRequired" text="Estimated food required" />
+        <!-- Missing translation of "Estimated water required" -->
+        <text name="seasons_ui_estimatedWaterRequired" text="Estimated water required" />
+        <!-- Missing translation of "Estimated straw required" -->
+        <text name="seasons_ui_estimatedStrawRequired" text="Estimated straw required" />
+        <!-- Missing translation of "Year" -->
+        <text name="seasons_statistic_year" text="Year" />
+        <!-- Missing translation of "Newborn" -->
+        <text name="seasons_ui_ageClassifier_newborn" text="Newborn" />
+        <!-- Missing translation of "Young" -->
+        <text name="seasons_ui_ageClassifier_young" text="Young" />
+        <!-- Missing translation of "Mature" -->
+        <text name="seasons_ui_ageClassifier_mature" text="Mature" />
+        <!-- Missing translation of "Old" -->
+        <text name="seasons_ui_ageClassifier_old" text="Old" />
+        <!-- Missing translation of "Contract finished" -->
+        <text name="seasons_contract_finished" text="Contract finished" />
+        <!-- Missing translation of "Contract failed" -->
+        <text name="seasons_contract_failed" text="Contract failed" />
+        <!-- Missing translation of "Snow clearing" -->
+        <text name="seasons_snowContract_jobType" text="Snow clearing" />
+        <!-- Missing translation of "to clear the designated area from all snow." -->
+        <text name="seasons_snowContract_action" text="to clear the designated area from all snow." />
+
+        <text name="overwrite_animalPen_cow" text="Establo para Vacas" />
+        <text name="overwrite_animalPen_cow2" text="Establo Grande para Vacas" />
+        <text name="overwrite_animals_cowPasture" text="Pasto de Vacas" />
+        <text name="overwrite_fillType_cow" text="Vaca" />
+        <text name="overwrite_function_animalPenCow" text="Un lugar para guardar tus vacas." />
+        <text name="overwrite_function_feeder" text="Un carro mezclador de forraje combina ensilaje, heno y paja en Ración Mixta Total (TMR) que se usa para alimentar a las vacas." />
+        <text name="overwrite_function_feederBale" text="Esta máquina toma pacas de paja y las utiliza para cubrir el suelo del establo con paja." />
+        <text name="overwrite_shopItem_animalPenCow" text="Corral para vacas." />
+        <text name="overwrite_shopItem_cow" text="Vaca" />
+        <text name="overwrite_statistic_cowOwned" text="Vaca en propiedad" />
+        <text name="overwrite_ui_cowLiquidManureSilo" text="Depósito de purín" />
+        <text name="overwrite_ui_cowManureHeap" text="Montón de estiércol de vacas" />
+        <text name="overwrite_ui_statisticView_cow" text="Estadísticas de Vacas" />
+        <text name="overwrite_animals_descriptionHorse" text="El beneficio diario por el cuidado de un caballo está determinado por su estado físico, salud y limpieza. Deben ser montados todos los días para aumentar su condición física. Los caballos requieren paja para la ropa de cama limpia, además de agua y alimentos para mantenerse saludables. Periódicamente necesitan ser cepillados y limpiados." />
+        <text name="seasons_overwrite_hint_09" text="Puede aumentar el rendimiento de su cosecha fertilizando y abonando sus campos." />
+        <text name="seasons_ui_notFertile" text="No fertilizado" />
+
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BLACK" text="La gallina oscura tiene un crecimiento extremadamente rápido, además de un rápido retorno de ganancias. Requiere mucha alimentación." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BROWN" text="El Rhode Island Red es una raza híbrida (tanto de huevos como de carne) y requiere una cantidad de alimento mayor." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_ROOSTER" text="Este ave macho se utiliza principalmente para la reproducción y trabajará para fertilizar los huevos producidos por sus pollos y producir pollos. Nota: No necesitas un gallo para producir huevos." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_WHITE" text="Este es el ave recomendado si su prioridad es la producción de huevos. Esta raza requiere menos alimento que cualquiera de las otras razas." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK" text="La Saler es una opción más económica para los agricultores que comienzan y es conocido por sus carcasas de gran tamaño que pueden devolver una inversión decente en el mercado." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK_WHITE" text="La reina de la producción de leche. Esta raza requiere mucho alimento y es caro comprarla por adelantado, pero produce la mayor cantidad de leche." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_BROWN" text="La Brahman marrón es una raza específica tolerante al calor con requisitos de alimentación marginal. Son conocidos por su potencial de ganancia y buenos rendimientos en canal." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_GREY" text="La Brahman gris es una raza específica tolerante al calor con requisitos de alimentación marginal. Son conocidos por su potencial de ganancia y buenos rendimientos en canal." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="La Brahman marrón claro es una raza específica tolerante al calor con requisitos de alimentación marginal. Son conocidos por su potencial de ganancia y buenos rendimientos en canal." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_WHITE" text="La Brahman blanca es una raza específica tolerante al calor con requisitos de alimentación marginal. Son conocidos por su potencial de ganancia y buenos rendimientos en canal." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN" text="La crem de la crem, la Limousin es un animal costoso pero eficiente, ya que crecerá muy rápidamente y dará un gran precio en el mercado." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN_WHITE" text="Los granjeros de Ayrshire pueden estar seguros de que el bajo consumo de alimento y el precio por cabeza son dos compromisos bien merecidos por una menor producción de leche." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BEIGE" text="Si bien fue diseñado para usarse en la conducción y en el calado, el Haflinger también es una raza excelente para la conducción de senderos y resistencia, así como para los saltos." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BLACK" text="Conocido por su capacidad de gran resistencia y resistencia, el árabe es conocido por su competencia en la conducción y la carrera de resistencia." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN" text="Se utiliza principalmente para carreras y saltos, esta raza ágil tiene huesos de patas cortas que permiten un paso largo y fácil." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN_WHITE" text="Desarrollado a partir de caballos manchados de líneas de sangre de Quarter y Thoroughbred, el American Paint Horse ahora es reconocido como su propia raza. Ideal para eventos de placer y espectáculos occidentales." />
+        <text name="seasons_animalInfo_HORSE_TYPE_DARK_BROWN" text="Conocido por su habilidad para caminar y andar a cuatro tiempos, el Walking Horse tiene una disposición tranquila y es un gran caballo de exhibición." />
+        <text name="seasons_animalInfo_HORSE_TYPE_GREY" text="Criados por su capacidad atlética, los caballos Andaluces son conocidos por su capacidad tanto para pasear como correr, hoy en día se utilizan para el salto y el placer occidental." />
+        <text name="seasons_animalInfo_HORSE_TYPE_LIGHT_BROWN" text="El Morgan es un caballo de uso múltiple. Son de construcción compacta, tienen patas fuertes y se sabe que son fáciles de mantener y manejar." />
+        <text name="seasons_animalInfo_HORSE_TYPE_RED_BROWN" text="Conocido como una de las razas más versátiles, el Quarter Horse es pequeño y robusto, con un gran desarrollo muscular, un rápido arranque, giro y capacidad de detención." />
+
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK" text="Berkshire es un animal de rápido crecimiento que requiere una cantidad modesta de capital para comprar. Es conocido por su sabrosa carne." />
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK_WHITE" text="Conocido por la calidad de su carcasa, el Spotted crece relativamente rápido y se puede comprar por una cantidad modesta." />
+        <text name="seasons_animalInfo_PIG_TYPE_RED" text="Conocida como la “Raza Madre“, esta raza de cerdo es un animal de crecimiento muy rápido, pero requiere una gran cantidad de capital para la compra inicial." />
+        <text name="seasons_animalInfo_PIG_TYPE_WHITE" text="The Old Spot es un animal de crecimiento más lento, pero inicialmente es mucho más barato de comprar. Muy resistente y genial para el granjero de partida." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK" text="Una raza de tamaño mediano que crece rápido, pero no produce lana. Muy prolífica y de rápida maduración. Requiere poca alimentación como adulto. Ideal para 40-45 kg (85-100 lbs) de corderos." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK_WHITE" text="Una raza grande de ovejas que crece extremadamente rápido, produce una cantidad modesta de lana, requiere mucho alimento como adulto, es prolífica y de lenta maduración. Bueno para 45-65 kg (100-140 lbs) de corderos." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BROWN" text="El Merino es una raza mediana que se utiliza para la producción de lana. Crece lentamente, no es muy prolífico, pero no requiere mucha alimentación como adulto." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_WHITE" text="Una raza grande de ovejas que crece moderadamente rápido, tiene una producción modesta de lana y requiere una cantidad media de alimento como adulto. Es relativamente prolífico y bueno para 25-40 kg (50-85 lbs) de corderos." />
+
+        <text name="seasons_hint_01" text="Planifique las rotaciones de sus cultivos utilizando el planificador de rotación de cultivos." />
+        <text name="seasons_hint_02" text="Las semillas necesitan germinar con éxito para crecer." />
+        <text name="seasons_hint_03" text="Incluso después de la germinación, los cultivos necesitan suficiente calor y humedad para sobrevivir." />
+        <text name="seasons_hint_04" text="El pasto toma un período completo para convertirse en ensilaje después de ser envuelto o cubierto." />
+        <text name="seasons_hint_05" text="Los animales necesitan atención continua para mantenerse saludables y crecer/reproducirse." />
+        <text name="seasons_hint_06" text="La hierba necesita secarse a la luz del sol para producir heno." />
+        <text name="seasons_hint_07" text="Las sequías extremas pueden tener una mala influencia en sus cultivos." />
+        <text name="seasons_hint_08" text="El heno o la paja dejados fuera en la lluvia se pudrirán con el tiempo. La hierba siempre se pudrirá con el tiempo." />
+        <text name="seasons_hint_09" text="Repare sus vehículos y herramientas para que se vean como nuevos de nuevo." />
+        <text name="seasons_hint_10" text="Utilice el calendario y la pantalla de información de cultivos para determinar los cultivos que se ajustan al clima." />
+        <text name="seasons_hint_11" text="Usando los gráficos de precios históricos, puede ver cuándo es mejor vender sus productos." />
+        <text name="seasons_hint_12" text="El calendario muestra qué cultivos puedes plantar. Asegúrese de que la temperatura del suelo sea la correcta." />
+        <text name="seasons_hint_13" text="Las razas de animales tienen diferentes ventajas y desventajas." />
+        <text name="seasons_hint_14" text="Siempre alimente a sus animales y que no les falte agua, de lo contrario morirán." />
+        <text name="seasons_hint_15" text="Los caballos pueden ser adquiridos por su librea estable. Usted gana una cantidad diaria basada en su salud, comida, limpieza y actividad." />
+        <text name="seasons_hint_16" text="Los pollos empollarán sus huevos cuando reciban atención de un gallo." />
+        <text name="seasons_hint_17" text="La ingesta de alimentos y agua de los animales aumenta cuando crecen y envejecen." />
+        <text name="seasons_hint_18" text="La salud del ganado se puede mejorar dándoles mejor comida. El mejor alimento es la Ración Mixta Total (TMR), que se produce al mezclar heno, paja y ensilaje en un carro mezclador." />
+        <text name="seasons_hint_19" text="Las vacas Ayrshire producen menos leche, pero también consumen menos alimentos y cuestan menos." />
+        <text name="seasons_hint_20" text="Rode Island Red es una raza de pollo que es útil para la producción de huevos y carne." />
+        <text name="seasons_hint_21" text="Los animales pueden morir de vejez, tener sobrepeso o estar mal alimentados." />
+        <text name="seasons_hint_22" text="Los árboles no pueden crecer cuando otros árboles están demasiado cerca." />
+        <text name="seasons_hint_23" text="El pronóstico del tiempo se vuelve más incierto, cuanto más largo es el pronóstico." />
+        <text name="seasons_hint_24" text="La hierba húmeda debe ser volteada (Henificador) y luego secarse al sol para convertirse en heno. La hierba seca solo necesita secarse al sol." />
+        <text name="seasons_hint_25" text="El pronóstico del tiempo da una indicación de qué tan bien puede secarse la hierba." />
+
+        <text name="seasons_helpTitle_01" text="Seasons" />
+        <text name="seasons_helpText_01_01" text="Seasons es un mod que mejora el realismo en el juego Farming Simulator ajustando casi todos los aspectos a parámetros más realistas. Todo, desde efectos estacionales hasta patrones de crecimiento de cultivos y producción animal, se ha cambiado a un nivel más realista." />
+        <text name="seasons_helpText_01_02" text="El año de juego se ha dividido en 4 estaciones: primavera, verano, otoño e invierno. Cada temporada se divide en 3 períodos: temprano, medio y tarde." />
+        <text name="seasons_helpText_01_03" text="Sus actividades están ligadas a la época del año en que se llevan a cabo en la vida real." />
+
+        <text name="seasons_helpTitle_02" text="Efectos estacionales (1)" />
+        <text name="seasons_helpText_02_01" text="El clima es aleatorio de un día a otro, pero sigue un patrón de una temporada a otra. Este patrón es diferente para cada GEO, pero el valor predeterminado es el siguiente:" />
+        <text name="seasons_helpText_02_02" text="La primavera será lluviosa y brumosa con algunas posibilidades de clima soleado. El verano será más cálido y seco. Las tormentas de granizo pueden ocurrir sin previo aviso. El otoño será lluvioso con un clima soleado. El invierno será lluvioso, pero a menudo lo suficientemente frío como para permitir que la nieve caiga y quizás incluso permanezca en el suelo." />
+        <text name="seasons_helpText_02_03" text="La nieve llenará los volquetes y las palas, a menos que el volquete o la pala estén cubiertos por un cobertizo con una máscara para nieve o una lona. La nieve también reducirá la tracción, haciendo que los vehículos sean más lentos." />
+
+        <text name="seasons_helpTitle_03" text="Efectos estacionales (2)" />
+        <text name="seasons_helpText_03_01" text="Las horas de luz también se ven afectadas con las estaciones. Los inviernos tienen días más cortos (8 horas) mientras que los veranos tienen días más largos (17 horas)." />
+        <text name="seasons_helpText_03_02" text="Los silos de bunker y las pacas de ensilaje requieren tiempo para fermentar. Se necesita un tercio de la temporada (1 período) para fermentar completamente un silo de bunker o una paca de ensilaje. El heno envuelto no fermentará, pero estará protegido contra el clima." />
+        <text name="seasons_helpText_03_03" text="Las estaciones también afectarán a los árboles y al follaje. Los árboles cambiarán de estado según los cambios estacionales de temperatura. Las hojas cambiarán de color y caerán en otoño. Los árboles se desnudarán en invierno y se volverán verdes más claros en la primavera." />
+
+        <text name="seasons_helpTitle_04" text="Pronóstico del tiempo" />
+        <text name="seasons_helpText_04_01" text="El pronóstico del tiempo para los próximos 7 días se puede ver en el menú de pronóstico, con las próximas 24 horas detalladas. La incertidumbre del pronóstico aumenta con el tiempo." />
+        <text name="seasons_helpText_04_02" text="El pronóstico del tiempo muestra las temperaturas altas / bajas y el clima (soleado, brumoso, lluvioso, nevoso, nublado) durante los próximos 7 días. Las tormentas de granizo no aparecerán en el pronóstico del tiempo, porque el granizo en la vida real suele ser un evento inesperado." />
+        <text name="seasons_helpText_04_03" text="El pronóstico también contiene la expectativa de caída, la velocidad del viento y una indicación del potencial de secado del pasto." />
+
+        <text name="seasons_helpTitle_05" text="Suelo" />
+        <text name="seasons_helpText_05_01" text="La temperatura del suelo se modela usando ecuaciones termodinámicas y datos históricos. Esto significa que el suelo se congelará en el invierno cuando la temperatura del aire caiga por debajo de cierto punto durante un cierto período de tiempo. El suelo se descongelará en la primavera cuando la temperatura del aire se eleva por encima de un cierto umbral durante un cierto período de tiempo." />
+        <text name="seasons_helpText_05_02" text="El suelo no se puede trabajar cuando el suelo está congelado. Los cultivos no crecerán en suelo congelado." />
+        <text name="seasons_helpText_05_03" text="Los cultivos solo germinarán cuando la temperatura del suelo esté por encima de sus temperaturas de germinación. Las temperaturas de germinación están incluidas en el calendario, en la primera página del menú Seasons." />
+        <text name="seasons_helpText_05_04" text="La temperatura del suelo y la humedad influyen en el crecimiento continuo de los cultivos. Si se pone demasiado frío o seco, algunas partes del cultivo pueden morir. Mira las resistencias de cada recorte en el menú." />
+
+        <text name="seasons_helpTitle_06" text="Cultivos - Introducción" />
+        <text name="seasons_helpText_06_01" text="Al comenzar un nuevo juego, todos los cultivos volverán a sus etapas de cosecha para simular el hecho de que los campos no se han trabajado desde el otoño. Cuando uses Seasons por primera vez en un juego guardado existente, tendrás la opción de restablecer los cultivos." />
+        <text name="seasons_helpText_06_02" text="Los patrones de crecimiento por defecto de los cultivos han sido reemplazados. Los cultivos ahora seguirán un patrón de crecimiento realista luego de sus correspondientes tiempos estacionales de siembra y cosecha. Esto también significa que el invierno matará la mayoría de los cultivos y los cultivos sembrados en el momento equivocado no crecerán." />
+        <text name="seasons_helpText_06_03" text="Los cultivos solo se pueden cosechar en su etapa final de crecimiento, excepto el rábano de álamo y oleaginosa, y se mantendrán en esta etapa final hasta que se eliminen en el invierno." />
+        <text name="seasons_helpText_06_04" text="Una vez que un cultivo que no es de raíz alcanza la primera etapa cosechable de acuerdo con el resumen de crecimiento en el menú esc, está listo para cosechar. Esta es la etapa final cosechable." />
+        <text name="seasons_helpText_06_05" text="Todavía se puede ensilar cultivos verdes." />
+
+        <text name="seasons_helpTitle_07" text="Cultivos - Cultivos arables" />
+        <text name="seasons_helpText_07_01" text="El crecimiento de los cultivos es ahora mucho más largo. Puede tomar medio año para que un cultivo alcance la etapa de cosecha." />
+        <text name="seasons_helpText_07_02" text="El invierno matará a la mayoría de los cultivos, pero los cultivos de invierno y primavera son posibles. El trigo, la cebada, el álamo, el pasto, los rábanos de semilla oleaginosa y la canola se pueden plantar en otoño para los cultivos de invierno o en primavera para los cultivos de primavera. Asegúrese de que el suelo esté lo suficientemente caliente para la germinación de estos cultivos." />
+        <text name="seasons_helpText_07_03" text="El maíz, la soja, el girasol, la remolacha azucarera y las papas se deben plantar en la primavera. Asegúrese de verificar el panorama de crecimiento en el Menú de estaciones, ya que algunos cultivos no se pueden plantar en la primera transición de la primavera (principios de la primavera) y morirán, incluso si la temperatura del suelo está por encima de la temperatura de germinación." />
+
+        <text name="seasons_helpTitle_08" text="Cultivos - Rendimiento" />
+        <text name="seasons_helpText_08_01" text="Para obtener el mejor rendimiento del cultivo, un cultivo debe estar libre de malezas (deshierbando o fumigando), completamente crecido y totalmente fertilizado (tres veces). El suelo también debe ser nutricional y no demasiado compacto para el cultivo." />
+        <text name="seasons_helpText_08_02" text="Para crear buen suelo, rote los cultivos cada año. Para obtener más información sobre las rotaciones, puede utilizar el planificador en el menú Estaciones. También puede ser necesario arar un campo antes de plantar un cultivo que prefiere un suelo menos compacto." />
+        <text name="seasons_helpText_08_03" text="Las rotaciones ideales de los cultivos son menos resistentes en el suelo. Con una buena práctica, se le otorga un nivel de fertilización al sembrar cultivos beneficiosos para su historia." />
+
+        <text name="seasons_helpTitle_09" text="Cultivos - Heno, Paja y Hierba" />
+        <text name="seasons_helpText_09_01" text="En invierno, la hierba se restablece a su etapa de cosecha para simular el invierno matando la hierba cuando se enfría." />
+        <text name="seasons_helpText_09_02" text="Las pacas de hierba se pudrirán gradualmente y desaparecerán después de dos días, sin importar dónde se coloquen. Para evitar el deterioro, las pacas deben usarse o envolverse. Una vez envueltos, se convertirán en pacas de ensilaje después de 1/3 de temporada." />
+        <text name="seasons_helpText_09_03" text="Las franjas y montones de hierba comenzarán a reducir su tamaño, y eventualmente desaparecerán después de varios días. Las franjas de hierba y las pilas se reducen a la medianoche todos los días. Las franjas y pilas de heno y paja se reducen después de estar expuestos a la lluvia." />
+        <text name="seasons_helpText_09_04" text="La paja y el heno deben ser empacados antes de poder venderse; la paja suelta y el heno no se pueden vender, solo se pueden regalar de forma gratuita. El pasto, embalado o suelto, tampoco se puede vender." />
+
+        <text name="seasons_helpTitle_10" text="Cultivos - Arboles" />
+        <text name="seasons_helpText_10_01" text="Los árboles tardan más tiempo en alcanzar su estado de pleno crecimiento. Tomará árboles plantables 5 años de juego para que se cultiven completamente y después de 2 años se pueden cortar." />
+        <text name="seasons_helpText_10_02" text="Los árboles inhiben el crecimiento de otros árboles si se han plantado demasiado juntos. Para reiniciar el crecimiento del árbol, deberá adelgazar los árboles." />
+
+        <text name="seasons_helpTitle_11" text="Cultivos - Efectos del clima" />
+        <text name="seasons_helpText_11_01" text="La lluvia, el granizo y la nieve afectan los niveles de humedad de los cultivos. Si la humedad en los cultivos está por encima de cierto punto debido al mal tiempo, no podrá cosechar sus cultivos. Las noches húmedas de verano pueden ocurrir sin previo aviso." />
+        <text name="seasons_helpText_11_02" text="Después de la lluvia, sus cultivos necesitarán tiempo para secarse, lo que depende de la temperatura del aire y la época del año. Un clima más cálido significa que los cultivos se secarán más rápido que en un clima más frío." />
+        <text name="seasons_helpText_11_03" text="El uso de un rastrillo en la hierba húmeda hará que la hierba quede semi-seca. La luz del sol es necesaria para secar completamente la hierba en heno. Si la hierba estaba seca durante el corte, no es necesario hacer costuras." />
+        <text name="seasons_helpText_11_04" text="En un mapa modificado que ha sido preparado con una máscara Seasons por el modder, las balas de paja y paja expuestas a la lluvia o la nieve comenzarán a pudrirse, a menos que las balas se almacenen en un cobertizo. El mal tiempo no afectará las pacas envueltas o pacas en un mapa sin una máscara." />
+
+        <text name="seasons_helpTitle_12" text="Mantenimiento" />
+        <text name="seasons_helpText_12_01" text="Sus tractores y cosechadoras requieren mantenimiento periódico para mantenerlos operativos. El período de mantenimiento es cada 20 horas. Los vehículos dañados pueden ser menos potentes, más lentos o menos eficientes." />
+        <text name="seasons_helpText_12_02" text="Puede reparar sus vehículos en la tienda de vehículos o en el garaje que se puede ubicar. La reparación no hará que el vehículo parezca nuevo otra vez: para eso necesita volver a pintar el vehículo." />
+
+        <text name="seasons_helpTitle_13" text="Economía" />
+        <text name="seasons_helpText_13_01" text="Los precios de los cultivos y los animales fluctúan con los cambios en las estaciones de una manera más realista. Esto se basa en el mercado económico global." />
+
+        <text name="seasons_helpTitle_14" text="Ayuda contratada" />
+        <text name="seasons_helpText_14_01" text="Los trabajadores contratados requieren pago de horas extras. Si un trabajador contratado se usa antes de las 6 AM y después de las 6 PM, su salario será 50% más alto." />
+
+        <text name="seasons_helpTitle_15" text="Animales - Introducción" />
+        <text name="seasons_helpText_15_01" text="Los animales se han transformado en un sistema más realista. Hay razas cada una con sus propias propiedades. Los animales hembras pueden reproducirse o producirse, mientras que los machos son principalmente para engorde y venta." />
+        <text name="seasons_helpText_15_02" text="El consumo de alimentos y agua de un animal se basa en su edad y peso, y en la temperatura. Cuando hace calor en el verano, un animal necesita menos paja pero más agua. En invierno, cuando se congela, requiere más paja pero menos agua. La capacidad máxima de alimentación se reduce a 2 días. Esto significa que necesitas alimentar a tus animales todos los días." />
+        <text name="seasons_helpText_15_03" text="Los animales mueren cuando no se alimentan, o se les da agua." />
+
+        <text name="seasons_helpTitle_16" text="Animales - Producción" />
+        <text name="seasons_helpText_16_01" text="La producción de un animal depende de su raza y de la calidad de sus alimentos. Las vacas necesitan tener terneros antes de producir leche." />
+        <text name="seasons_helpText_16_02" text="Las hembras producen huevos. Cuando un gallo está cerca e interesado, la gallina podría meditar sobre sus huevos, creando descendencia." />
+
+        <text name="seasons_helpTitle_17" text="Animales - Librea estable." />
+        <text name="seasons_helpText_17_01" text="Los caballos pueden ser llevados a un establo de librea en la granja. Puedes cuidar a los caballos alimentándolos, montándolos y limpiándolos. Cada día, el propietario del caballo le paga una cantidad según el cuidado que se le brinde." />
+        <text name="seasons_helpText_17_02" text="No todos los caballos son tan fáciles de cuidar." />
+
+        <text name="seasons_helpTitle_18" text="Menú Seasons" />
+        <text name="seasons_helpText_18_01" text="El menú Seasons se usa como una guía de referencia para la siembra, los cultivos, el clima y la economía. También se puede utilizar para cambiar la configuración relacionada con las estaciones." />
+        <text name="seasons_helpText_18_02" text="La primera página es el calendario de siembra y cosecha. Las temperaturas de germinación de todos los cultivos se muestran a la izquierda del gráfico. Si la temperatura al lado de un cultivo es blanca, significa que es lo suficientemente cálida para plantar ese cultivo en particular. Si la temperatura es azul, hace demasiado frío." />
+        <text name="seasons_helpText_18_03" text="La segunda página da un pronóstico del tiempo detallado. La tercera página contiene información adicional sobre los cultivos con respecto a su resistencia a las heladas y la sequía." />
+        <text name="seasons_helpText_18_04" text="En la cuarta página puede encontrar datos sobre los precios de los productos en el último año. Los datos se actualizan todos los días. El precio futuro es solo una estimación por lo que pueden ocurrir desviaciones. La quinta página es un planificador de rotación de cultivos. Cada columna puede contener una nueva rotación, y se almacena con su juego." />
+        <text name="seasons_helpText_18_05" text="La sexta y última página es el menú de configuración. En esta página, hay varias opciones disponibles para ajustar las Estaciones según cómo quieras jugar." />
+
+        <text name="seasons_helpTitle_19" text="HUD" />
+        <text name="seasons_helpText_19_01" text="Un HUD a la izquierda del reloj en la esquina superior derecha muestra información relevante a Seasons. Muestra la temperatura actual del aire en la parte superior y la temperatura del suelo en la parte inferior. El estado del suelo (cultivos húmedos / suelo congelado) también se muestra a la izquierda de este HUD. El período estacional y el día de la temporada actual también se muestra allí." />
+
+        <text name="seasons_helpTitle_20" text="Herramienta de medición" />
+        <text name="seasons_helpText_20_01" text="El MT9 es una herramienta manual de medición que se puede utilizar para obtener más información sobre el suelo, los árboles, las pacas y las plataformas. Después de comprar la herramienta en la tienda, se puede activar como cualquier otra herramienta manual y motosierra. Apunta algo y activa para comenzar a medir. Una medida puede fallar." />
+        <text name="seasons_helpText_20_02" text="Para árboles plantados puede medir el tipo de árbol, la altura del árbol y la distancia al árbol más cercano. Para las balas se obtiene el contenido y para las balas de pasto también el estado de fermentación. La medición del terreno proporciona la ubicación, elevación, tipo de cultivo, crecimiento y humedad del cultivo, nivel de fertilización y humedad del suelo. Para palets se obtiene el contenido." />
+        <text name="seasons_helpText_20_03" text="Para obtener más información sobre el MT9 y una explicación detallada de sus símbolos, consulte el sitio web Realismus Modding: www.realismusmodding.com/seasons19." />
+
+        <text name="seasons_helpTitle_21" text="Varios" />
+        <text name="seasons_helpText_21_01" text="Si decide cambiar la duración de la temporada en medio de un juego guardado existente, se recomienda que 1) cambie la duración de la temporada durante el invierno para reducir los efectos no deseados en los cultivos existentes y 2) reinicie el juego / servidor después de cambiar la temporada longitud." />
+        <text name="seasons_helpText_21_02" text="Si bien es tu juego jugar como quieres, se sugiere, como desafío, jugar solo con una temporada de 9 días y con una aceleración de tiempo 5x. De esta manera, usted solo pasa la primavera cultivando y sembrando cultivos, cuidando cultivos y cortando heno en verano, cosechando y arando en otoño, y atendiendo animales, máquinas, bosques y vendiendo cultivos durante el invierno." />
+
+    </texts>
+</l10n>

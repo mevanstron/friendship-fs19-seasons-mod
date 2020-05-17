@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="47">
+    <author>Realismus Modding</author>
+    <contributors>theSeb, Rahkiin, reallogger, mrbear, Wopster</contributors>
+    <version>1.2.0.0</version>
+    <build>52</build>
+
+    <title>
+        <en>Seasons</en>
+    </title>
+
+    <description>
+        <en><![CDATA[Winter is coming... and spring, summer and autumn too.
+The Seasons mod changes the fundamental way to play Farming Simulator by introducing seasons and changing all aspects of the gameplay, such as weather, growth, economy, vehicle maintenance and animals to suit.
+
+Seasons 19 has gotten even more immersive with new visuals and sounds that better integrate into the game and the gameplay.
+
+Experience the trials and tribulations of a real life farmer worrying if you will get all your crops planted on time before it gets too cold, or too dry, for them to germinate and whether you will complete the harvest before the rainy days of autumn when crops will be wet.
+
+Beautiful visuals to suit the seasons, such as the birth of life in spring, the richness of colour of autumn and bare trees on a bleak winter's day when you are clearing the snow, or doing forestry, will help to fully immerse you in this new environment.
+
+See to the management of your herds with the new breeds of cattle, pigs, sheep, and chickens, or take care of horses for a steady income.
+
+For further info on game play checkout the Seasons section of the in-game help. A full list of features can be found on our website, <a href="https://www.realismusmodding.com">www.realismusmodding.com</a>.
+
+The release notes can be found on our website <a href="https://www.realismusmodding.com/mods/seasons19/manual/release_notes.html#version-110">as well</a>.
+
+Version 1.2.0.0:
+- Added American Spanish translation.
+- Fix for some rotting bales when they should not rot.
+- Performance improvements.
+
+Version 1.1.0.0:
+- Console release.
+- Grass growth has been updated to fix second-year growth.
+- New animal screen in the Seasons menu with more details. Old screen has been removed.
+- Animals now have a name (number) so you can identify them easier.
+- Fixes for some special cases with maps and other mods.
+- Fix for massive amounts of snow in special case.
+- Fixes for the weather generation freezing gameplay.
+- Improved weather generation.
+- Added snow contracts (need map support).
+- Improved helper AI.
+- Fixed crop rotation effects.
+
+Version 1.0.1.0:
+- Fix for maps causing crashes: no crash but map still won’t work due to engine limitations until it’s updated by the map author.
+- Fix issue where growth conflicts with basegame.
+- Fixed economy history.
+- Fixed issue with drought damage on new saves.
+- Fixed issues in weather generation and weather forecast that could cause lag.
+- Fixed the snow melting and falling. Snow toggle now removes all snow too.
+- Improve grass system.
+- Improved animal balancing and information.
+- Improved building and US/DE map Seasons masks.
+- New and improved translations.
+- Many more small and big fixed and improvements. See the release notes.
+        ]]>
+        </en>
+        <de><![CDATA[Der Winter naht.... und der Frühling, Sommer und Herbst auch.
+Der Seasons Mod verändert die grundlegende Art und Weise, wie man den Farming Simulator spielt, indem die Jahreszeiten eingeführt werden und alle Aspekte des Gameplays, wie Wetter, Wachstum, Wirtschaft, Instandhaltung der Fahrzeuge und Tiere, entsprechend angepasst werden.
+
+Seasons 19 ist mit neuen Grafik- und Soundeffekten, die besser in das Spiel und das Gameplay integriert sind, noch eindrucksvoller geworden.
+
+Erlebe die Mühen und Schwierigkeiten eines echten Bauern, der sich Sorgen macht, ob sich alle Kulturen rechtzeitig anbauen lassen, bevor es zu kalt oder zu trocken wird, um keimen zu können, und ob die Ernte vor den regnerischen Tagen im Herbst, wenn die Pflanzen nass werden, abgeschlossen werden kann.
+
+Schöne, den Jahreszeiten angepasste Darstellungen, wie die Geburt des Lebens im Frühjahr, der Farbenreichtum des Herbstes und kahle Bäume an einem trüben Wintertag, an dem man den Schnee räumt oder die Forstwirtschaft betreibt, werden dazu beitragen, einen vollständig in diese neue Umgebung zu versetzen.
+
+Kümmere dich um die Verwaltung deiner Herden mit den neuen Rassen von Rindern, Schweinen, Schafen und Hühnern oder kümmere dich um Pferde für ein geregeltes Einkommen.
+
+Weitere Informationen zum Spiel findest du im Abschnitt der Seasons In-Game-Hilfe. Eine vollständige Liste der Funktionen findest du auf unserer Website, <a href="https://www.realismusmodding.com">www.realismusmodding.com</a>.
+
+Die Versionshinweise finden Sie <a href="https://www.realismusmodding.com/mods/seasons19/manual/release_notes.html#version-110">auch</a> auf unserer Webseite.
+
+Version 1.2.0.0:
+- Added American Spanish translation.
+- Fix for some rotting bales when they should not rot.
+- Performance improvements.
+
+Version 1.1.0.0:
+- Console release.
+- Grass growth has been updated to fix second-year growth.
+- New animal screen in the Seasons menu with more details. Old screen has been removed.
+- Animals now have a name (number) so you can identify them easier.
+- Fixes for some special cases with maps and other mods.
+- Fix for massive amounts of snow in special case.
+- Fixes for the weather generation freezing gameplay.
+- Improved weather generation.
+- Added snow contracts (need map support).
+- Improved helper AI.
+- Fixed crop rotation effects.
+
+Version 1.0.1.0:
+- Fix for maps causing crashes: no crash but map still won’t work due to engine limitations until it’s updated by the map author.
+- Fix issue where growth conflicts with basegame.
+- Fixed economy history.
+- Fixed issue with drought damage on new saves.
+- Fixed issues in weather generation and weather forecast that could cause lag.
+- Fixed the snow melting and falling. Snow toggle now removes all snow too.
+- Improve grass system.
+- Improved animal balancing and information.
+- Improved building and US/DE map Seasons masks.
+- New and improved translations.
+- Many more small and big fixed and improvements. See the release notes.
+        ]]>
+        </de>
+        <fr><![CDATA[L'hiver arrive... et le printemps, l'été et l'automne aussi.
+Le mod Seasons change la façon fondamentale de jouer à Farming Simulator en introduisant des saisons et en changeant tous les aspects du gameplay, tels que le temps, la croissance, l'économie, l'entretien des véhicules et les animaux pour les adapter.
+
+Seasons 19 est devenu encore plus immersif avec de nouveaux visuels et sons qui s'intègrent mieux dans le jeu et le gameplay.
+
+Vivez les épreuves et les tribulations d'un vrai fermier qui s'inquiète de savoir si toutes ses cultures seront semées à temps avant qu'il ne fasse trop froid ou trop sec pour qu'elles germent et si la récolte sera terminée avant les jours de pluie d'automne, lorsque les cultures seront humides.
+
+De beaux visuels adaptés aux saisons, comme la naissance de la vie au printemps, la richesse des couleurs de l'automne et les arbres nus par une sombre journée d'hiver lorsque vous déneigez ou que vous faites de la foresterie, vous aideront à vous plonger pleinement dans ce nouvel environnement.
+
+Veillez à la gestion de vos troupeaux avec les nouvelles races de bovins, de porcs, de moutons et de poulets, ou prenez soin des chevaux pour un revenu plus régulier.
+
+Pour plus d'informations sur le jeu, consultez la section Saisons de l'aide en jeu. Une liste complète des fonctionnalités est disponible sur notre site Web, <a href="https://www.realismusmodding.com">www.realismusmodding.com</a>.
+
+Ces informations de version, sont disponible sur notre <a href="https://www.realismusmodding.com/mods/seasons19/manual/release_notes.html#version-110">site web</a>.
+
+Version 1.2.0.0:
+- Added American Spanish translation.
+- Fix for some rotting bales when they should not rot.
+- Performance improvements.
+
+Version 1.1.0.0:
+- Déverrouillage pour consoles.
+- La croissance de l'herbe a été mise à jour pour corriger la croissance de la deuxième année.
+- Nouvel écran animaux dans le menu Saisons avec plus de détails. L'ancien écran du jeu a été enlevé.
+- Les animaux ont maintenant un nom (un numéro) pour que vous puissiez les identifier plus facilement.
+- Corrections pour certains cas particuliers avec des cartes et autres mods.
+- Correction des grosses quantités de neige dans des cas particuliers.
+- Corrections pour le gameplay de la génération météo qui fige.
+- Amélioration de la génération de la météo.
+- Ajout de contrats de déneigement (besoin de cartes adaptées).
+- Amélioration de l'IA d'aide.
+- Correction des effets de rotation des cultures.
+
+Version 1.0.1.0:
+- Correction pour les cartes causant des plantages : pas de plantage mais la carte ne fonctionnera toujours pas à cause des limitations du moteur jusqu'à ce qu'elle soit mise à jour par l'auteur de la carte.
+- Correction d'un problème où la croissance entre en conflit avec le jeu de base.
+- Correction de l'historique de l'économie.
+- Correction d'un problème avec les dommages causés par la sécheresse sur les nouvelles sauvegardes.
+- Correction de problèmes dans la génération et les prévisions météorologiques qui pouvaient causer des retards.
+- Correction de la fonte et de la chute de neige. Le système de déneigement élimine lui aussi maintenant toute la neige .
+- Amélioration du système de gazon.
+- Amélioration de l'équilibre et de l'information des animaux.
+- Amélioration des masques de construction et de la carte des saisons US/DE.
+- Traductions nouvelles et améliorées.
+- Beaucoup d'autres petites et grandes corrections et améliorations. Voir les notes de publication.
+        ]]>
+        </fr>
+        <pl><![CDATA[Zima nadchodzi... wiosna, lato oraz jesień rówież!
+Mod Seasons znacząco zmienia sposób gry w Farming Simulator, wprowadzając pory roku i zmieniając wszystkie aspekty rozgrywki, takie jak pogoda, wzrost roślin, ekonomia, konserwacja pojazdów i zwierzęta.
+
+Seasons 19 stał się jeszcze bardziej wciągający dzięki nowym wizualizacjom i dźwiękom, które lepiej wpasowują się w realną rozgrywkę.
+
+Przeżyj wyzwania i udręki prawdziwego rolnika, który martwi się, czy wszystkie uprawy zostaną posadzone na czas zanim zrobi się zbyt zimno lub sucho na zasiew iczy uda się skończyć żniwa przed deszczową jesienią zanim uprawy będą mokre.
+
+Piękne wizualizacje dostosowane do pór roku, takie jak rozkwitanie roślin na wiosnę, bogactwo kolorów jesieni i nagie drzewa w ponury zimowy dzień, kiedy zajmujesz się leśnictwem, pomogą Ci wczuć się w rolę farmera jeszcze bardziej niż dotychczas.
+
+Zajmij się opieką nowych ras bydła, świń, owiec i kurcząt lub opiekuj się końmi, aby uzyskać stały dochód gospodarstwa.
+
+Aby dowiedzieć się więcej sprawdź sekcję Seasons w menu pomocy. Pełną listę funkcji można znaleźć na naszej stronie internetowej <a href="https://www.realismusmodding.com"> www.realismusmodding.com </a>.
+
+Informacje o zmianach pomiędzy wersjami również można znaleźć na naszej <a href="https://www.realismusmodding.com/mods/seasons19/manual/release_notes.html#version-110">stronie internetowej</a>.
+        ]]>
+        </pl>
+	    <it><![CDATA[L'inverno sta arrivando ... e anche la primavera, l'estate e l'autunno.
+La mod Seasons cambia il modo fondamentale di giocare a Farming Simulator introducendo le stagioni e cambiando tutti gli aspetti del gameplay, come il tempo, la crescita, l'economia, la manutenzione del veicolo e gli animali per adattarli.
+
+Seasons 19 è diventato ancora più coinvolgente con nuove immagini e suoni che si integrano meglio nel gioco e nel gameplay.
+
+Sperimenta le prove e le difficoltà di un vero agricoltore, preoccupati se riuscirai a piantare tutte le tue colture in tempo prima che faccia troppo freddo o troppo secco, affinché possano germogliare e se completerai la raccolta prima dei giorni piovosi dell'autunno quando per le raccolta sarà toppo bagnato.
+
+Belle immagini per adattarsi alle stagioni, come la nascita della vita in primavera, la ricchezza del colore dell'autunno e gli alberi spogli in una brutta giornata invernale quando pulici la neve o fai silvicoltura, ti aiuteranno a immergerti completamente in questo nuovo ambiente.
+
+Controlla la gestione delle tue mandrie con le nuove razze di bovini, suini, ovini e polli o prenditi cura dei cavalli per un reddito costante.
+
+Per ulteriori informazioni sul gioco, consulta la sezione Stagioni della guida in gioco. Un elenco completo di funzionalità è disponibile sul nostro sito Web, <a href="https://www.realismusmodding.com"> www.realismusmodding.com </a>.
+        ]]>
+        </it>
+         <nl><![CDATA[Winter komt er aan.. En lente, zomer en herfst komen er ook aan.
+De Seasons mod verandert de fundamentele manier om Farming Simulator te spelen door seizoenen te introduceren en alle aspecten van de gameplay te veranderen, zoals het weer, groei, economie, voertuigonderhoud en veeteelt.
+
+Seasons 19 is nog meeslepender geworden met nieuwe visuals en geluiden die beter integreren in de game en de gameplay.
+
+Ervaar de proeven en beproevingen van een echte boer om ervoor te zorgen dat je al je gewassen tijdig plant, voordat het te koud of te droog wordt, om te ontkiemen en of je de oogst voor de regenachtige dagen van de herfst zal kunnen oogsten wanneer gewassen nat zullen zijn.
+
+Prachtige visuals die zich aanpassen aan het seizoen, zoals de geboorte van het leven in het voorjaar, de rijkdom van de herfstkleuren in de herfst en de kale bomen op een fijne winterdag wanneer u de sneeuw opruimt of bosbouw doet, helpt u hier volledig zich aan te passen aan deze nieuwe omgeving.
+Zorg voor het beheer van uw kuddes met de nieuwe rassen van koeien, varkens, schapen en kippen, of zorg voor paarden voor een vast inkomen.
+
+Voor nadere informatie over de game play bekijk de Seasons sectie van de in-game help. Een volledige lijst van functies vindt u op onze website, <a href="https://www.realismusmodding.com">www.realismusmodding.com</a>.
+        ]]>
+        </nl>
+    </description>
+
+    <iconFilename>icon.png</iconFilename>
+
+    <multiplayer supported="true" />
+
+    <l10n filenamePrefix="translations/translation" />
+
+    <extraSourceFiles>
+        <sourceFile filename="src/main.lua" />
+    </extraSourceFiles>
+
+    <actions>
+        <action name="SEASONS_SHOW_MENU" axisType="HALF" />
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="SEASONS_SHOW_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_s" />
+            <binding device="GAMEPAD_DEFAULT" input="BUTTON_5 BUTTON_10" />
+        </actionBinding>
+    </inputBinding>
+
+    <storeItems>
+        <storeItem xmlFilename="resources/placeables/waterPump/waterPump.xml" />
+        <storeItem xmlFilename="resources/handtools/measureTool/measureTool.xml" />
+        <storeItem xmlFilename="resources/objects/saltBigBag/bigBagContainerSalt.xml" />
+    </storeItems>
+
+    <credits>
+        Translations: Farmer1602, Gonimy_Vetrom, Amadeo, MrMarcel, Vanquish, Matteo7810, Lorenzos, Ch3mi, Kacper, MrHector, Lukas, fatikki, JoshvZeyl, liuzhenyu811
+        Basegame masks: Gonimy_Vetrom
+        Animal research and design: Zugs
+    </credits>
+</modDesc>

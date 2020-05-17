@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<handTool>
+    <storeData>
+        <name>MT 9</name>
+        <functions>
+            <function>$l10n_seasons_function_measureTool</function>
+        </functions>
+        <image>resources/handtools/measureTool/store_measureTool.png</image>
+        <price>5000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <category>misc</category>
+        <species>handTool</species>
+    </storeData>
+
+    <handToolType>seasonsMeasureTool</handToolType>
+    <filename>resources/handtools/measureTool/measureTool.i3d</filename>
+
+    <handNode>
+        <firstPerson position="0.15 -0.22 -0.6" rotation="60 0 0" />
+        <thirdPerson position="-0.16 0 0" rotation="20 180 270" />
+    </handNode>
+
+    <measureTool>
+        <pricePerSecond>2</pricePerSecond>
+        <sounds>
+            <measure file="resources/sounds/handtools/measure_beep.wav" linkNode="0>" innerRadius="2.0" outerRadius="5.0" >
+                <volume indoor="1.00" outdoor="1.00" />
+                <pitch indoor="1.00" outdoor="1.00" />
+                <lowpassGain indoor="0.80" outdoor="1.00" />
+            </measure>
+        </sounds>
+    </measureTool>
+
+</handTool>

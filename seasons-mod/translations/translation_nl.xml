@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Lukas,JoshvZ</translationContributors>
+    <texts>
+        <text name="action_toggle_plant_distance" text="Plantafstand in/uitschakelen (%d m)" />
+        <text name="fillType_salt" text="Strooizout" />
+        <text name="fillType_snow" text="Sneeuw" />
+        <text name="input_SEASONS_SHOW_MENU" text="Toon Seasons menu" />
+        <text name="seasons_forecast_averageTemperature" text="Gemiddelde temperatuur" />
+        <text name="seasons_forecast_maximumTemperature" text="Maximale temperatuur" />
+        <text name="seasons_forecast_minimumTemperature" text="Minimum temperatuur" />
+        <text name="seasons_forecast_precipitationInMm" text="Neerslag (mm)" />
+        <text name="seasons_forecast_precipitationPercentage" text="Neerslag (%)" />
+        <text name="seasons_forecast_type" text="Voorspelling" />
+        <text name="seasons_forecast_windSpeed" text="Wind(m/s)" />
+        <text name="seasons_forecast_dryingPotential" text="Droogpotentieel" />
+        <text name="seasons_forecast_info" text="De onzekerheid van de weersvoorspellingen neemt toe met de tijd." />
+        <text name="seasons_function_baleCutter" text="Een balensnijder kan worden gebruikt om balen te ontdoen." />
+        <text name="seasons_function_bigBagSalt" text="Bigbags worden gebruikt om zoutstrooiers te hervullen."/>
+        <text name="seasons_function_measureTool" text="Met behulp van een meetinstrument kunt u informatie krijgen over de bodem, bomen, balen en andere objecten." />
+        <text name="seasons_helpCategory_1" text="Seasons" />
+        <text name="seasons_intro_0" text="De lente is hier; bloemen en bomen bloeien. Het is tijd om uw velden te cultiveren en te zaaien." />
+        <text name="seasons_intro_1" text="De dagen zijn lang en warm in de zomer. Het is tijd om hooi te maken en de gewassen te zien groeien." />
+        <text name="seasons_intro_2" text="De bladeren worden bruin en het wordt steeds kouder - de herfst is aangebroken. Zorg ervoor dat u de gewassen oogst voor de winter." />
+        <text name="seasons_intro_3" text="De winter is gevallen en de dieren hebben meer zorg nodig. De grond zal bevroren zijn en u kunt uw akkers niet bewerken. Het is tijd voor bosbouw en het opruimen van sneeuw." />
+        <text name="seasons_measuretool_failed" text="Meeting gefaald" />
+        <text name="seasons_measuretool_fermentation_time" text="%d Uren te gaan" />
+        <text name="seasons_measuretool_fermentation_time_low" text="Minder dan 1uur te gaan" />
+        <text name="seasons_measuretool_no_info" text="Meeting gefaald: geen information" />
+        <text name="seasons_measuretool_title" text="Meeting" />
+        <text name="seasons_message_failedHeightTypes" text="Seasons kon niet worden geladen voor de geselecteerde kaart: de kaart is niet geschikt voor Seasons. (Er zijn te veel fruiten op de grond)" />
+        <text name="seasons_notification_animalsKilled" text="Dieren gestorven (%d)" />
+        <text name="seasons_notification_animalsDiedOfAge" text="Dieren gestorven van ouderdom (%d)" />
+        <text name="seasons_notification_horseDied" text="%s zijn gestorven" />
+        <text name="seasons_notification_animalsDiedInTrailer" text="Dieren zijn gestorven in de trailer (%d)" />
+        <text name="seasons_periodNameFull_1" text="Vroege Lente" />
+        <text name="seasons_periodNameFull_10" text="Vroege Winter" />
+        <text name="seasons_periodNameFull_11" text="Mid Winter" />
+        <text name="seasons_periodNameFull_12" text="Eind Winter" />
+        <text name="seasons_periodNameFull_2" text="Mid Lente" />
+        <text name="seasons_periodNameFull_3" text="Eind Lente" />
+        <text name="seasons_periodNameFull_4" text="Vroege Zomer" />
+        <text name="seasons_periodNameFull_5" text="Mid Zomer" />
+        <text name="seasons_periodNameFull_6" text="Eind Zomer" />
+        <text name="seasons_periodNameFull_7" text="Vroege Herfst" />
+        <text name="seasons_periodNameFull_8" text="Mid Herfst" />
+        <text name="seasons_periodNameFull_9" text="Eind Herfst" />
+        <text name="seasons_rotationCategory_0" text="Braakliggend terrein" />
+        <text name="seasons_rotationCategory_1" text="Oliehoudende zaden" />
+        <text name="seasons_rotationCategory_2" text="Granen" />
+        <text name="seasons_rotationCategory_3" text="Peulvruchten" />
+        <text name="seasons_rotationCategory_4" text="Wortelgewassen" />
+        <text name="seasons_rotationCategory_5" text="Nachtschade familie" />
+        <text name="seasons_rotationCategory_6" text="Grassen" />
+        <text name="seasons_rotation_recommendationAny" text="Elk" />
+        <text name="seasons_seasonName_0" text="Lente" />
+        <text name="seasons_seasonName_1" text="Zomer" />
+        <text name="seasons_seasonName_2" text="Herfst" />
+        <text name="seasons_seasonName_3" text="Winter" />
+        <text name="seasons_setting_moisture" text="Vochtigheid van het gewas" />
+        <text name="seasons_setting_seasonIntros" text="Seizoensintroductie" />
+        <text name="seasons_setting_seasonLength" text="Seizoenslengte" />
+        <text name="seasons_setting_snow" text="Sneeuw Modus" />
+        <text name="seasons_setting_snowTracks" text="Sneeuwsporen" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BLACK"           text="Cornish Cross"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_BROWN"           text="Rhode Island Red"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_ROOSTER"         text="Haan"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_WHITE"           text="Witte Leghorn"/>
+        <text name="seasons_shopItem_COW_TYPE_BLACK"               text="Salers"/>
+        <text name="seasons_shopItem_COW_TYPE_BLACK_WHITE"         text="Holstein"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_BROWN"       text="Brahman (bruin)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_GREY"        text="Brahman (grijs)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="Brahman (licht bruin)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_WHITE"       text="Brahman (wit)"/>
+        <text name="seasons_shopItem_COW_TYPE_BROWN"               text="Limousin"/>
+        <text name="seasons_shopItem_COW_TYPE_BROWN_WHITE"         text="Ayrshire"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BEIGE"             text="Haflinger"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BLACK"             text="Zwarte Arabier"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN"             text="Volbloed"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN_WHITE"       text="Paint"/>
+        <text name="seasons_shopItem_HORSE_TYPE_DARK_BROWN"        text="Tennessee Walking Horse"/>
+        <text name="seasons_shopItem_HORSE_TYPE_GREY"              text="Andalusian"/>
+        <text name="seasons_shopItem_HORSE_TYPE_LIGHT_BROWN"       text="Morgan"/>
+        <text name="seasons_shopItem_HORSE_TYPE_RED_BROWN"         text="Quarter Horse"/>
+        <text name="seasons_shopItem_PIG_TYPE_BLACK"               text="Berkshire"/>
+        <text name="seasons_shopItem_PIG_TYPE_BLACK_WHITE"         text="Spotted"/>
+        <text name="seasons_shopItem_PIG_TYPE_RED"                 text="Yorkshire"/>
+        <text name="seasons_shopItem_PIG_TYPE_WHITE"               text="Gloucestershire Old Spot"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK"             text="Dorper"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK_WHITE"       text="Suffolk"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BROWN"             text="Merino"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_WHITE"             text="Dorset"/>
+        <text name="seasons_shopItem_baleCutter" text="Balensnijder" />
+        <text name="seasons_shopItem_bigBagSalt" text="Strooizout Bigbag" />
+        <text name="seasons_shopItem_waterPump" text="Waterpomp" />
+        <text name="seasons_statistic_health" text="Gezondheidstoestand" />
+        <text name="seasons_tooltip_moisture" text="Dorsen niet mogelijk wanneer het gewas overmatig vocht bevat (20%)" />
+        <text name="seasons_tooltip_seasonIntros" text="Toon een seizoensindroductie bij de start van een nieuw seizoen" />
+        <text name="seasons_tooltip_seasonLength" text="De lengte van een seizoen in dagen. Een jaar bevat vier seizoenen" />
+        <text name="seasons_tooltip_snow" text="Sneeuw valt op koude winterdagen en zal de weg blokkeren" />
+        <text name="seasons_tooltip_snowTracks" text="Voertuigen comprimeren sneeuw als ze er overheen rijden" />
+        <text name="seasons_ui_beforePreviousFruit" text="Vóór de vorige" />
+        <text name="seasons_ui_calendar" text="Kalender" />
+        <text name="seasons_ui_cropRotation" text="Gewasrotatie" />
+        <text name="seasons_ui_cropRotationExplanation" text="De gewasrotatie start na de laatste oogst. Aangezien er meerdere kolommen zijn, kunt u meerdere rotaties plannen om verschillende gewassen te laten groeien. Zorg er wel voor dat je niet vergeet welke velden welke rotatie hebben, zodat je ze niet door elkaar haalt." />
+        <text name="seasons_ui_cropRotationPlanner" text="Gewasrotatie Planner" />
+        <text name="seasons_ui_cropRotation_1" text="Rotatie 1" />
+        <text name="seasons_ui_cropRotation_2" text="Rotatie 2" />
+        <text name="seasons_ui_cropRotation_3" text="Rotatie 3" />
+        <text name="seasons_ui_cropRotation_4" text="Rotatie 4" />
+        <text name="seasons_ui_crop_info" text="Gewas info" />
+        <text name="seasons_ui_crops_seed" text="Zaad" />
+        <text name="seasons_ui_crops_young" text="Jong" />
+        <text name="seasons_ui_crops_mature" text="Volwassen" />
+        <text name="seasons_ui_crops_frostResistance" text="Vorstbestendigheid" />
+        <text name="seasons_ui_crops_droughtResistance" text="Droogtebestendigheid" />
+        <text name="seasons_ui_crops_high" text="Hoog" />
+        <text name="seasons_ui_crops_medium" text="Gemiddeld" />
+        <text name="seasons_ui_crops_low" text="Laag" />
+        <text name="seasons_ui_crops_high_none" text="Geen" />
+        <text name="seasons_ui_days" text="%d dagen" />
+        <text name="seasons_ui_dontShowAgain" text="Niet opnieuw tonen" />
+        <text name="seasons_ui_economy" text="Economie" />
+        <text name="finance_seasons_livery_stable" text="Stabiel inkomen (stabiele financiering)" />
+        <text name="seasons_livery_stable" text="Stalhouderij" />
+        <text name="seasons_ui_pcf_info" text="De kans op vorstschade neemt toe als de luchttemperatuur onder de %s daalt. De kans op schade door droogte neemt toe wanneer het bodemwatergehalte onder de 12%% ligt. Gebruik het meetinstrument om het vochtgehalte van de bodem op te volgen." />
+        <text name="seasons_ui_fruitGerminated" text="Ontkiemd" /> <!-- Usage: In the Field Info display, when the fruit  germinated. -->
+        <text name="seasons_ui_growthMapGerminationFailed" text="Ontkieming gefaald" /> <!-- Usage: In the Field Info display, and as toggle in the map overview. -->
+        <text name="seasons_ui_growthMapPlanted" text="Bepland/Ingezaaid" /> <!-- Usage: In the Field Info display, and as toggle in the map overview. -->
+        <text name="seasons_ui_harvestSeason" text="Oogstperiode" />
+        <text name="seasons_ui_plantingSeason" text="Zaaiperiode" />
+        <text name="seasons_ui_previousFruit" text="Vorig" />
+        <text name="seasons_ui_products" text="Producten" />
+        <text name="seasons_ui_recommendation" text="Aanbevolen" />
+        <text name="seasons_ui_repaint" text="Herschilder" />
+        <text name="seasons_ui_repaintDialog" text="Ben je zeker dat je jouw voertuig wilt herschilderen voor %s?" />
+        <text name="seasons_ui_resetGrowth" text="Je hebt Seasons op een oud savegame geladen. Seasons zal alle velden terugzetten naar braakliggend terein om ze te synchroniseren met de gameday. Je verliest alle gewassen. Als je de groei niet reset, werken de seizoenen misschien niet zoals verwacht." />
+        <text name="seasons_ui_resetGrowth_no" text="Groei behouden" />
+        <text name="seasons_ui_resetGrowth_title" text="Groei resetten" />
+        <text name="seasons_ui_resetGrowth_yes" text="Resetten" />
+        <text name="seasons_ui_snowOneLayer" text="Slechts één laag" />
+        <text name="seasons_ui_weatherForecast" text="Weersvoorspellingen" />
+        <text name="seasons_warning_catchingUp" text="De game wordt gesynchroniseerd na de fast-forward" />
+        <text name="seasons_warning_doNotThreshWithMoistCrops" text="Je kan je gewassen niet oogsten als ze te nat zijn!" />
+        <text name="seasons_warning_soilIsFrozen" text="De bodem is bevroren. Je kan deze nu niet bewerken!" />
+        <text name="seasons_weekday1" text="Ma" />
+        <text name="seasons_weekday2" text="Di" />
+        <text name="seasons_weekday3" text="Woe" />
+        <text name="seasons_weekday4" text="Do" />
+        <text name="seasons_weekday5" text="Vrij" />
+        <text name="seasons_weekday6" text="Za" />
+        <text name="seasons_weekday7" text="Zo" />
+        <text name="unit_feetShort" text="ft" />
+        <text name="unit_meterShort" text="m" />
+        <text name="seasons_animal_sex_male" text="Mannelijk" />
+        <text name="seasons_animal_sex_female" text="Vrouwelijk" />
+        <text name="seasons_animal_sex_male_short" text="M" />
+        <text name="seasons_animal_sex_female_short" text="F" />
+        <text name="seasons_animal_age" text="jaar" />
+        <text name="seasons_animal_age_short" text="j" />
+        <text name="seasons_unit_lbs" text="pounds" />
+        <text name="seasons_unit_kg" text="kg" />
+        <text name="seasons_unit_lbsShort" text="lbs" />
+        <text name="seasons_unit_kgShort" text="kg" />
+        <text name="seasons_statistic_age" text="Leeftijd" />
+        <text name="seasons_statistic_weight" text="Gewicht" />
+        <text name="seasons_ui_animalsFoodInfo" text="Dit hok heeft %d liter voedsel nodig om zijn dieren het komende jaar te voeden." />
+
+       <!-- New in 1.0.2.0 -->
+        <text name="seasons_ui_noAnimalsInHusbandry" text="Er zijn geen dieren in dit dieren verblijf" />
+        <text name="seasons_ui_production" text="Productie" />
+        <text name="seasons_ui_estimatedFoodRequired" text="Geschat benodigd voedsel" />
+        <text name="seasons_ui_estimatedWaterRequired" text="Geschat benodigd water" />
+        <text name="seasons_ui_estimatedStrawRequired" text="Geschat benodigd stro" />
+        <text name="seasons_statistic_year" text="jaar" />
+        <text name="seasons_ui_ageClassifier_newborn" text="Pasgeboren" />
+        <text name="seasons_ui_ageClassifier_young" text="Jong" />
+        <text name="seasons_ui_ageClassifier_mature" text="Volwassen" />
+        <text name="seasons_ui_ageClassifier_old" text="Oud" />
+        <text name="seasons_contract_finished" text="Contract afgerond" />
+        <text name="seasons_contract_failed" text="Contract mislukt" />
+        <text name="seasons_snowContract_jobType" text="Sneew ruimen" />
+        <text name="seasons_snowContract_action" text="Om het aangewezen gebied van alle sneeuw te verwijderen." />
+
+
+
+        <text name="overwrite_animalPen_cow" text="Koeienweide"/>
+        <text name="overwrite_animalPen_cow2" text="Grote koeienweide"/>
+        <text name="overwrite_animals_cowPasture" text="Koeienweide"/>
+        <text name="overwrite_fillType_cow" text="Runderen"/>
+        <text name="overwrite_function_animalPenCow" text="Een plaats om je vee te houden."/>
+        <text name="overwrite_function_feeder" text="Een mengvoerwagen mengt kuilvoer, hooi en stro tot Total Mixed Ration (TMR) dat aan het vee kan worden gevoerd."/>
+        <text name="overwrite_function_feederBale" text="Deze machine neemt strobalen en wordt gebruikt om de bodem te bedekken met stro."/>
+        <text name="overwrite_shopItem_animalPenCow" text="Een plaatsbare weide voor het vee"/>
+        <text name="overwrite_shopItem_cow" text="Runderen"/>
+        <text name="overwrite_statistic_cowOwned" text="Vee in bezit"/>
+        <text name="overwrite_ui_cowLiquidManureSilo" text="Drijfmesttank van vee"/>
+        <text name="overwrite_ui_cowManureHeap" text="Mest van vee"/>
+        <text name="overwrite_ui_statisticView_cow" text="Vee"/>
+        <text name="overwrite_animals_descriptionHorse" text="Het dagelijks inkomen voor de verzorging van een paard wordt bepaald door zijn conditie, gezondheid en netheid. Ze moeten elke dag bereden worden om hun conditie te verbeteren. Paarden hebben stro nodig en water en voedsel om gezond te blijven. Periodiek moeten ze worden geborsteld en schoongemaakt."/>
+        <text name="seasons_overwrite_hint_09" text="Je kan de inkomsten van je oogst verhogen door je velden te bemesten en de sproeien." />
+        <text name="seasons_ui_notFertile" text="Niet vruchtbaar" />
+
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BLACK"           text="Dit ras is een zeer snel groeiend vleesras en heeft een snelle winstoogmerk. Het heeft veel voer nodig."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BROWN"           text="The Rhode Island Red is a hybride ras(zowel eiren als vlees) en vereist een hoeveelheid voer tussen de leghennen en de vlees tegenhangers."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_ROOSTER"         text="Dit mannetje wordt voornamelijk gebruikt voor de voortplanting en zal werken om de eieren van uw kippen te bevruchten en kuikens te produceren. Let op: Je hebt geen haan nodig om eieren te produceren."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_WHITE"           text="Dit is de kip bij uitstek als je eieren bovenaan je prioriteitenlijstje hebt staan. Dit ras heeft minder voer nodig dan de andere rassen."/>
+        <text name="seasons_animalInfo_COW_TYPE_BLACK"               text="De Saler is een goedkopere optie voor startende boeren en staat bekend om hun kwaliteitsvol vlees, die een behoorlijke investering op de markt kunnen terugverdienen."/>
+        <text name="seasons_animalInfo_COW_TYPE_BLACK_WHITE"         text="De koningin van de melkproductie. Dit ras heeft veel voer nodig en is vooraf duur om aan te kopen, maar produceert het meeste melk."/>
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_BROWN"       text="De Brahman is een hittetolerant specifiek ras met geringe voerbehoefte. Ze staan bekend om hun winstpotentieel en goede slachtopbrengsten." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_GREY"        text="De Brahman is een hittetolerant specifiek ras met geringe voerbehoefte. Ze staan bekend om hun winstpotentieel en goede slachtopbrengsten." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="De Brahman is een hittetolerant specifiek ras met geringe voerbehoefte. Ze staan bekend om hun winstpotentieel en goede slachtopbrengsten." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_WHITE"       text="De Brahman is een hittetolerant specifiek ras met geringe voerbehoefte. Ze staan bekend om hun winstpotentieel en goede slachtopbrengsten." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN"               text="'Het Vleesras'. De Limousin is een duur maar voederefficiënt dier, wat betekent dat het zeer snel zal groeien en een goede prijs zal geven op de markt."/>
+        <text name="seasons_animalInfo_COW_TYPE_BROWN_WHITE"         text="Ayrshire boeren kunnen er zeker van zijn dat de lage voerconsumptie en de prijs per stuk, twee goede afwegingen zijn voor een lagere melkproductie."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BEIGE"             text="De Haflinger is sterk gebouwd voor gebruik in de rij- en trekwerkzaamheden, maar is ook een geweldig ras voor het trail- en uithoudingsvermogen alsook voor wedstrijdspringen."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BLACK"             text="De Arabier staat bekend om zijn groot uithoudingsvermogen in races"/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN"             text="Dit behendige ras wordt voornamelijk gebruikt voor het racen en springen. Het heeft korte botten in de benen waardoor een lange en gemakkelijke pas mogelijk is."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN_WHITE"       text="Ontwikkeld van gevlekte paarden uit Quarter en Volbloedlijnen, is de American Paint Horse nu erkend als zijn eigen ras. Geweldig voor Westerse plezier evenementen en shows."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_DARK_BROWN"        text="Bekend om hun viervoudige loop- en rijvaardigheid, heeft het Walking Horse een rustige instelling en is een geweldig showpaard."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_GREY"              text="De Andalusiërs staan bekend om hun vermogen om te rijden en worden vandaag de dag gebruikt voor het springen en westers plezier."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_LIGHT_BROWN"       text="De Morgan is een paard voor alle doeleinden. Ze zijn compact van bouw, hebben sterke poten en staan erom bekend dat ze gemakkelijk te houden en te hanteren zijn."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_RED_BROWN"         text="Bekend als een van de meest veelzijdige rassen, de Quarter Horse is kort en gedrongen, met een zware gespierde ontwikkeling, snelle start, draai- en stopvermogen."/>
+
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK"               text="De Berkshire is een snelgroeiend dier dat een klein bedrag aan kapitaal nodig heeft om het aan te schaffen. Staat bekend om hun smakelijke vlees."/>
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK_WHITE"         text="Bekend om hun vleeskwaliteit, groeit de Spotted relatief snel en is voor een klein bedrag te koop."/>
+        <text name="seasons_animalInfo_PIG_TYPE_RED"                 text="Bekend als het 'Moederras', dit varkensras is een zeer snel groeiend dier, maar heeft een hoog kapitaal nodig voor de eerste aankoop."/>
+        <text name="seasons_animalInfo_PIG_TYPE_WHITE"               text="De Old Spot is een langzamer groeiend dier, maar is in eerste instantie veel goedkoper in aanschaf. Zeer duurzaam en zeer geschikt voor de beginnende boer."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK"             text="Een middelgroot ras dat snel groeit, maar geen wol produceert. Zeer productief en snel groeiend. Heeft als volwassene weinig voer nodig. Zeer geschikt voor lammeren van 40-45 kg (85-100 lbs)."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK_WHITE"       text="Een groot schapenras dat extreem snel groeit, een bescheiden hoeveelheid wol produceert, als volwassene veel voer nodig heeft, vruchtbaar is en langzaam volwassen wordt. Goed voor lammeren van 45-65 kg (100-140 lbs)."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BROWN"             text="De Merino is een middelgroot ras dat gebruikt wordt voor de wolproductie. Het groeit langzaam, is niet erg productief, maar heeft als volwassene niet veel voer nodig."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_WHITE"             text="Een groot schapenras dat matig snel groeit, een bescheiden wolproductie heeft en als volwassene een gemiddelde hoeveelheid voer nodig heeft. Is relatief productief en goed voor 25-40 kg (50-85 lbs) lammeren."/>
+
+        <text name="seasons_hint_01" text="Plan uw gewasrotatie met behulp van de gewasrotatieplanner." />
+        <text name="seasons_hint_02" text="Zaden moeten met succes ontkiemen om uit te groeien tot een plant." />
+        <text name="seasons_hint_03" text="Ook na het ontkiemen hebben de gewassen voldoende warmte en vocht nodig om te overleven." />
+        <text name="seasons_hint_04" text="Het duurt een volledige periode om na het verpakken of afdekken van het gras, tot kuilvoer te worden omgezet." />
+        <text name="seasons_hint_05" text="Dieren hebben voortdurende aandacht nodig om gezond te blijven, te groeien of zich voort te planten." />
+        <text name="seasons_hint_06" text="Gras moet drogen in de zon om hooi te verkrijgen." />
+        <text name="seasons_hint_07" text="Extreme droogte heeft een slechte invloed op je gewassen." />
+        <text name="seasons_hint_08" text="Hooi of stro dat buiten in de regen achterblijft, zal na verloop van tijd rotten. Gras zal altijd wegrotten, gezien het water bevat." />
+        <text name="seasons_hint_09" text="Verf uw voertuigen en gereedschappen opnieuw om ze er weer als nieuw uit te laten zien." />
+        <text name="seasons_hint_10" text="Gebruik de kalender en het gewasinfodisplay om te bepalen welke gewassen passen bij het klimaat." />
+        <text name="seasons_hint_11" text="Aan de hand van de historische prijsgrafieken kunt u zien wanneer u uw producten het beste kunt verkopen." />
+        <text name="seasons_hint_12" text="De kalender laat zien welke gewassen u kunt planten. Zorg ervoor dat de bodemtemperatuur goed is." />
+        <text name="seasons_hint_13" text="Dierrassen hebben verschillende voor- en nadelen." />
+        <text name="seasons_hint_14" text="Geef uw dieren altijd voer en water, anders gaan ze dood." />
+        <text name="seasons_hint_15" text="Paarden kunnen worden aangeschaft voor uw paardenstal. U verdient dagelijks een bedrag op basis van hun gezondheid, voeding, reinheid en activiteit." />
+        <text name="seasons_hint_16" text="Kippen zullen hun eieren broeden als ze de aandacht van een haan krijgen." />
+        <text name="seasons_hint_17" text="De voedsel- en wateropname van dieren neemt toe als ze groter en ouder worden." />
+        <text name="seasons_hint_18" text="De gezondheid van runderen kan worden verbeterd door ze beter te voeden. Het beste voer is Total Mixed Ration (TMR), dat wordt geproduceerd door hooi, stro en kuilvoer in een mengwagen te mengen." />
+        <text name="seasons_hint_19" text="Ayrshire-koeien produceren minder melk, maar consumeren ook minder voedsel en kosten minder." />
+        <text name="seasons_hint_20" text="De Rode Island Red is een kippenras dat nuttig is voor zowel de eier- als de vleesproductie." />
+        <text name="seasons_hint_21" text="Dieren kunnen sterven van ouderdom, overgewicht of ondervoeding." />
+        <text name="seasons_hint_22" text="Bomen kunnen niet groeien als andere bomen te dichtbij zijn." />
+        <text name="seasons_hint_23" text="De weersvoorspelling wordt onzekerder naarmate de dagen zich meer in de toekomst bevinden" />
+        <text name="seasons_hint_24" text="Nat gras moet worden geschud en vervolgens in de zon worden gedroogd om hooi te worden. Droog gras hoeft alleen in de zon te drogen." />
+        <text name="seasons_hint_25" text="De weersvoorspelling geeft een indicatie van hoe goed gras kan drogen." />
+
+        <text name="seasons_helpTitle_01" text="Seasons" />
+        <text name="seasons_helpText_01_01" text="Seasons is een mod die het realisme verbetert door bijna alle aspecten aan te passen tot meer realistische waarden. Alles van seizoensgebonden effecten tot gewasgroeipatronen en dierlijke productie is veranderd naar een realistischer niveau." />
+        <text name="seasons_helpText_01_02" text="Een jaar wordt opgedeeld in vier seizoenen: Lente, Zomer, Herfst en Winter. Op zijn beurt is elk seizoen opgesplitst in drie periodes; Vroeg, Mid en Eind." />
+        <text name="seasons_helpText_01_03" text="Jouw activiteiten zijn gebonden aan de tijd van het jaar, zoals ze in het echt leven ook plaatsvinden." />
+
+        <text name="seasons_helpTitle_02" text="Seizoensgebonde effecten (1)" />
+        <text name="seasons_helpText_02_01" text="Het weer is willekeurig van dag tot dag, maar volgt een patroon van seizoen tot seizoen. Dit patroon is verschillend voor elke GEO, maar de standaardinstelling is als volgt:" />
+        <text name="seasons_helpText_02_02" text="De lente zal regenachtig en mistig zijn met enige kans op zonnig weer. De zomer zal warmer en droger zijn. Hagelbuien kunnen zich zonder waarschuwing voordoen. De herfst zal regenachtig zijn met wat zonnig weer. De winter zal regenachtig zijn, maar vaak koud genoeg om sneeuw te laten vallen en evenwel te blijven liggen." />
+        <text name="seasons_helpText_02_03" text="Sneeuw zal trailers en voorladers vullen, tenzij deze zich in een schuur bevinden of bedekt worden met een zeil. Sneeuw zal ook de tractie verminderen, waardoor voertuigen langzamer worden en mogelijk grip verliezen." />
+
+        <text name="seasons_helpTitle_03" text="Seizoensgebonde effecten (2)" />
+        <text name="seasons_helpText_03_01" text="Ook de lengte van de dagen wordt beïnvloed door de seizoenen. De winters hebben kortere dagen (8 uur) terwijl de zomers langere dagen hebben (17 uur)." />
+        <text name="seasons_helpText_03_02" text="Bunkersilo's en kuilvoerbalen hebben tijd nodig om te gisten. Het duurt een derde van het seizoen (1 periode) om een bunkersilo of een kuilbaal volledig te fermenteren. Verpakt hooi zal niet gisten, maar wordt beschermd tegen de weersomstandigheden." />
+        <text name="seasons_helpText_03_03" text="De seizoenen zullen ook van invloed zijn op de bomen en het gebladerte. De bomen zullen van staat veranderen, afhankelijk van de seizoensgebonden temperatuursveranderingen. In de herfst zullen de bladeren verkleuren en van de bomen vallen. Bomen zullen in de winter kaal worden en in het voorjaar lichter groen worden." />
+
+        <text name="seasons_helpTitle_04" text="Weersvoorspellingen" />
+        <text name="seasons_helpText_04_01" text="De weersvoorspellingen voor de komende 7 dagen zijn te zien in het weerbericht, waarbij de komende 24 uur in detail wordt beschreven. De onzekerheid van de voorspelling neemt toe met de tijd." />
+        <text name="seasons_helpText_04_02" text="De weersvoorspelling toont de hoge/lage temperaturen en het weer (zonnig, mistig, regenachtig, besneeuwd, bewolkt) voor de komende 7 dagen. Hagelbuien zullen niet op de weersverwachting verschijnen, omdat hagel in realiteit vaak onverwacht plaats vindt." />
+        <text name="seasons_helpText_04_03" text="De weersvoorspelling bevat ook de hoeveelheid neerslag die kan vallen, de windsnelheid en een indicatie over het droogpotentieel van gras." />
+
+        <text name="seasons_helpTitle_05" text="Bodem" />
+        <text name="seasons_helpText_05_01" text="De bodemtemperatuur wordt gemodelleerd aan de hand van thermodynamische vergelijkingen en historische gegevens. Dit betekent dat de bodem in de winter bevriest wanneer de luchttemperatuur gedurende een bepaalde tijd onder een bepaald punt zakt. De bodem zal dan in het voorjaar ontdooien wanneer de luchttemperatuur gedurende een bepaalde tijd boven een bepaalde drempelwaarde stijgt." />
+        <text name="seasons_helpText_05_02" text="De bodem kan niet bewerkt worden als de grond bevroren is. Evenzeer kunnen gewassen niet groeien." />
+        <text name="seasons_helpText_05_03" text="Gewassen zullen alleen ontkiemen als de bodemtemperatuur boven de kiemtemperatuur ligt. De ontkiemingstemperatuur is opgenomen in de zaaikalender. Blauw betekent dat de bodem nog te koud is." />
+        <text name="seasons_helpText_05_04" text="Bodemtemperatuur en vocht hebben invloed op de verdere groei van de gewassen. Als het te koud of te droog wordt, kunnen delen van het gewas afsterven. Bekijk de bestendigheid van elk gewas in het menu." />
+
+        <text name="seasons_helpTitle_06" text="Gewassen - Introductie" />
+        <text name="seasons_helpText_06_01" text="Bij het starten van een nieuw spel worden alle gewassen teruggezet naar hun geoogste stadia om te simuleren dat de velden sinds de herfst niet meer bewerkt zijn. Bij het eerste gebruik van Seasons in een bestaand spel heeft u de mogelijkheid om de gewassen te resetten of te behouden." />
+        <text name="seasons_helpText_06_02" text="De standaard groeipatronen van gewassen zijn vervangen. Het gewas zal nu een realistisch groeipatroon volgen volgens de overeenkomstige seizoensgebonden plant- en oogsttijden. Dit betekent ook dat de winter de meeste gewassen zal doden en dat gewassen die op het verkeerde moment worden geplant niet zullen groeien." />
+        <text name="seasons_helpText_06_03" text="Gewassen zijn alleen oogstbaar in hun laatste groeifase, met uitzondering van populier, en blijven in dit laatste stadium tot ze in de winter afsterven." />
+        <text name="seasons_helpText_06_04" text="Zodra een niet-wortelgewas volgens het groeioverzicht in het esc-menu de eerste oogstbare fase bereikt, is het klaar om te oogsten. Dit is de laatste oogstbare fase." />
+        <text name="seasons_helpText_06_05" text="Je kunt nog steeds van groene gewassen, kuilvoer maken." />
+
+        <text name="seasons_helpTitle_07" text="Gewassen - Akkerbouwgewassen" />
+        <text name="seasons_helpText_07_01" text="De gewasgroei is nu veel langer. Het kan een half jaar duren voordat een gewas het oogstbare stadium heeft bereikt." />
+        <text name="seasons_helpText_07_02" text="De winter zal de meeste gewassen doden, maar winter- en voorjaarsgewassen zijn mogelijk. Tarwe, gerst, populier, gras, bladrammenas en koolzaad kunnen in de herfst geplant worden als wintergewassen of in het voorjaar als lentegewassen. Wees er zeker van dat de grond warm genoeg is voor het ontkiemen van deze gewassen." />
+        <text name="seasons_helpText_07_03" text="De overige gewassen; maïs, sojabonen, zonnebloemen, suikerbieten en aardappelen kunnen slechts alleen in de lente worden geplant. Let op de groeikalender in het Seizoensmenu, want sommige gewassen kunnen niet geplant worden in de eerste overgang van het voorjaar (vroege lente) en zullen afsterven, zelfs als de bodemtemperatuur boven de kiemtemperatuur ligt." />
+
+        <text name="seasons_helpTitle_08" text="Gewassen - Opbrengst" />
+        <text name="seasons_helpText_08_01" text="Voor de beste gewasopbrengst moet een gewas vrij zijn van onkruid (door onkruid te wieden of te spuiten), volgroeid en volledig bemest (drie keer) zijn. Ook moet de grond voedzaam zijn en niet te compact voor het gewas (Ploegen)." />
+        <text name="seasons_helpText_08_02" text="Om een goede bodem te creëren, moeten de gewassen elk jaar geroteerd worden. Om meer te weten te komen over rotaties kunt u de planner in het menu Seizoenen gebruiken. Het kan ook nodig zijn om een akker te ploegen voordat u een gewas plant dat de voorkeur geeft aan minder compacte grond." />
+        <text name="seasons_helpText_08_03" text="De ideale gewasrotatie zorgt voor minder uitputting van de grond. Met een goede praktijkervaring wordt u één bemestingsniveau toegekend wanneer u gewassen zaait die gunstig zijn ten opzichte van vorige gewassen aanwezig op dat veld." />
+
+        <text name="seasons_helpTitle_09" text="Gewassen - Hooi, Stro en Gras" />
+        <text name="seasons_helpText_09_01" text="In de winter wordt het gras teruggezet naar het geoogste stadium om te simuleren dat het gras in de winter afsterft wanneer het koud wordt." />
+        <text name="seasons_helpText_09_02" text="Grasbalen zullen geleidelijk rotten en verdwijnen na twee dagen, ook als ze droog staan. Om het rotten te voorkomen moeten ze meteen genuttigd of  verpakt worden. Eenmaal verpakt, veranderen ze na 1/3 van het seizoen in kuilvoerbalen. Verpakt hooi zal niet veranderen tot kuilvoer. Hier fungeert de verpakking enkel als bescherming tegen de weersomstandigheden." />
+        <text name="seasons_helpText_09_03" text="Hopen gras beginnen in omvang af te nemen (elke dag om middernacht) en zullen uiteindelijk na enkele dagen verdwijnen. Stapels hooi en stro worden na blootstelling aan regen gereduceerd." />
+        <text name="seasons_helpText_09_04" text="Stro en hooi moeten in balen worden geperst voordat het kan worden verkocht - los stro en hooi kan niet worden verkocht en zal alleen gratis worden weggegeven. Ook gras, in balen of los, kan niet verkocht worden." />
+
+        <text name="seasons_helpTitle_10" text="Gewassen - Bomen" />
+        <text name="seasons_helpText_10_01" text="Bomen hebben meer tijd nodig om hun volgroeide staat te bereiken. Het duurt 5 jaar voordat de plantbare bomen volgroeid zijn. Vanf 2 jaar kunnen ze worden gekapt." />
+        <text name="seasons_helpText_10_02" text="Bomen remmen de groei van andere bomen af als ze te dicht bij elkaar geplant zijn. Dus om de groei van de boom te herstellen zal u bomen rondom moet verwijderen en uitdunnen." />
+
+        <text name="seasons_helpTitle_11" text="Gewassen - Weereffecten" />
+        <text name="seasons_helpText_11_01" text="Regen, hagel en sneeuw beïnvloeden het vochtgehalte van de gewassen. Als het vocht in de gewassen boven een bepaald niveau komt door het slechte weer, kunt u niet meer oogsten. Vochtige zomernachten kunnen zich plots voordoen." />
+        <text name="seasons_helpText_11_02" text="Na de regen heeft uw gewas tijd nodig om te drogen, wat afhankelijk is van de luchttemperatuur en de tijd van het jaar. Warmer weer betekent dat de gewassen sneller zullen opdrogen dan bij koeler weer." />
+        <text name="seasons_helpText_11_03" text="Het gebruik van een schudder op nat gras zal het gras halfdroog maken. Zonlicht is nodig om het gras volledig te drogen tot hooi. Als het gras tijdens het maaien droog was, zal het keren van het gras niet noodzakelijk zijn." />
+        <text name="seasons_helpText_11_04" text="Als een mod-kaart met een Seasons-mask is voorbereid door de modder, zullen hooi en strobalen die zijn blootgesteld aan de regen of sneeuw beginnen rotten, tenzij de balen worden opgeslagen in een schuur. Slecht weer heeft geen invloed op gewikkelde balen of balen op een map zonder mask." />
+
+        <text name="seasons_helpTitle_12" text="Onderhoud" />
+        <text name="seasons_helpText_12_01" text="Uw tractoren en oogstmachines hebben periodiek onderhoud nodig om ze operationeel te houden. De onderhoudsperiode is om de 20 uur realtime. Voertuigen die beschadigd zijn, kunnen minder krachtig, langzamer of minder efficiënt zijn." />
+        <text name="seasons_helpText_12_02" text="U kunt uw voertuigen aan de winkel of in de garage repareren. Reparatie zal het voertuig er niet opnieuw nieuw laten uitzien: daarvoor moet u het voertuig opnieuw schilderen." />
+
+        <text name="seasons_helpTitle_13" text="Economie" />
+        <text name="seasons_helpText_13_01" text="Gewas- en dierprijzen schommelen op een meer realistische manier met de seizoensgebonden veranderingen in de seizoenen. Dit is gebaseerd op de wereldwijde economische markt." />
+
+        <text name="seasons_helpTitle_14" text="Hired Help" />
+        <text name="seasons_helpText_14_01" text="Werknemers hebben recht op betaalde overuren. Als een ingehuurde werknemer voor 6.00 uur 's morgens en na 18.00 uur wordt ingezet, zal zijn loon 50% hoger zijn." />
+
+        <text name="seasons_helpTitle_15" text="Dieren - Introductie" />
+        <text name="seasons_helpText_15_01" text="De dieren zijn veranderd tot een meer realistisch systeem. Er zijn rassen met elk hun eigen eigenschappen. Vrouwelijke dieren kunnen zich voortplanten of produceren, terwijl mannelijke dieren vooral voor de vetmesterij en verkoop bestemd zijn." />
+        <text name="seasons_helpText_15_02" text="De voedsel- en waterconsumptie van een dier is gebaseerd op zijn leeftijd en gewicht en evenwel op de temperatuur. Als het in de zomer warm is, heeft een dier minder stro maar meer water nodig. In de winter, wanneer het vriest, heeft het meer stro maar minder water nodig. De maximale voercapaciteit is teruggebracht tot 2 dagen. Dit betekent dat u uw dieren elke dag moet voeren." />
+        <text name="seasons_helpText_15_03" text="Dieren zullen sterven als ze geen water hebben, noch eten." />
+
+        <text name="seasons_helpTitle_16" text="Dieren - Productie" />
+        <text name="seasons_helpText_16_01" text="De productie van een dier is afhankelijk van hun ras en hun voedselkwaliteit. Koeien moeten kalveren hebben voordat ze melk produceren." />
+        <text name="seasons_helpText_16_02" text="Vrouwelijke kippen produceren eieren. Wanneer een haan in de buurt is en geïnteresseerd, kan de kip op haar eieren broeden, waardoor er nakomelingen ontstaan. Idiealiter is één haan per acht hennen." />
+
+        <text name="seasons_helpTitle_17" text="Dieren - Stalhouderij" />
+        <text name="seasons_helpText_17_01" text="Paarden kunnen naar een stal op de boerderij gebracht worden. U kunt de paarden verzorgen door ze te voeren, te berijden en schoon te maken. Elke dag krijg je van de eigenaar van het paard een bedrag betaald dat afhankelijk is van de kwaliteit van de verzorging." />
+        <text name="seasons_helpText_17_02" text="Niet elk paard is even gemakkelijk te verzorgen." />
+
+        <text name="seasons_helpTitle_18" text="Seasons Menu" />
+        <text name="seasons_helpText_18_01" text="Het Seizoensmenu wordt gebruikt als referentiegids voor het planten van gewassen, het weer en de economie. Het kan ook worden gebruikt om instellingen met betrekking tot seizoenen te wijzigen." />
+        <text name="seasons_helpText_18_02" text="De eerste pagina is de plant- en oogstkalender. De kiemkrachttemperaturen van alle gewassen worden links in de grafiek weergegeven. Als de temperatuur naast een gewas wit is, betekent dit dat het warm genoeg is om dat bepaalde gewas te planten. Als de temperatuur blauw is, is het te koud." />
+        <text name="seasons_helpText_18_03" text="De tweede pagina geeft een gedetailleerde weersvoorspelling. De derde pagina bevat extra gewasinformatie over hun vorst- en droogtebestendigheid." />
+        <text name="seasons_helpText_18_04" text="Op de vierde pagina vindt u gegevens over de prijzen van producten in het afgelopen jaar. De gegevens worden dagelijks bijgewerkt. De toekomstige prijs is slechts een schatting zodat er afwijkingen kunnen optreden. De vijfde pagina is een gewasrotatieplanner. Elke kolom kan een nieuwe rotatie bevatten, en wordt opgeslagen bij uw spel." />
+        <text name="seasons_helpText_18_05" text="De zesde en laatste pagina is het instellingenmenu. Op deze pagina zijn verschillende opties beschikbaar om de seizoenen aan te passen op basis van hoe u wilt spelen." />
+
+        <text name="seasons_helpTitle_19" text="HUD" />
+        <text name="seasons_helpText_19_01" text="Een HUD links van de klok in de rechterbovenhoek geeft informatie weer die relevant is voor de seizoenen. Deze toont de huidige luchttemperatuur (boven) en grondtemperatuur (onder) aan. De toestand van de grond (natte gewassen/bevroren grond) wordt ook links van deze HUD weergegeven. Hier worden ook de seizoensperiode en de dag van het huidige seizoen weergegeven." />
+
+        <text name="seasons_helpTitle_20" text="Meetinstrument" />
+        <text name="seasons_helpText_20_01" text="De MT9 is een meetinstrument dat gebruikt kan worden om meer informatie te verkrijgen over grond, bomen, balen en pallets. Na aankoop van het gereedschap in de winkel kan het net als elk ander handgereedschap worden geactiveerd. Richt op iets en activeer om te beginnen met meten. Een meting kan evenzeer mislukken." />
+        <text name="seasons_helpText_20_02" text="Voor geplante bomen kunt u de boomsoort, boomhoogte en afstand tot de dichtstbijzijnde boom meten. Voor balen krijgt u de inhoud en voor grasbalen ook de gistingstoestand. Het meten van de grond geeft de locatie, hoogte, gewassoort, gewassoort, gewasgroei en gewasvocht, bemestingsniveau en bodemvochtigheid. Voor pallets krijgt u de inhoud." />
+        <text name="seasons_helpText_20_03" text="Voor meer informatie over de MT9 en een gedetailleerde uitleg van de symbolen, zie de Realismus Modding website: www.realismusmodding.com/seasons19." />
+
+        <text name="seasons_helpTitle_21" text="Diversen" />
+        <text name="seasons_helpText_21_01" text="Als je besluit om de seizoensduur te veranderen in het midden van een bestaande save game, is het aan te raden om 1) de seizoensduur tijdens de winter te veranderen om ongewenste effecten op bestaande gewassen te verminderen en 2) de game/server opnieuw te starten na het veranderen van de seizoensduur." />
+        <text name="seasons_helpText_21_02" text="Hoewel het je spel is om te spelen zoals je wilt, wordt voorgesteld, als een uitdaging, om alleen te spelen met een 9-daags seizoen en met 5x de tijdsversnelling. Op deze manier breng je het voorjaar alleen het verbouwen en planten van gewassen, de zorg voor gewassen en het maaien van hooi in de zomer, het oogsten en ploegen in de herfst, en de zorg voor de dieren, machines, bossen en de verkoop van gewassen in de winter door." />
+    </texts>
+</l10n>
+

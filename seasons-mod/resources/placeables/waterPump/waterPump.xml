@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_seasons_shopItem_waterPump</name>
+        <image>resources/placeables/waterPump/store_waterPump.png</image>
+        <canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <price>5000</price>
+        <dailyUpkeep>5</dailyUpkeep>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <species>placeable</species>
+        <category>animalpens</category>
+        <vertexBufferMemoryUsage>239808</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>39000</indexBufferMemoryUsage>
+        <textureMemoryUsage>5592496</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>FS19_RM_Seasons.waterPump</placeableType>
+    <filename>resources/placeables/waterPump/waterPump.i3d</filename>
+    <placement testSizeX="1" testSizeZ="1" sizeX="1" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+
+    <waterPump priceScale="0.1" reachRadius="15" />
+
+    <sounds>
+        <idle file="resources/sounds/placeables/waterpump_loop.wav" loops="0" linkNode="0" volume="1" outerRadius="10" innerRadius="2.5" fadeOut="0.25"/>
+    </sounds>
+
+    <clearAreas>
+        <clearArea startIndex="1|0" widthIndex="1|1" heightIndex="1|2"/>
+    </clearAreas>
+</placeable>

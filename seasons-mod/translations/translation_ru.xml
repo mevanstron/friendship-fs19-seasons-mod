@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>Gonimy_Vetrom</translationContributors>
+    <texts>
+        <text name="action_toggle_plant_distance" text="Изменить расстояние посадки (%d м)" />
+        <text name="fillType_salt" text="Дорожная соль" />
+        <text name="fillType_snow" text="Снег" />
+        <text name="input_SEASONS_SHOW_MENU" text="Показать меню Seasons" />
+        <text name="seasons_forecast_averageTemperature" text="Средняя температура" />
+        <text name="seasons_forecast_maximumTemperature" text="Макс. температура" />
+        <text name="seasons_forecast_minimumTemperature" text="Мин. температура" />
+        <text name="seasons_forecast_precipitationInMm" text="Осадки (мм)" />
+        <text name="seasons_forecast_precipitationPercentage" text="Осадки (%)" />
+        <text name="seasons_forecast_type" text="Тип" />
+        <text name="seasons_forecast_windSpeed" text="Скорость ветра (м/с)" />
+        <text name="seasons_forecast_dryingPotential" text="Потенциал для сушки" />
+        <text name="seasons_forecast_info" text="Точность прогноза снижается со временем." />
+        <text name="seasons_function_baleCutter" text="Резак для тюков можно использовать для разрезания тюков." />
+        <text name="seasons_function_bigBagSalt" text="Соль в мешках используются для пополнения ваших разбрасывателей соли." />
+        <text name="seasons_function_measureTool" text="Используя измерительный инструмент, вы можете получить информацию о почве, деревьях, тюках и других объектах." />
+        <text name="seasons_helpCategory_1" text="Seasons" />
+        <text name="seasons_intro_0" text="Пришла весна, расцветают цветы и распускаются деревья, а ваши поля готовы к культивации и посеву. Пора готовить технику к работе." />
+        <text name="seasons_intro_1" text="Летом дни длинные и теплые. Пришло время запасать сено и следить за тем, чтобы рос урожай." />
+        <text name="seasons_intro_2" text="Желтеют листья, становится холоднее - наступила осень. Ваши поля готовы к уборке. Успейте собрать урожай до наступления холодов. За работу." />
+        <text name="seasons_intro_3" text="Вот и пришла зима, земля замерзла и уже невозможно работать на полях. Посевы не растут или даже погибают. Животные теперь нуждаются в большем уходе. Можно заняться лесом или уборкой снега." />
+        <text name="seasons_measuretool_failed" text="Измерение не удалось" />
+        <text name="seasons_measuretool_fermentation_time" text="созреет через %d ч" />
+        <text name="seasons_measuretool_fermentation_time_low" text="созреет меньше чем за 1 час" />
+        <text name="seasons_measuretool_no_info" text="Измерение не удалось: нет информации" />
+        <text name="seasons_measuretool_title" text="Измерения" />
+        <text name="seasons_message_failedHeightTypes" text="Seasons не удалось загрузиться на выбранной карте, карта не совместима с Seasons (на земле слишком много культур)." />
+        <text name="seasons_notification_animalsKilled" text="У вас умерло животное (%d шт.)" />
+        <text name="seasons_notification_animalsDiedOfAge" text="У вас умерло животное от старости (%d шт)" />
+        <text name="seasons_notification_horseDied" text="%s умер" />
+        <text name="seasons_notification_animalsDiedInTrailer" text="У вас умерло животное в прицепе (%d шт)" />
+        <text name="seasons_periodNameFull_1" text="Ранняя весна" />
+        <text name="seasons_periodNameFull_10" text="Ранняя зима" />
+        <text name="seasons_periodNameFull_11" text="Середина зимы" />
+        <text name="seasons_periodNameFull_12" text="Поздняя зима" />
+        <text name="seasons_periodNameFull_2" text="Середина весны" />
+        <text name="seasons_periodNameFull_3" text="Поздняя весна" />
+        <text name="seasons_periodNameFull_4" text="Раннее лето" />
+        <text name="seasons_periodNameFull_5" text="Середина лета" />
+        <text name="seasons_periodNameFull_6" text="Позднее лето" />
+        <text name="seasons_periodNameFull_7" text="Ранняя осень" />
+        <text name="seasons_periodNameFull_8" text="Середина осени" />
+        <text name="seasons_periodNameFull_9" text="Поздняя осень" />
+        <text name="seasons_rotationCategory_0" text="Под парами" />
+        <text name="seasons_rotationCategory_1" text="Масличные" />
+        <text name="seasons_rotationCategory_2" text="Зерновые" />
+        <text name="seasons_rotationCategory_3" text="Бобовые" />
+        <text name="seasons_rotationCategory_4" text="Корнеплоды" />
+        <text name="seasons_rotationCategory_5" text="Паслёновые" />
+        <text name="seasons_rotationCategory_6" text="Травянистые" />
+        <text name="seasons_rotation_recommendationAny" text="Любая" />
+        <text name="seasons_seasonName_0" text="Весна" />
+        <text name="seasons_seasonName_1" text="Лето" />
+        <text name="seasons_seasonName_2" text="Осень" />
+        <text name="seasons_seasonName_3" text="Зима" />
+        <text name="seasons_setting_moisture" text="Влажный урожай" />
+        <text name="seasons_setting_seasonIntros" text="Напоминание о сезонах" />
+        <text name="seasons_setting_seasonLength" text="Продолжительность сезона" />
+        <text name="seasons_setting_snow" text="Режим снега" />
+        <text name="seasons_setting_snowTracks" text="Колеи на снегу" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BLACK" text="Корнуельская черная" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BROWN" text="Красный Род-айленд" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_ROOSTER" text="Петух" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_WHITE" text="Белый Леггорн" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK" text="Салерс" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK_WHITE" text="Голштинская" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_BROWN" text="Брахманская (коричневая)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_GREY" text="Брахманская (серая)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="Брахманская (светло-серая)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_WHITE" text="Брахманская (белая)" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN" text="Лимузинская" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN_WHITE" text="Айрширская" />
+        <text name="seasons_shopItem_HORSE_TYPE_BEIGE" text="Хафлингер" />
+        <text name="seasons_shopItem_HORSE_TYPE_BLACK" text="Чорная Арабская" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN" text="Чистокровная верховая" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN_WHITE" text="Пейнт" />
+        <text name="seasons_shopItem_HORSE_TYPE_DARK_BROWN" text="Теннесийская прогулочная" />
+        <text name="seasons_shopItem_HORSE_TYPE_GREY" text="Андалузская" />
+        <text name="seasons_shopItem_HORSE_TYPE_LIGHT_BROWN" text="Морган" />
+        <text name="seasons_shopItem_HORSE_TYPE_RED_BROWN" text="Квотерхорс" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK" text="Беркшир" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK_WHITE" text="Пятнистая" />
+        <text name="seasons_shopItem_PIG_TYPE_RED" text="Йоркшир" />
+        <text name="seasons_shopItem_PIG_TYPE_WHITE" text="Глостырская пятнистая" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK" text="Дорпер" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK_WHITE" text="Суффолькская" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BROWN" text="Меринос" />
+        <text name="seasons_shopItem_SHEEP_TYPE_WHITE" text="Дорсет" />
+        <text name="seasons_shopItem_baleCutter" text="Резак для тюков" />
+        <text name="seasons_shopItem_bigBagSalt" text="Дорожная соль" />
+        <text name="seasons_shopItem_waterPump" text="Водяной насос" />
+        <text name="seasons_statistic_health" text="Здоровье" />
+        <text name="seasons_tooltip_moisture" text="Запрещать обмолот, когда влажность культуры выше 20%" />
+        <text name="seasons_tooltip_seasonIntros" text="Показывать напоминание о наступлении нового сезона" />
+        <text name="seasons_tooltip_seasonLength" text="Продолжительность сезона в днях. Игровой год состоит из четырёх сезонов" />
+        <text name="seasons_tooltip_snow" text="Холодной зимой будет падать снег и перекрывать дороги" />
+        <text name="seasons_tooltip_snowTracks" text="При движении по снегу транспортные средства будут его уплотнять" />
+        <text name="seasons_ui_beforePreviousFruit" text="До предшественника" />
+        <text name="seasons_ui_calendar" text="Календарь" />
+        <text name="seasons_ui_cropRotation" text="План севооборота" /> <!-- not used? -->
+        <text name="seasons_ui_cropRotationExplanation" text="Севооборот начинается с начала после последнего урожая." />
+        <text name="seasons_ui_cropRotationPlanner" text="Планировщик севооборота" />
+        <text name="seasons_ui_cropRotation_1" text="План севооборота A" />
+        <text name="seasons_ui_cropRotation_2" text="План севооборота B" />
+        <text name="seasons_ui_cropRotation_3" text="План севооборота C" />
+        <text name="seasons_ui_cropRotation_4" text="План севооборота D" />
+        <text name="seasons_ui_crop_info" text="Информация об урожае" />
+        <text name="seasons_ui_crops_seed" text="Посеянное" />
+        <text name="seasons_ui_crops_young" text="Проросшее" />
+        <text name="seasons_ui_crops_mature" text="Зрелое" />
+        <text name="seasons_ui_crops_frostResistance" text="Устойчивость к заморозкам" />
+        <text name="seasons_ui_crops_droughtResistance" text="Устойчивость к засухе" />
+        <text name="seasons_ui_crops_high" text="высокая" />
+        <text name="seasons_ui_crops_medium" text="средняя" />
+        <text name="seasons_ui_crops_low" text="низкая" />
+        <text name="seasons_ui_crops_high_none" text="нет" />
+        <text name="seasons_ui_days" text="%d дней" />
+        <text name="seasons_ui_dontShowAgain" text="Не показывать снова" />
+        <text name="seasons_ui_economy" text="Экономика" />
+        <text name="finance_seasons_livery_stable" text="Доход от конюшни" />
+        <text name="seasons_livery_stable" text="Конюшня" />
+        <text name="seasons_ui_pcf_info" text="Вероятность повреждения от замерзания возрастает, при температуре воздуха ниже %s. Вероятность ущерба от засухи увеличивается, при влажности почвы ниже 12%%. Используйте измерительный инструмент для контроля влажности в почве." />
+        <text name="seasons_ui_fruitGerminated" text="Проросшее" />
+        <text name="seasons_ui_growthMapGerminationFailed" text="Не проросло" />
+        <text name="seasons_ui_growthMapPlanted" text="Посеяно" />
+        <text name="seasons_ui_harvestSeason" text="Период уборки" />
+        <text name="seasons_ui_plantingSeason" text="Период посадки" />
+        <text name="seasons_ui_previousFruit" text="Предшественник" />
+        <text name="seasons_ui_products" text="Продукция" />
+        <text name="seasons_ui_recommendation" text="Рекомендация" />
+        <text name="seasons_ui_repaint" text="Перекрасить" />
+        <text name="seasons_ui_repaintDialog" text="Вы действительно хотите перекрасить автомобиль за %s?" />
+        <text name="seasons_ui_resetGrowth" text="Вы запустили Seasons на уже имеющемся сохранении. Seasons необходимо сбросить состояние роста всех культур на полях до 'нулевой' стадии для синхронизации с игровым временем года. Вы потеряете все посаженные культуры. Если вы не сбросите состояние роста, Seasons не сможет работать, должным образом." />
+        <text name="seasons_ui_resetGrowth_no" text="Не сбрасывать" />
+        <text name="seasons_ui_resetGrowth_title" text="Сброс состояния роста культур" />
+        <text name="seasons_ui_resetGrowth_yes" text="Сбросить" />
+        <text name="seasons_ui_snowOneLayer" text="Только 1 слой" />
+        <text name="seasons_ui_weatherForecast" text="Прогноз погоды" />
+        <text name="seasons_warning_catchingUp" text="После перемотки времени происходит синхронизация игровых процессов" />
+        <text name="seasons_warning_doNotThreshWithMoistCrops" text="Пока культуры слишком влажные молотить нельзя!" />
+        <text name="seasons_warning_soilIsFrozen" text="Почва замёрзла. Вы уже не можете работать на ней!" />
+        <text name="seasons_weekday1" text="Пн" />
+        <text name="seasons_weekday2" text="Вт" />
+        <text name="seasons_weekday3" text="Ср" />
+        <text name="seasons_weekday4" text="Чт" />
+        <text name="seasons_weekday5" text="Пт" />
+        <text name="seasons_weekday6" text="Сб" />
+        <text name="seasons_weekday7" text="Вс" />
+        <text name="unit_feetShort" text="фут" />
+        <text name="unit_meterShort" text="м" />
+        <text name="seasons_animal_sex_male" text="Самец" />
+        <text name="seasons_animal_sex_female" text="Самка" />
+        <text name="seasons_animal_sex_male_short" text="M" />
+        <text name="seasons_animal_sex_female_short" text="Ж" />
+        <text name="seasons_animal_age" text="год" />
+        <text name="seasons_animal_age_short" text="г" />
+        <text name="seasons_unit_lbs" text="фунтов" />
+        <text name="seasons_unit_kg" text="килограмм" />
+        <text name="seasons_unit_lbsShort" text="фунт" />
+        <text name="seasons_unit_kgShort" text="кг" />
+        <text name="seasons_statistic_age" text="Возраст" />
+        <text name="seasons_statistic_weight" text="Вес" />
+        <text name="seasons_ui_animalsFoodInfo" text="Чтобы содержать своих животных в этом загоне в следующем году потребует %d литров корма." />
+
+		        <!-- New in 1.0.2.0 -->
+        <text name="seasons_ui_noAnimalsInHusbandry" text="В этом загоне нет животных" />
+		<text name="seasons_ui_production" text="Производство" />
+        <text name="seasons_ui_estimatedFoodRequired" text="Расчетное к-во пищи " />
+        <text name="seasons_ui_estimatedWaterRequired" text="Расчетное к-во воды" />
+        <text name="seasons_ui_estimatedStrawRequired" text="Расчетное к-во соломы" />
+        <text name="seasons_statistic_year" text="лет" />
+        <text name="seasons_ui_ageClassifier_newborn" text="Новорожденный" />
+        <text name="seasons_ui_ageClassifier_young" text="Молодой" />
+        <text name="seasons_ui_ageClassifier_mature" text="Зрелый" />
+        <text name="seasons_ui_ageClassifier_old" text="Старый" />
+        <text name="seasons_contract_finished" text="Контракт закончен" />
+        <text name="seasons_contract_failed" text="Контракт провален" />
+        <text name="seasons_snowContract_jobType" text="Очистка снега" />
+        <text name="seasons_snowContract_action" text="за очистку указанной области от всего снега." />
+
+        <text name="overwrite_animalPen_cow" text="Пастбище для КРС" />
+        <text name="overwrite_animalPen_cow2" text="Большое пастбище КРС" />
+        <text name="overwrite_animals_cowPasture" text="Пастбище для КРС" />
+        <text name="overwrite_fillType_cow" text="КРС" />
+        <text name="overwrite_function_animalPenCow" text="Место для содержания коров." />
+        <text name="overwrite_function_feeder" text="В фургоне-смесителе для коров готовят общий смешанный рацион (ОСР) смешивая силос, сено и солому." />
+        <text name="overwrite_function_feederBale" text="Эта машина берет тюки соломы и выдувает её, чтобы покрыть землю в стойле." />
+        <text name="overwrite_shopItem_animalPenCow" text="Загон для КРС" />
+        <text name="overwrite_shopItem_cow" text="КРС" />
+        <text name="overwrite_statistic_cowOwned" text="КРС в собственности" />
+        <text name="overwrite_ui_cowLiquidManureSilo" text="КРС резервуар для жидкого навоза" />
+        <text name="overwrite_ui_cowManureHeap" text="КРС навозная куча" />
+        <text name="overwrite_ui_statisticView_cow" text="КРС" />
+        <text name="overwrite_animals_descriptionHorse" text="Ежедневный прирост от ухода за лошадью определяется ее физической подготовкой, здоровьем и чистотой. Чтобы улучшить их физическую форму, необходимо ездить на них каждый день. Лошади нуждаются в соломе для чистой подстилки, воде и пище, чтобы оставаться здоровыми. Периодически их нужно чистить и убирать в стойле." />
+        <text name="seasons_overwrite_hint_09" text="Вы можете увеличить урожайность, удобряя и опрыскивая свои поля." />
+        <text name="seasons_ui_notFertile" text="Не оплодотворена" />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BLACK" text="Эта мясная порода чрезвычайно быстро растет и быстро окупается. Но требует много корма." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BROWN" text="Красный Род-айлендский - гибридная порода (и яйца, и мясо), требующая количество корма между его аналогами несушками и мясными." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_ROOSTER" text="Этот парень в основном используется для размножения и будет работать, чтобы оплодотворить яйца, произведенные вашими курами, чтобы произвести цыплят. Примечание: для производства яиц вам не нужен петух." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_WHITE" text="Выбирайте эту птицу, если яйца находятся на вершине ваших приоритетов. Эта порода требует меньше корма, чем любая другая порода." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK" text="Салерс - более дешевая порода для начинающих фермеров, и она известна своими мраморными тушами, которые могут вернуть достойные инвестиции." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK_WHITE" text="Королева молочного производства. Эта порода требует много корма и дороговата, чтобы купить на ранних этапах Вашего экономического развития, но производит больше молока." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_BROWN" text="Брахман - это устойчивая к высокой температуре порода с минимальными требованиями к корму. Они известны своим потенциалом прироста и хорошим приростом туши." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_GREY" text="Брахман - это устойчивая к высокой температуре порода с минимальными требованиями к корму. Они известны своим потенциалом прироста и хорошим приростом туши." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="Брахман - это устойчивая к высокой температуре порода с минимальными требованиями к корму. Они известны своим потенциалом прироста и хорошим приростом туши." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_WHITE" text="Брахман - это устойчивая к высокой температуре порода с минимальными требованиями к корму. Они известны своим потенциалом прироста и хорошим приростом туши." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN" text="«Порода туши». Лимузинская - это дорогое, но эффективное для кормления животное, что означает, что оно будет расти очень быстро и продаваться по хорошей цене на рынке." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN_WHITE" text="Айширская это порода в которой фермеры могут быть уверены, что низкое потребление корма и цена за голову - это два достойных компромисса для снижения стоимости производства молока." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BEIGE" text="Несмотря на то, что Хафлингер создан для использования в упряжке и на черновых работах, он выносливый и является отличной породой для гонок на беговых дорожках, а также для демонстрационных прыжков." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BLACK" text="Известный своей высокой выносливости и стойкостью, Черная Арабская известна своей приспособленностью для верховой езды и гонкам." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN" text="Используемая в основном для гонок и прыжков, эта ловкая порода имеет короткие кости ног, позволяющие легко и быстро шагать." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN_WHITE" text="Выведена из пятнистых лошадей из племенных линий Кватер, Чистокровная верховая лошадь и Американский пейнтхорс теперь признана своей собственной породой. Отлично подходит для западных развлекательных мероприятий и шоу." />
+        <text name="seasons_animalInfo_HORSE_TYPE_DARK_BROWN" text="Прогулочная лошадь, известная своей уникальной четырехтактной «бегущей ходьбой» и броскими движением, обладает спокойным характером и является отличной выставочной лошадью." />
+        <text name="seasons_animalInfo_HORSE_TYPE_GREY" text="Ценится за свою спортивную форму, андалузцы приспособлены как для верховой езды так и для упряжки, и сегодня используются для прыжков через препятствия и западного удовольствия." />
+        <text name="seasons_animalInfo_HORSE_TYPE_LIGHT_BROWN" text="Морган - универсальная лошадь. Она компактна по конструкции, имеет крепкие ноги и, как известно, её легко содержать и ухаживать." />
+        <text name="seasons_animalInfo_HORSE_TYPE_RED_BROWN" text="Известная как одна из самых универсальных пород, Квотерхорс короткая и приземистая, с тяжелым мышечным развитием, способностью быстрого старта, поворота и остановки." />
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK" text="Беркшир - быстро растущее животное, для покупки которого требуется скромное количество капитала. Известен своим ароматным мясом." />
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK_WHITE" text="Известна своим качеством туши, растет относительно быстро и может быть куплена за скромную сумму." />
+        <text name="seasons_animalInfo_PIG_TYPE_RED" text="Эта порода свиней, известная как «порода маток», является очень быстро растущим животным, но для ее первоначальной покупки требуется большой капитал." />
+        <text name="seasons_animalInfo_PIG_TYPE_WHITE" text="Старая пятнистая - медленно растущая порода, но и достаточно дешевая. Очень выносливые и отлично подходят для начинающего фермера." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK" text="Порода среднего размера, которая быстро растет, но не производит шерсти. Очень плодовитое и быстрое созревающее. Требует мало корма. Отлично подходит для 40-45 кг (85-100 фунтов) ягнят." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK_WHITE" text="Крупная порода овец, которая очень быстро растет, производит скромное количество шерсти, требует много корма, плодовитая и медленно созревает. Хорошо для 45-65 кг (100-140 фунтов) ягнят." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BROWN" text="Меринос - это средняя порода, которая используется для производства шерсти. Растет медленно, не очень плодовит, но не требует много корма." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_WHITE" text="Крупная порода овец, которая растет умеренно быстро, имеет скромное производство шерсти и требует среднего количества корма. Относительно плодовит и хорош для 25-40 кг (50-85 фунтов) ягнят." />
+        <text name="seasons_hint_01" text="Планируйте свой севооборот с помощью планировщика севооборота." />
+        <text name="seasons_hint_02" text="Семена должны успешно прорасти, чтобы вырасти в растение." />
+        <text name="seasons_hint_03" text="Даже после прорастания посевам нужно достаточно тепла, чтобы выжить." />
+        <text name="seasons_hint_04" text="Траве требуется полный период, чтобы превратиться в силос после того, как она была упакована или накрыта." />
+        <text name="seasons_hint_05" text="Животные нуждаются в постоянном внимании, чтобы оставаться здоровыми, расти и размножаться." />
+        <text name="seasons_hint_06" text="Чтобы получить сено, трава должна высохнуть на солнце!" />
+        <text name="seasons_hint_07" text="Чрезмерная засуха может плохо повлиять на урожайность." />
+        <text name="seasons_hint_08" text="Оставленные под открытым небом сено или солома, после дождя со временем сгниют. Трава же будет гнить в течении всего времени." />
+        <text name="seasons_hint_09" text="Перекрашивайте свои транспортные средства и инструменты, чтобы они снова выглядели как новые." />
+        <text name="seasons_hint_10" text="Используйте календарь и информацию о культурах, чтобы определить, какие из них соответствуют вашему климату." />
+        <text name="seasons_hint_11" text="Используя графики цен за предыдущие года, вы можете увидеть, когда лучше всего продавать свою продукцию." />
+        <text name="seasons_hint_12" text="Календарь отображает, какие культуры вы можете посадить. Убедитесь, что температура почвы правильная." />
+        <text name="seasons_hint_13" text="Породы животных имеют разные преимущества и недостатки." />
+        <text name="seasons_hint_14" text="Всегда кормите своих животных и обеспечивайте их водой, иначе они умрут." />
+        <text name="seasons_hint_15" text="Для своей конюшни вы можете приобрести лошадей. Ежедневный заработок о них зависит от их здоровья, сытости, чистоты и активности." />
+        <text name="seasons_hint_16" text="Курица будет высиживать яйца, если сможет привлечь внимание петуха" />
+        <text name="seasons_hint_17" text="Потребление пищи и воды у животных с возрастом увеличивается." />
+        <text name="seasons_hint_18" text="Здоровье крупного рогатого скота может быть улучшено, если дать ему качественный корм. Лучшим кормом является общий смешанный рацион (ОСР), который производится путем смешивания сена, соломы и силоса в миксера." />
+        <text name="seasons_hint_19" text="Айрширские коровы производят меньше молока, но также потребляют меньше пищи и стоят дешевле." />
+        <text name="seasons_hint_20" text="Красный Род-айленд - это порода кур, которая подходит как для производства яиц, так и мяса." />
+        <text name="seasons_hint_21" text="Животные могут умереть от старости, иметь лишний вес или недоедать." />
+        <text name="seasons_hint_22" text="Деревья не могут расти с другими деревьями слишком близко." />
+        <text name="seasons_hint_23" text="Прогноз погоды становится более неопределенным при прогнозировании далёкого будущего." />
+        <text name="seasons_hint_24" text="Влажную траву переворошить, а затем высушить на солнце, чтобы она стала сеном. Сухую траву только нужно просушить на солнце." />
+        <text name="seasons_hint_25" text="В прогнозе погоды можно посмотреть, насколько хорошо может высохнуть трава." />
+        <text name="seasons_helpTitle_01" text="Seasons" />
+        <text name="seasons_helpText_01_01" text="Seasons - это мод, увеличивающий реализм в игре Farming Simulator путем настройки почти всех её аспектов на более реалистичные параметры. Всё, от сезонных эффектов до моделей роста культур и животноводства, было приближено к более реалистичному уровню." />
+        <text name="seasons_helpText_01_02" text="Игровой год был разбит на 4 сезона: весна, лето, осень и зима. А каждый сезон разбит на 3 периода: ранний, средний и поздний." />
+        <text name="seasons_helpText_01_03" text="Ваша занятия связана с тем же временем года, что и в реальной жизни." />
+        <text name="seasons_helpTitle_02" text="Сезонные эффекты (1)" />
+        <text name="seasons_helpText_02_01" text="Погода меняется изо дня в день, а также от сезона к сезону. Этот шаблон отличается для каждого GEO, но по умолчанию используется следующее:" />
+        <text name="seasons_helpText_02_02" text="Весна будет дождливой и туманной с небольшим количеством солнечных дней. Лето будет теплее и суше. Град и бури могут произойти без какого-либо предупреждения. Осень будет дождливой с солнечной погодой. Зима будет дождливой, но часто достаточно холодной, чтобы выпал снег, возможно, даже оставаясь на земле." />
+        <text name="seasons_helpText_02_03" text="Снег заполнит кузова и ковши, если только кузов или ковш не находятся под навесом со снежной маской или брезентом. Снег также уменьшит сцепление с дорогой, тем самым замедляя движение машин." />
+        <text name="seasons_helpTitle_03" text="Сезонные эффекты (2)" />
+        <text name="seasons_helpText_03_01" text="Дневное время также зависит от времени года. Зимы имеют более короткие дни (8 часов), а лето - более длинные (17 часов)." />
+        <text name="seasons_helpText_03_02" text="Силосным бункерам и силосным тюкам требуются время для брожения. Необходима треть сезона (1 период), чтобы полностью их ферментировать. Обернутое сено бродить не будет, но будет защищено от непогоды." />
+        <text name="seasons_helpText_03_03" text="Seasons также влияет на деревья и листву. Деревья будут менять состояние в зависимости от сезонных изменений температуры. Листья будут изменять цвет и опадать осенью. Зимой деревья обнажатся, а весной станут светло-зелеными." />
+        <text name="seasons_helpTitle_04" text="Прогноз погоды" />
+        <text name="seasons_helpText_04_01" text="Прогноз погоды на ближайшие 7 дней можно увидеть в меню прогноза с более подробными сведениями на следующие 24 часа. Чем более отдалённый отрезок времени, тем менее точный прогноз." />
+        <text name="seasons_helpText_04_02" text="Прогноз погоды показывает высокую/низкую температуру и погоду (солнечно, туманно, дождливо, снежно, облачно) на ближайшие 7 дней. Град отображаться в прогнозе не будет, так как в реальной жизни град часто является неожиданным событием." />
+        <text name="seasons_helpText_04_03" text="Прогноз также содержит ожидаемую вероятность ливней, скорость ветра и данные о потенциале для высыхания травы." />
+        <text name="seasons_helpTitle_05" text="Почва" />
+        <text name="seasons_helpText_05_01" text="Температура почвы моделируется с использованием термодинамических уравнений и исторических данных. Это означает, что почва замёрзнет зимой, когда температура воздуха опустится ниже определенной точки в течение определенного промежутка времени. Затем почва будет оттаивать весной, когда температура воздуха поднимется выше определенного порога в течение определенного промежутка времени." />
+        <text name="seasons_helpText_05_02" text="Когда земля заморожена её обрабатывать невозможно. Посевы в мерзлой почве расти не будут." />
+        <text name="seasons_helpText_05_03" text="Культуры прорастут только тогда, когда температура почвы выше их температуры прорастания. Температуры прорастания указаны в календаре на первой странице меню «Seasons»." />
+        <text name="seasons_helpText_05_04" text="Температура почвы влияет на дальнейший рост посевов. Если станет слишком холодно или будет засуха часть урожая может погибнуть. Обратите внимание на выносливость каждой культуры в меню." />
+        <text name="seasons_helpTitle_06" text="Культуры - Введение" />
+        <text name="seasons_helpText_06_01" text="При запуске новой игры все культуры будут сброшены до стадии 'убрано', чтобы имитировать тот факт, что поля не обрабатывались с осени. При первом использовании Seasons в существующей сохраненной игре у вас будет возможность либо сбросить состояние полей, либо нет." />
+        <text name="seasons_helpText_06_02" text="Модели роста культур, которые были по умолчанию, были заменены на свои от Seasons. Урожай теперь будет следовать реалистичной схеме роста после соответствующего сезонного посева и сбора урожая. Это также означает, что зима погубит большинство культур, а посевы, взошедшие в неподходящее время, расти не будут." />
+        <text name="seasons_helpText_06_03" text="Урожай можно собирать только на последней стадии роста, за исключением тополя и масличной редьки, и он будет оставаться на этой последней стадии до тех пор, пока он не погибнет зимой." />
+        <text name="seasons_helpText_06_04" text="Как только не-корнеплодовая культура достигает первой стадии сбора урожая в соответствии с обзором роста в меню ESC, она готова к уборке. Это финальный этап сбора урожая." />
+        <text name="seasons_helpText_06_05" text="Вы также можете силосовать зеленые культуры." />
+        <text name="seasons_helpTitle_07" text="Культуры - Пахотные культуры" />
+        <text name="seasons_helpText_07_01" text="Продолжительность роста урожая теперь намного большая. Чтобы урожай достиг стадии сбора, может потребоваться до полугода." />
+        <text name="seasons_helpText_07_02" text="Зима погубит большинство культур, но возможны озимые и яровые культуры. Пшеницу, ячмень, тополь, траву, масличную редьку и канолу можно сажать осенью как озимую или весной как яровую культуру. Убедитесь, что почва достаточно теплая для прорастания этих культур." />
+        <text name="seasons_helpText_07_03" text="Кукуруза, соя, подсолнечник, сахарная свёкла и картофель должны высаживаться весной. Обязательно проверьте обзор роста в меню Seasons, потому что некоторые культуры не могут быть посажены при первом переходе весны (ранней весной) и погибнут, даже если температура почвы выше температуры прорастания." />
+        <text name="seasons_helpTitle_08" text="Культуры - Урожайность" />
+        <text name="seasons_helpText_08_01" text="Для получения наилучшего урожая, он должен быть защищён от сорняков (путем прополки или опрыскивания), полностью выращен, полностью удобрен (три раза). Почва для урожая также должна быть питательной и не слишком уплотнённой." />
+        <text name="seasons_helpText_08_02" text="Чтобы создать хорошую почву, совершайте севооборот каждый год. Чтобы узнать больше о севообороте, вы можете использовать планировщик в меню Seasons. Также может быть необходимо вспахать поле перед посадкой культуры, которая предпочитает менее уплотнённую почву." />
+        <text name="seasons_helpText_08_03" text="Идеальный севооборот меньше истощает почву. При хорошей сноровке вы получите плюс один уровень удобрения при посеве культур, подходящих как предшественник." />
+        <text name="seasons_helpTitle_09" text="Культуры - Сено, солома и трава" />
+        <text name="seasons_helpText_09_01" text="Зимой трава сбрасывается до стадии 'убрано', чтобы имитировать зимнее увядание при похолодании." />
+        <text name="seasons_helpText_09_02" text="Тюки травы будут постепенно гнить и исчезнут через два дня, независимо от того, где они находятся. Для предотвращения гниения, тюки должны быть использованы или обернуты. После упаковки они превращаются в силосные тюки через 1/3 сезона." />
+        <text name="seasons_helpText_09_03" text="Валки и кучи травы начнут уменьшаться в размерах и в конечном итоге исчезнут через несколько дней. Травяные валки и копы уменьшаются каждый день в полночь. Валки сена и соломы уменьшаются после намокания под дождём." />
+        <text name="seasons_helpText_09_04" text="Солома и сено должны быть упакованы в тюки, прежде чем они могут быть проданы - рассыпная солома и сено не могут быть проданы, только раздаются бесплатно. Трава, тюкованая или навалом, не может быть продана вообще." />
+        <text name="seasons_helpTitle_10" text="Культуры - Деревья" />
+        <text name="seasons_helpText_10_01" text="Деревьям, чтобы полностью вырасти теперь требуется больше времени, а именно 5 игровых лет, но через 2 года их уже можно будет начать рубить." />
+        <text name="seasons_helpText_10_02" text="Деревья препятствуют росту соседних деревьев, если они были посажены слишком близко друг к другу. Чтобы возобновить рост дерева, вам нужно их прореживать." />
+        <text name="seasons_helpTitle_11" text="Культуры - Погодные эффекты" />
+        <text name="seasons_helpText_11_01" text="Дождь, град и снег влияют на уровень влажности сельскохозяйственных культур. Если влажность в культурах выше определенного уровня из-за плохой погоды, вы не сможете собрать урожай. Влажные летние ночи могут случаться без предупреждения." />
+        <text name="seasons_helpText_11_02" text="После дождя вашим посевам потребуется время для высыхания, которое зависит от температуры воздуха и времени года. Более теплая погода означает, что зерновые культуры высыхают быстрее, чем в более прохладную погоду." />
+        <text name="seasons_helpText_11_03" text="Использование сеноворошилки на влажной траве превратит траву в полусухую. Солнечный свет необходим, чтобы полностью высушить траву до сена. Если при покосе трава была сухой, в ворошении нет необходимости." />
+        <text name="seasons_helpText_11_04" text="На модовой карте, для которой мододелом была подготовлена снежная маска Seasons тюки сена и соломы, которые подвергались воздействию дождя или снега, начнут гнить, если они не хранятся в сарае. Плохая погода не повлияет на упакованные тюки или тюки на карте без маски." />
+        <text name="seasons_helpTitle_12" text="Техническое обслуживание" />
+        <text name="seasons_helpText_12_01" text="Ваши тракторы и комбайны требуют периодического технического обслуживания, чтобы поддерживать их в рабочем состоянии. Период обслуживания - каждые 20 часов. Поврежденные транспортные средства могут стань менее мощными, медленными или менее эффективными." />
+        <text name="seasons_helpText_12_02" text="Вы можете отремонтировать свой автомобиль в магазине или в гараже. Ремонт не заставит автомобиль снова выглядеть новым: для этого вам нужно перекрасить автомобиль." />
+        <text name="seasons_helpTitle_13" text="Экономика" />
+        <text name="seasons_helpText_13_01" text="Цены на сельскохозяйственные культуры и животных реалистичным образом колеблются в зависимости от смены сезонов. Это основано на мировом экономическом рынке." />
+        <text name="seasons_helpTitle_14" text="Наемная помощь" />
+        <text name="seasons_helpText_14_01" text="Наемные работники требуют оплаты за сверхурочные. Если наемные работники используется до 6:00 и после 18:00, их зарплата будет на 50% выше." />
+        <text name="seasons_helpTitle_15" text="Животные - Введение" />
+        <text name="seasons_helpText_15_01" text="Животные были превращены в более реалистичную систему. Есть породы, у каждой из которых свои свойства. Самки животных могут размножаться или производить продукцию, тогда как самцы в основном предназначены для откорма и продажи." />
+        <text name="seasons_helpText_15_02" text="Потребление пищи и воды животными зависит от их возраста и веса, а также от температуры. Когда летом тепло, животное требует меньше соломы, но больше воды. Зимой, когда она замерзает, требуется больше соломы, но меньше воды. Максимальный объём кормушек теперь расчитан до 2 дней. Это означает, что вы должны кормить своих животных каждый день." />
+        <text name="seasons_helpText_15_03" text="Животные умирают, когда их не кормят или не дают воды." />
+        <text name="seasons_helpTitle_16" text="Животные - Производство" />
+        <text name="seasons_helpText_16_01" text="Производительность животных зависит от их породы и качества их питания. Коровы должны отелится, прежде чем производить молоко." />
+        <text name="seasons_helpText_16_02" text="Курицы производят яйца. Когда петух рядом и заинтересован, курица может высиживать яйца, производя потомство." />
+        <text name="seasons_helpTitle_17" text="Животные - Конюшня" />
+        <text name="seasons_helpText_17_01" text="Для предоставления услуг по уходу, лошади должны быть доставлены в конюшню на ферме. Вы можете ухаживать за лошадьми, кормя, катаясь и убирая за ними. Каждый день владелец лошади выплачивает вам сумму, зависящую от предоставляемого ухода." />
+        <text name="seasons_helpText_17_02" text="Не за всеми лошадьми легко заботиться." />
+        <text name="seasons_helpTitle_18" text="Меню Seasons" />
+        <text name="seasons_helpText_18_01" text="Меню Seasons используется в качестве справочного руководства для посадки, культур, погоды и экономики. Его также можно использовать для изменения настроек, связанных с Seasons." />
+        <text name="seasons_helpText_18_02" text="Первая страница - календарь посадки и сбора урожая. Слева на графике показана температура прорастания всех культур. Если температура рядом с культурой белая, это означает, что она достаточно теплая для посадки этой конкретной культуры. Если температура синего цвета - слишком холодно." />
+        <text name="seasons_helpText_18_03" text="Вторая страница дает подробный прогноз погоды. Третья содержит дополнительную информацию об урожае, касающуюся их морозостойкости и засухоустойчивости." />
+        <text name="seasons_helpText_18_04" text="На четвертой странице вы можете найти данные о ценах на продукцию за последний год. Данные обновляются каждый день. Будущая цена является лишь оценкой, поэтому возможны отклонения. Пятая страница - планировщик севооборота. Каждый столбец может содержать отдельный севооборот для отдельного поля и хранится в вашей игре." />
+        <text name="seasons_helpText_18_05" text="Шестая и последняя страница - это меню настроек. На этой странице доступны различные варианты настройки Seasons." />
+        <text name="seasons_helpTitle_19" text="HUD" />
+        <text name="seasons_helpText_19_01" text="HUD слева от часов в верхнем правом углу отображает информацию, относящуюся к временам года. Показывает текущую температуру воздуха сверху и температуру земли снизу. Состояние земли (влажные культуры/мерзлые почвы) также отображается слева от этого HUD. Также там отображаются период сезона и день текущего сезона." />
+        <text name="seasons_helpTitle_20" text="Измерительный прибор" />
+        <text name="seasons_helpText_20_01" text="MT9 - это измерительный ручной инструмент, который можно использовать для получения дополнительной информации о почве, деревьях, тюках и поддонах. После покупки инструмента в магазине его можно активировать, как и любой другой ручной инструмент и бензопилу. Укажите на что-нибудь и активируйте, чтобы начать измерение. Измерения не всегда бывают удачными." />
+        <text name="seasons_helpText_20_02" text="Для посаженных деревьев вы измеряете тип, высоту и расстояние до ближайшего дерева. Для тюков вы получаете содержимое, а для тюков с травой - состояние брожения. Измерение почвы дает местоположение, высоту, тип урожая, рост урожая и влажность урожая, уровень удобрения и влажность почвы. Для поддонов вы получаете содержимое." />
+        <text name="seasons_helpText_20_03" text="Для получения дополнительной информации о MT9 и подробного объяснения его символов смотрите на веб-сайте Realismus Modding: www.realismusmodding.com/seasons19." />
+        <text name="seasons_helpTitle_21" text="Разное" />
+        <text name="seasons_helpText_21_01" text="Если вы решите изменить продолжительность сезона в середине существующей сохраненной игры, рекомендуется 1) изменять продолжительность сезона зимой, чтобы уменьшить нежелательные эффекты для существующих культур, и 2) перезапустить игру/сервер после смены длины сезона." />
+        <text name="seasons_helpText_21_02" text="Хотя Вы можете играть так, как вы хотите, но предлагается играть только с 9-дневным сезоном и с 5-кратным ускорением. Таким образом, вы проводите весну только, выращивая и сажая зерновые культуры, ухаживая за посевами и сенокошением летом, собирая урожай и вспахивая осенью, ухаживая за животными, машинами, лесами и продавая урожай зимой." />
+    </texts>
+</l10n>

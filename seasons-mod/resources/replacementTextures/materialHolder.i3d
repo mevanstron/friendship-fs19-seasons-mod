@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="8.0.0" />
+    </Asset>
+
+    <Files>
+        <!-- Maple -->
+        <File fileId="101" filename="../trees/maple/mapleBranch_diffuse.png"/>
+        <File fileId="102" filename="../trees/maple/mapleBranch_normal.png"/> <!-- TODO from  game -->
+        <File fileId="103" filename="../trees/maple/mapleBranch_mask.png"/>
+
+        <File fileId="104" filename="../trees/maple/maple5LOD_diffuse_H.png"/>
+        <File fileId="105" filename="../trees/maple/maple5LOD_normal_H.png"/>
+        <File fileId="106" filename="../trees/maple/maple5LOD_mask_H.png"/>
+
+        <File fileId="107" filename="../trees/maple/mapleTrunk_diffuse.png"/> <!-- TODO from  game -->
+        <File fileId="108" filename="../trees/maple/mapleTrunk_normal.png"/>
+
+        <!-- Volume tree -->
+        <File fileId="201" filename="../trees/volumeTree/volumeTreeBranch_diffuse.png"/>
+        <File fileId="202" filename="../trees/volumeTree/volumeTreeBranch_normal.png"/> <!-- TODO from  game -->
+        <File fileId="203" filename="../trees/volumeTree/volumeTreeBranch_mask.png"/>
+
+        <File fileId="204" filename="../trees/volumeTree/volumeTreeLOD_diffuse.png"/>
+        <File fileId="205" filename="../trees/volumeTree/volumeTreeLOD_normal.png"/>
+        <File fileId="206" filename="../trees/volumeTree/volumeTreeLOD_mask.png"/>
+
+        <File fileId="207" filename="../trees/volumeTree/volumeTreeTrunk_diffuse.png"/> <!-- TODO from  game -->
+        <File fileId="208" filename="../trees/volumeTree/volumeTreeTrunk_normal.png"/>
+
+        <!-- Birch -->
+        <File fileId="301" filename="../trees/birch/birchBranch_diffuse.png"/>
+        <File fileId="302" filename="../trees/birch/birchBranch_normal.png"/> <!-- TODO from  game -->
+        <File fileId="303" filename="../trees/birch/birchBranch_mask.png"/>
+
+        <File fileId="304" filename="../trees/birch/birch1LOD_diffuse.png" />
+        <File fileId="305" filename="../trees/birch/birch1LOD_normal.png" />
+        <File fileId="306" filename="../trees/birch/birch1LOD_mask.png" />
+
+        <File fileId="307" filename="../trees/birch/birch2LOD_diffuse.png" />
+        <File fileId="308" filename="../trees/birch/birch2LOD_normal.png" />
+        <File fileId="309" filename="../trees/birch/birch2LOD_mask.png" />
+
+        <File fileId="310" filename="../trees/birch/birch3LOD_diffuse.png" />
+        <File fileId="311" filename="../trees/birch/birch3LOD_normal.png" />
+        <File fileId="312" filename="../trees/birch/birch3LOD_mask.png" />
+
+        <File fileId="313" filename="../trees/birch/birch4LOD_diffuse.png" />
+        <File fileId="314" filename="../trees/birch/birch4LOD_normal.png" />
+        <File fileId="315" filename="../trees/birch/birch4LOD_mask.png" />
+
+        <File fileId="316" filename="../trees/birch/birch5LOD_diffuse.png"/>
+        <File fileId="317" filename="../trees/birch/birch5LOD_normal.png"/>
+        <File fileId="318" filename="../trees/birch/birch5LOD_mask.png"/>
+
+        <File fileId="319" filename="../trees/birch/birchTrunk_diffuse.png"/> <!-- TODO from  game -->
+        <File fileId="320" filename="../trees/birch/birchTrunk_normal.png"/>
+
+        <!-- Oak -->
+        <File fileId="401" filename="../trees/oak/oakBranch_diffuse.png"/>
+        <File fileId="402" filename="../trees/oak/oakBranch_normal.png"/> <!-- TODO from  game -->
+        <File fileId="403" filename="../trees/oak/oakBranch_mask.png"/>
+
+        <File fileId="404" filename="../trees/oak/oak4LOD_diffuse.png" />
+        <File fileId="405" filename="../trees/oak/oak4LOD_normal.png" />
+        <File fileId="406" filename="../trees/oak/oak4LOD_mask.png" />
+
+        <File fileId="407" filename="../trees/oak/oakTrunk_diffuse.png"/> <!-- TODO from  game -->
+        <File fileId="408" filename="../trees/oak/oakTrunk_normal.png"/>
+
+        <!-- Shaders -->
+        <File fileId="8001" filename="../shaders/treeBranchShader2.xml" />
+        <File fileId="8002" filename="../shaders/treeBillboardShader2.xml" />
+        <File fileId="8003" filename="../shaders/treeTrunkShader2.xml" />
+
+        <File fileId="8004" filename="$data/shaders/windShader.xml" />
+        <File fileId="8005" filename="$data/shaders/fruitGrowthFoliageShader.xml" />
+        <File fileId="8006" filename="$data/shaders/bunkerSiloSilageShader.xml" />
+    </Files>
+
+    <Materials>
+        <!-- Maple -->
+        <Material name="mapleBranch_mat" materialId="101" customShaderId="8001" customShaderVariation="SEASONAL">
+            <Texture fileId="101"/>
+            <Normalmap fileId="102"/>
+            <Custommap name="mMaskMap" fileId="103"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="windParams" value="0.25 3 0.2 0"/>
+            <CustomParameter name="waveSpeed" value="1.2 2 1.6 4.8"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+            <CustomParameter name="colorScaleAutumn" value="0.8 0.3 0.133 1"/>
+        </Material>
+
+        <Material name="mapleTrunk_mat" materialId="103" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8003">
+            <Texture fileId="107"/>
+            <Normalmap fileId="108"/>
+        </Material>
+
+        <Material name="maple5LOD_mat" materialId="102" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="104"/>
+            <Normalmap fileId="105"/>
+            <Custommap name="mMaskMap" fileId="106"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+            <CustomParameter name="colorScaleAutumn" value="0.8 0.3 0.133 1"/>
+        </Material>
+
+        <!-- Volume tree -->
+        <Material name="volumeTreeBranch_mat" materialId="201" customShaderId="8001" customShaderVariation="SEASONAL">
+            <Texture fileId="201"/>
+            <Normalmap fileId="202"/>
+            <Custommap name="mMaskMap" fileId="203"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="windParams" value="0.25 3.6 0.15 0"/>
+            <CustomParameter name="waveSpeed" value="1.2 2 1.6 4.8"/>
+            <CustomParameter name="colorScaleSpring" value="0.455 0.768 0.286 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.428 0.546275 0.205294 1"/>
+            <CustomParameter name="colorScaleAutumn" value="0.9 0.28 0.153 0.95"/>
+        </Material>
+
+        <Material name="volumeTreeTrunk_mat" materialId="202" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8003">
+            <Texture fileId="207"/>
+            <Normalmap fileId="208"/>
+        </Material>
+
+        <Material name="volumeTreeLOD_mat" materialId="203" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="204"/>
+            <Normalmap fileId="205"/>
+            <Custommap name="mMaskMap" fileId="206"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="colorScaleSpring" value="0.455 0.768 0.286 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.428 0.546275 0.205294 1"/>
+            <CustomParameter name="colorScaleAutumn" value="0.9 0.28 0.153 0.95"/>
+        </Material>
+
+        <!-- Birch -->
+        <Material name="birchBranch_mat" materialId="301" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8001" customShaderVariation="SEASONAL">
+            <Texture fileId="301"/>
+            <Normalmap fileId="302"/>
+            <Custommap name="mMaskMap" fileId="303"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="windParams" value="0.18 3.25 0.18 0"/>
+            <CustomParameter name="waveSpeed" value="1.2 2 1.6 4.8"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+
+        <Material name="birchTrunk_mat" materialId="302" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8003">
+            <Texture fileId="319"/>
+            <Normalmap fileId="320"/>
+        </Material>
+
+        <Material name="birch1LOD_mat" materialId="303" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="304"/>
+            <Normalmap fileId="305"/>
+            <Custommap name="mMaskMap" fileId="306"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+        <Material name="birch2LOD_mat" materialId="304" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="307"/>
+            <Normalmap fileId="308"/>
+            <Custommap name="mMaskMap" fileId="309"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+        <Material name="birch3LOD_mat" materialId="305" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="310"/>
+            <Normalmap fileId="311"/>
+            <Custommap name="mMaskMap" fileId="312"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+        <Material name="birch4LOD_mat" materialId="306" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="313"/>
+            <Normalmap fileId="314"/>
+            <Custommap name="mMaskMap" fileId="315"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+        <Material name="birch5LOD_mat" materialId="307" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="316"/>
+            <Normalmap fileId="317"/>
+            <Custommap name="mMaskMap" fileId="318"/>
+            <CustomParameter name="colorScaleAutumn" value="0.919 0.541 0.063 0.6"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.408 0.486275 0.235294 1"/>
+        </Material>
+
+        <!-- Oak -->
+        <Material name="oakBranch_mat" materialId="401" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8001" customShaderVariation="SEASONAL">
+            <Texture fileId="401"/>
+            <Normalmap fileId="402"/>
+            <Custommap name="mMaskMap" fileId="403"/>
+            <CustomParameter name="windScale" value="1 0 0 0"/>
+            <CustomParameter name="windParams" value="0.2 3.3 0.21 0"/>
+            <CustomParameter name="waveSpeed" value="1.2 2 1.6 4.8"/>
+            <CustomParameter name="colorScaleAutumn" value="0.88 0.3 0.153 0.92"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.558 0.55275 0.35294 1"/>
+        </Material>
+
+        <Material name="oakTrunk_mat" materialId="402" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8003">
+            <Texture fileId="407"/>
+            <Normalmap fileId="408"/>
+        </Material>
+
+        <Material name="oak4LOD_mat" materialId="403" cosPower="2" specularColor="0 0 0" ambientColor="1 1 1" customShaderId="8002" customShaderVariation="SEASONAL_BILLBOARD180">
+            <Texture fileId="404"/>
+            <Normalmap fileId="405"/>
+            <Custommap name="mMaskMap" fileId="406"/>
+            <CustomParameter name="colorScaleAutumn" value="0.88 0.3 0.153 0.92"/>
+            <CustomParameter name="colorScaleSpring" value="0.561 0.698 0.086 1"/>
+            <CustomParameter name="colorScaleSummer" value="0.558 0.55275 0.35294 1"/>
+        </Material>
+
+        <!-- Clone-able simple mat for holding vanilla materials -->
+        <Material name="material_holder_mat" materialId="1000" diffuseColor="0 0 0 1" ambientColor="1 1 1" />
+    </Materials>
+
+    <Shapes externalShapesFile="materialHolder.i3d.shapes">
+    </Shapes>
+
+    <Dynamics>
+    </Dynamics>
+
+    <Scene>
+        <!-- Maple -->
+        <Shape shapeId="1" name="maple_attachments_shader" visibility="false" nodeId="101" materialIds="101" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="maple_stage5_lod_shader" visibility="false" nodeId="102" materialIds="102" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="maple_trunk_shader" visibility="false" nodeId="103" materialIds="103" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+
+        <!-- Volume tree -->
+        <Shape shapeId="1" name="volumeTree_attachments_shader" visibility="false" nodeId="201" materialIds="201" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="volumeTree_trunk_shader" visibility="false" nodeId="202" materialIds="202" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="volumeTree_lod_shader" visibility="false" nodeId="203" materialIds="203" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+
+        <!-- Birch -->
+        <Shape shapeId="1" name="birch_attachments_shader" visibility="false" nodeId="301" materialIds="301" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_trunk_shader" visibility="false" nodeId="302" materialIds="302" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_stage1_lod_shader" visibility="false" nodeId="303" materialIds="303" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_stage2_lod_shader" visibility="false" nodeId="304" materialIds="304" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_stage3_lod_shader" visibility="false" nodeId="305" materialIds="305" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_stage4_lod_shader" visibility="false" nodeId="306" materialIds="306" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="birch_stage5_lod_shader" visibility="false" nodeId="307" materialIds="307" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+
+        <!-- Oak -->
+        <Shape shapeId="1" name="oak_attachments_shader" visibility="false" nodeId="401" materialIds="401" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="oak_trunk_shader" visibility="false" nodeId="402" materialIds="402" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+        <Shape shapeId="1" name="oak_stage4_lod_shader" visibility="false" nodeId="403" materialIds="403" distanceBlending="false" castsShadows="true" receiveShadows="true" />
+
+        <!-- Clone-able object for holding vanilla materials -->
+        <Shape shapeId="1" name="cache_material_holder" visibility="false" nodeId="1000" materialIds="1000" distanceBlending="false" />
+    </Scene>
+</i3D>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <translationContributors>liuzhenyu811</translationContributors>
+    <texts>
+        <text name="action_toggle_plant_distance" text="切换种植距离 (%d 米)" />
+        <text name="fillType_salt" text="道路盐" />
+        <text name="fillType_snow" text="雪" />
+        <text name="input_SEASONS_SHOW_MENU" text="显示季节菜单" />
+        <text name="seasons_forecast_averageTemperature" text="平均温度" />
+        <text name="seasons_forecast_maximumTemperature" text="最高温度" />
+        <text name="seasons_forecast_minimumTemperature" text="最低温度" />
+        <text name="seasons_forecast_precipitationInMm" text="降水量 (mm)" />
+        <text name="seasons_forecast_precipitationPercentage" text="降水率 (%)" />
+        <text name="seasons_forecast_type" text="类型" />
+        <text name="seasons_forecast_windSpeed" text="风速 (m/s)" />
+        <text name="seasons_forecast_dryingPotential" text="干燥潜力" />
+        <text name="seasons_forecast_info" text="预测不确定性随时间增加." />
+        <text name="seasons_function_baleCutter" text="捆割刀可用于割开捆." />
+        <text name="seasons_function_bigBagSalt" text="大袋盐用来填充你的撒盐机." />
+        <text name="seasons_function_measureTool" text="使用测量工具,您可以获得有关土壤,树木,捆包和其他物体的信息." />
+        <text name="seasons_helpCategory_1" text="季节" />
+        <text name="seasons_intro_0" text="春天来了,花草树木开花了.是时候耕作和播种了." />
+        <text name="seasons_intro_1" text="夏天的白天漫长而温暖.是时候制作干草,看着作物生长了." />
+        <text name="seasons_intro_2" text="树叶变黄了,天气越来越冷了 - 秋天已经到来了.一定要在冬天来临前收割作物." />
+        <text name="seasons_intro_3" text="冬天已经降临,动物们需要更多的照顾.地面会结冰,你不能在你的田地里工作.现在是植树和除雪的时候了." />
+        <text name="seasons_measuretool_failed" text="测量失败" />
+        <text name="seasons_measuretool_fermentation_time" text="还有 %d小时" />
+        <text name="seasons_measuretool_fermentation_time_low" text="还剩不到1小时" />
+        <text name="seasons_measuretool_no_info" text="测量失败: 无信息" />
+        <text name="seasons_measuretool_title" text="测量" />
+        <text name="seasons_message_failedHeightTypes" text="Seasons was unable to load on the selected map: the map is not compatible with Seasons. (too many fruits on the ground)" />
+        <text name="seasons_notification_animalsKilled" text="动物已死亡 (%d)" />
+        <text name="seasons_notification_animalsDiedOfAge" text="动物因年老死亡 (%d)" />
+        <text name="seasons_notification_horseDied" text="%s 已经死亡" />
+        <text name="seasons_notification_animalsDiedInTrailer" text="动物死在拖车中 (%d)" />
+        <text name="seasons_periodNameFull_1" text="初春" />
+        <text name="seasons_periodNameFull_10" text="初冬" />
+        <text name="seasons_periodNameFull_11" text="中冬" />
+        <text name="seasons_periodNameFull_12" text="晚冬" />
+        <text name="seasons_periodNameFull_2" text="中春" />
+        <text name="seasons_periodNameFull_3" text="晚春" />
+        <text name="seasons_periodNameFull_4" text="初夏" />
+        <text name="seasons_periodNameFull_5" text="中秋" />
+        <text name="seasons_periodNameFull_6" text="晚夏" />
+        <text name="seasons_periodNameFull_7" text="初秋" />
+        <text name="seasons_periodNameFull_8" text="中夏" />
+        <text name="seasons_periodNameFull_9" text="晚秋" />
+        <text name="seasons_rotationCategory_0" text="休耕" />
+        <text name="seasons_rotationCategory_1" text="油籽" />
+        <text name="seasons_rotationCategory_2" text="谷类" />
+        <text name="seasons_rotationCategory_3" text="豆科" />
+        <text name="seasons_rotationCategory_4" text="根茎作物" />
+        <text name="seasons_rotationCategory_5" text="茄科" />
+        <text name="seasons_rotationCategory_6" text="草" />
+        <text name="seasons_rotation_recommendationAny" text="任何" />
+        <text name="seasons_seasonName_0" text="春天" />
+        <text name="seasons_seasonName_1" text="夏天" />
+        <text name="seasons_seasonName_2" text="秋天" />
+        <text name="seasons_seasonName_3" text="冬天" />
+        <text name="seasons_setting_moisture" text="作物水分" />
+        <text name="seasons_setting_seasonIntros" text="季节介绍" />
+        <text name="seasons_setting_seasonLength" text="季节长度" />
+        <text name="seasons_setting_snow" text="雪模式" />
+        <text name="seasons_setting_snowTracks" text="雪迹" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BLACK" text="康沃尔杂交鸡" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BROWN" text="罗德岛红羽鸡" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_ROOSTER" text="公鸡" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_WHITE" text="白色来航鸡" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK" text="扎勒牛" />
+        <text name="seasons_shopItem_COW_TYPE_BLACK_WHITE" text="荷斯坦奶牛" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_BROWN" text="婆罗门牛(棕色)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_GREY" text="婆罗门牛(灰色)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="婆罗门牛(浅棕色)" />
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_WHITE" text="婆罗门牛(白色)" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN" text="利穆赞牛" />
+        <text name="seasons_shopItem_COW_TYPE_BROWN_WHITE" text="埃尔郡奶牛" />
+        <text name="seasons_shopItem_HORSE_TYPE_BEIGE" text="哈福林格马" />
+        <text name="seasons_shopItem_HORSE_TYPE_BLACK" text="黑色阿拉伯马" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN" text="英国纯种马" />
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN_WHITE" text="花马" />
+        <text name="seasons_shopItem_HORSE_TYPE_DARK_BROWN" text="田纳西走马" />
+        <text name="seasons_shopItem_HORSE_TYPE_GREY" text="安达卢西亚马" />
+        <text name="seasons_shopItem_HORSE_TYPE_LIGHT_BROWN" text="摩根马" />
+        <text name="seasons_shopItem_HORSE_TYPE_RED_BROWN" text="夸特马" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK" text="伯克郡猪" />
+        <text name="seasons_shopItem_PIG_TYPE_BLACK_WHITE" text="花斑猪" />
+        <text name="seasons_shopItem_PIG_TYPE_RED" text="约克郡猪" />
+        <text name="seasons_shopItem_PIG_TYPE_WHITE" text="格洛斯特郡猪" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK" text="杜泊羊" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK_WHITE" text="萨福克羊" />
+        <text name="seasons_shopItem_SHEEP_TYPE_BROWN" text="美利奴羊" />
+        <text name="seasons_shopItem_SHEEP_TYPE_WHITE" text="多赛特羊" />
+        <text name="seasons_shopItem_baleCutter" text="捆割刀" />
+        <text name="seasons_shopItem_bigBagSalt" text="大袋道路盐" />
+        <text name="seasons_shopItem_waterPump" text="水泵" />
+        <text name="seasons_statistic_health" text="健康" />
+        <text name="seasons_tooltip_moisture" text="作物水分过多时不允许打谷(20%)" />
+        <text name="seasons_tooltip_seasonIntros" text="在季节开始时显示季节介绍" />
+        <text name="seasons_tooltip_seasonLength" text="一个季节的长度以天为单位,一年是四季" />
+        <text name="seasons_tooltip_snow" text="雪会在寒冷的冬天落下,封闭道路" />
+        <text name="seasons_tooltip_snowTracks" text="车辆在雪上行驶时会压紧雪" />
+        <text name="seasons_ui_beforePreviousFruit" text="之前" />
+        <text name="seasons_ui_calendar" text="日历" />
+        <text name="seasons_ui_cropRotation" text="轮作" />
+        <text name="seasons_ui_cropRotationExplanation" text="轮作从最后一次作物开始后重新开始.'none'的框将跳过以缩短轮作时间." />
+        <text name="seasons_ui_cropRotationPlanner" text="轮作计划" />
+        <text name="seasons_ui_cropRotation_1" text="轮换 1" />
+        <text name="seasons_ui_cropRotation_2" text="轮换 2" />
+        <text name="seasons_ui_cropRotation_3" text="轮换 3" />
+        <text name="seasons_ui_cropRotation_4" text="轮换 4" />
+        <text name="seasons_ui_crop_info" text="作物信息" />
+        <text name="seasons_ui_crops_seed" text="种子" />
+        <text name="seasons_ui_crops_young" text="幼苗" />
+        <text name="seasons_ui_crops_mature" text="成熟" />
+        <text name="seasons_ui_crops_frostResistance" text="抗冻性" />
+        <text name="seasons_ui_crops_droughtResistance" text="抗旱性" />
+        <text name="seasons_ui_crops_high" text="高" />
+        <text name="seasons_ui_crops_medium" text="中" />
+        <text name="seasons_ui_crops_low" text="低" />
+        <text name="seasons_ui_crops_high_none" text="无" />
+        <text name="seasons_ui_days" text="%d 天" />
+        <text name="seasons_ui_dontShowAgain" text="不再显示" />
+        <text name="seasons_ui_economy" text="经济" />
+        <text name="finance_seasons_livery_stable" text="马房收入" />
+        <text name="seasons_livery_stable" text="马房" />
+        <text name="seasons_ui_pcf_info" text="当气温低于 %s时,冻害的可能性增加.当土壤含水量低于 12%%时,干旱的可能性增加.利用测量工具监测土壤含水量." />
+        <text name="seasons_ui_fruitGerminated" text="发芽的" />
+        <text name="seasons_ui_growthMapGerminationFailed" text="发芽失败" />
+        <text name="seasons_ui_growthMapPlanted" text="种植" />
+        <text name="seasons_ui_harvestSeason" text="收获季节" />
+        <text name="seasons_ui_plantingSeason" text="播种季节" />
+        <text name="seasons_ui_previousFruit" text="上一个" />
+        <text name="seasons_ui_products" text="产品" />
+        <text name="seasons_ui_recommendation" text="建议" />
+        <text name="seasons_ui_repaint" text="重新喷漆" />
+        <text name="seasons_ui_repaintDialog" text="你真的想给载具重新喷漆 %s吗?" />
+        <text name="seasons_ui_resetGrowth" text="你在一个旧的游戏中加载了季节.季节要重置所有田地到荒芜的状态以与游戏日同步.你将失去所有的作物.如果你不重置生长,季节可能不会像预期的那样工作." />
+        <text name="seasons_ui_resetGrowth_no" text="保持生长" />
+        <text name="seasons_ui_resetGrowth_title" text="重置生长" />
+        <text name="seasons_ui_resetGrowth_yes" text="重置" />
+        <text name="seasons_ui_snowOneLayer" text="仅1层" />
+        <text name="seasons_ui_weatherForecast" text="天气预报" />
+        <text name="seasons_warning_catchingUp" text="游戏正在快进后的同步." />
+        <text name="seasons_warning_doNotThreshWithMoistCrops" text="作物太湿时不要打谷!" />
+        <text name="seasons_warning_soilIsFrozen" text="土壤冻结了.你不能在上面工作!" />
+        <text name="seasons_weekday1" text="星期一" />
+        <text name="seasons_weekday2" text="星期二" />
+        <text name="seasons_weekday3" text="星期三" />
+        <text name="seasons_weekday4" text="星期四" />
+        <text name="seasons_weekday5" text="星期五" />
+        <text name="seasons_weekday6" text="星期六" />
+        <text name="seasons_weekday7" text="星期日" />
+        <text name="unit_feetShort" text="英尺" />
+        <text name="unit_meterShort" text="米" />
+        <text name="seasons_animal_sex_male" text="雄性" />
+        <text name="seasons_animal_sex_female" text="雌性" />
+        <text name="seasons_animal_sex_male_short" text="公" />
+        <text name="seasons_animal_sex_female_short" text="母" />
+        <text name="seasons_animal_age" text="岁" />
+        <text name="seasons_animal_age_short" text="岁" />
+        <text name="seasons_unit_lbs" text="英镑" />
+        <text name="seasons_unit_kg" text="公斤" />
+        <text name="seasons_unit_lbsShort" text="lbs" />
+        <text name="seasons_unit_kgShort" text="kg" />
+        <text name="seasons_statistic_age" text="年龄" />
+        <text name="seasons_statistic_weight" text="体重" />
+        <text name="seasons_ui_animalsFoodInfo" text="该围栏需要 %d升的食物来喂养下一年的动物." />
+
+        <!-- Missing translation of "There are no animals in this pen" -->
+        <text name="seasons_ui_noAnimalsInHusbandry" text="There are no animals in this pen" />
+        <!-- Missing translation of "Production" -->
+        <text name="seasons_ui_production" text="Production" />
+        <!-- Missing translation of "Estimated food required" -->
+        <text name="seasons_ui_estimatedFoodRequired" text="Estimated food required" />
+        <!-- Missing translation of "Estimated water required" -->
+        <text name="seasons_ui_estimatedWaterRequired" text="Estimated water required" />
+        <!-- Missing translation of "Estimated straw required" -->
+        <text name="seasons_ui_estimatedStrawRequired" text="Estimated straw required" />
+        <!-- Missing translation of "Year" -->
+        <text name="seasons_statistic_year" text="Year" />
+        <!-- Missing translation of "Newborn" -->
+        <text name="seasons_ui_ageClassifier_newborn" text="Newborn" />
+        <!-- Missing translation of "Young" -->
+        <text name="seasons_ui_ageClassifier_young" text="Young" />
+        <!-- Missing translation of "Mature" -->
+        <text name="seasons_ui_ageClassifier_mature" text="Mature" />
+        <!-- Missing translation of "Old" -->
+        <text name="seasons_ui_ageClassifier_old" text="Old" />
+        <!-- Missing translation of "Contract finished" -->
+        <text name="seasons_contract_finished" text="Contract finished" />
+        <!-- Missing translation of "Contract failed" -->
+        <text name="seasons_contract_failed" text="Contract failed" />
+        <!-- Missing translation of "Snow clearing" -->
+        <text name="seasons_snowContract_jobType" text="Snow clearing" />
+        <!-- Missing translation of "to clear the designated area from all snow." -->
+        <text name="seasons_snowContract_action" text="to clear the designated area from all snow." />
+
+        <text name="overwrite_animalPen_cow" text="牛牧场" />
+        <text name="overwrite_animalPen_cow2" text="大型牛牧场" />
+        <text name="overwrite_animals_cowPasture" text="牛牧场" />
+        <text name="overwrite_fillType_cow" text="牛" />
+        <text name="overwrite_function_animalPenCow" text="一个养牛的地方." />
+        <text name="overwrite_function_feeder" text="一种饲料混合车,将青贮饲料,干草和秸秆混合成可喂饲牛的全混合日粮(TMR)." />
+        <text name="overwrite_function_feederBale" text="这台机器将秸秆捆打碎铺到牛圈地面上." />
+        <text name="overwrite_shopItem_animalPenCow" text="牛围栏" />
+        <text name="overwrite_shopItem_cow" text="牛" />
+        <text name="overwrite_statistic_cowOwned" text="拥有的牛" />
+        <text name="overwrite_ui_cowLiquidManureSilo" text="牛泥浆池" />
+        <text name="overwrite_ui_cowManureHeap" text="牛粪堆" />
+        <text name="overwrite_ui_statisticView_cow" text="牛" />
+        <text name="overwrite_animals_descriptionHorse" text="照料马的日常收入取决于它的健壮性,健康度和洁净度.它们应该每天骑行以增强体质.马需要秸秆来铺设干净的垫料,需要水和食物来保持健康.还需要定期刷洗." />
+        <text name="seasons_overwrite_hint_09" text="你可以通过施肥和喷洒田地来提高收成." />
+        <text name="seasons_ui_notFertile" text="不肥沃" />
+
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BLACK" text="这种肉类品种生长极为迅速,利润迅速回升.它需要大量的饲料." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BROWN" text="罗德岛红羽鸡是一种杂交品种（包括鸡蛋和肉）,需要在产蛋和肉制品之间有大量的饲料." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_ROOSTER" text="这只雄鸡主要用于繁殖,并将努力使你的鸡生产的蛋受精而生出小鸡.注意:你不需要公鸡来产蛋." />
+        <text name="seasons_animalInfo_CHICKEN_TYPE_WHITE" text="如果鸡蛋是你优先考虑的事情,这是一种供选择的鸡.这种品种需要的饲料比其他任何品种都要少." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK" text="扎勒牛是新农民的一个更便宜的选择,以其大理石般的肉体闻名.这些肉体可以在市场上得到可观的收入." />
+        <text name="seasons_animalInfo_COW_TYPE_BLACK_WHITE" text="产奶皇后.这个品种需要大量的饲料,而且前期购买成本很高,但产奶量最多." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_BROWN" text="婆罗门牛是一个耐热的特定品种,饲料需求量很少.它们以其潜在的收益和良好的肉体产量而闻名." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_GREY" text="婆罗门牛是一个耐热的特定品种,饲料需求量很少.它们以其潜在的收益和良好的肉体产量而闻名." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="婆罗门牛是一个耐热的特定品种,饲料需求量很少.它们以其潜在的收益和良好的肉体产量而闻名." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_WHITE" text="婆罗门牛是一个耐热的特定品种,饲料需求量很少.它们以其潜在的收益和良好的肉体产量而闻名." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN" text="“肉体品种”.利穆赞牛是一种价格昂贵,但饲养效率高的动物.这意味着它将迅速增长,并在市场上提供很高的价格." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN_WHITE" text="埃尔郡的农民可以放心,低饲料消耗和平均价格都是降低牛奶产量的两个非常值得权衡的因素." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BEIGE" text="虽然哈夫林格是一个强大的用于驾驶和选拔工作的品种,但它也是越野和耐力骑行以及表演跳跃的绝佳品种." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BLACK" text="阿拉伯马以其耐性和持久力而闻名,以其在耐力骑行和比赛中的能力而闻名." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN" text="主要用于比赛和跳跃,这种敏捷的品种有短腿骨骼,可以长时间轻松地跨步." />
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN_WHITE" text="从夸特和纯种血统的斑点马发展而来的美国花马现在被公认为自己的品种.非常适合西方的娱乐活动和节目." />
+        <text name="seasons_animalInfo_HORSE_TYPE_DARK_BROWN" text="走马以其四拍跑和骑行的能力而闻名,它性情平静,是一种很好的展示马." />
+        <text name="seasons_animalInfo_HORSE_TYPE_GREY" text="安达卢西亚马因其运动精神而被培育出来,以其骑乘和驾驶能力而闻名,而今天则被用来表演跳跃和西方娱乐." />
+        <text name="seasons_animalInfo_HORSE_TYPE_LIGHT_BROWN" text="摩根是一匹无所不能的马.它们结构紧凑,腿部强壮,易于保有和处理." />
+        <text name="seasons_animalInfo_HORSE_TYPE_RED_BROWN" text="夸特马是世界上最全能的马种之一,体形矮壮,肌肉发达.起跑、转身、停止能力强." />
+
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK" text="伯克郡朱是一种快速增长的动物,需要适度的资本购买.以其美味的肉而闻名." />
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK_WHITE" text="以其肉体质量而闻名,花斑猪生长速度相对较快,购买金额适中." />
+        <text name="seasons_animalInfo_PIG_TYPE_RED" text="这种猪被称为“母猪”,是一种生长速度很快的动物,但最初购买时需要大量资金." />
+        <text name="seasons_animalInfo_PIG_TYPE_WHITE" text="格洛斯特郡猪是一种生长缓慢的动物,但最初购买要便宜得多.非常坚强,对初任农场主来说很好." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK" text="一种中等大小的品种,生长迅速,但不产羊毛.非常多产和快速成熟.成年只需要很少的饲料.适合40-45公斤(85-100磅)的羔羊." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK_WHITE" text="一个大型品种的绵羊,生长速度极快,生产少量的羊毛,需要大量的饲料成年.多产和缓慢成熟.适合45-65公斤(100-140磅)的羔羊." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_BROWN" text="美利奴是一种用于羊毛生产的中型品种.它生长缓慢,不是很多产,但成年后不需要大量的饲料." />
+        <text name="seasons_animalInfo_SHEEP_TYPE_WHITE" text="一个大品种的绵羊,生长速度适中,羊毛产量适中,成年后需要中等数量的饲料.相对多产,适用于25-40公斤(50-85磅)的羔羊." />
+
+        <text name="seasons_hint_01" text="使用作物轮作计划器计划作物轮作." />
+        <text name="seasons_hint_02" text="种子需要成功地发芽才能长成植物." />
+        <text name="seasons_hint_03" text="即使在发芽后,作物也需要足够的温暖和水分才能生存." />
+        <text name="seasons_hint_04" text="草被包裹或覆盖后需要一段时间才能变成青贮饲料." />
+        <text name="seasons_hint_05" text="动物需要持续注意保持健康,生长或繁殖." />
+        <text name="seasons_hint_06" text="草需要在阳光下晒干才能产生干草." />
+        <text name="seasons_hint_07" text="极端干旱会对农作物产生不良影响." />
+        <text name="seasons_hint_08" text="雨中留在外面的干草或稻草会随着时间而腐烂.随着时间的推移,草总是会腐烂." />
+        <text name="seasons_hint_09" text="重新喷漆你的车辆和工具,使它们看起来像新的一样." />
+        <text name="seasons_hint_10" text="使用日历和作物信息显示来确定适合气候的作物." />
+        <text name="seasons_hint_11" text="使用历史价格图,您可以看到什么时候最适合销售您的产品." />
+        <text name="seasons_hint_12" text="日历上显示了你可以种什么作物.确保土壤温度正常." />
+        <text name="seasons_hint_13" text="动物品种有不同的优缺点." />
+        <text name="seasons_hint_14" text="总是喂养你的动物并提供水,否则它们会死亡." />
+        <text name="seasons_hint_15" text="你的马房可以养马.你每天的收入取决于它们的健康、饮食、清洁度和锻炼." />
+        <text name="seasons_hint_16" text="当鸡注意到公鸡时,它们会孵蛋." />
+        <text name="seasons_hint_17" text="动物的食物和水的摄入量随着年龄的增长而增加." />
+        <text name="seasons_hint_18" text="牛的健康可以通过给他们更好的食物来改善.最好的食物是全混合日粮(TMR),它是由混合车中的干草、秸秆和青贮饲料混合而成的." />
+        <text name="seasons_hint_19" text="埃尔郡奶牛产奶量少,但食物消耗少,成本低." />
+        <text name="seasons_hint_20" text="罗德岛红鸡是一种对鸡蛋和肉类都有用的鸡品种." />
+        <text name="seasons_hint_21" text="动物会因年老、体重过重或营养不良而死亡." />
+        <text name="seasons_hint_22" text="当树木太近时,树木就不能生长." />
+        <text name="seasons_hint_23" text="天气预报在预测未来时变得更加不确定." />
+        <text name="seasons_hint_24" text="湿草需要用翻晒机翻晒,然后在阳光下晒干才能成为干草.干草只需要在阳光下晒干." />
+        <text name="seasons_hint_25" text="天气预报表明草能干燥的程度如何." />
+
+        <text name="seasons_helpTitle_01" text="季节" />
+        <text name="seasons_helpText_01_01" text="季节模组，通过调整几乎所有方面的参数来提高模拟农场游戏的真实性.从季节效应到作物生长模式和动物生产,一切都已改变到一个更现实的水平." />
+        <text name="seasons_helpText_01_02" text="游戏中一年分为四个季节:春天、夏天、秋天和冬天.每个季节分为三个时期:早、中、晚." />
+        <text name="seasons_helpText_01_03" text="你的活动与一年中在现实生活中发生的时间有关." />
+
+        <text name="seasons_helpTitle_02" text="季节效应 (1)" />
+        <text name="seasons_helpText_02_01" text="天气每天都是随机的,但每个季节都有规律.这种模式对于每个GEO都是不同的,但默认情况如下:" />
+        <text name="seasons_helpText_02_02" text="春天多雨多雾,有晴天的机会.夏天将会更加温暖和干燥.冰雹风暴可能在没有任何预警的情况下发生.秋天天气晴朗但会下雨.冬天是多雨的,但常常冷得足以让雪落下来,甚至可能留在地上." />
+        <text name="seasons_helpText_02_03" text="雪会填满拖车和铲斗,除非拖车或铲斗被盖布或棚子覆盖.雪还会降低牵引力,从而使车辆减速." />
+
+        <text name="seasons_helpTitle_03" text="季节效应 (2)" />
+        <text name="seasons_helpText_03_01" text="白天也受季节的影响.冬天白天短(8小时),而夏天白天长(17小时)." />
+        <text name="seasons_helpText_03_02" text="青贮槽和青贮饲料捆需要时间发酵.要使料槽或青贮饲料捆充分发酵,需要三分之一个季节(1个阶段).包好的干草不会发酵,但可以抵御天气." />
+        <text name="seasons_helpText_03_03" text="季节也会影响树木和树叶.树木会随着季节的温度变化而改变状态.秋天树叶会变色并脱落,冬天树木将光秃秃的,春天将是浅绿色的." />
+
+        <text name="seasons_helpTitle_04" text="天气预报" />
+        <text name="seasons_helpText_04_01" text="接下来7天的天气预报可以在预报菜单中看到,其中包含接下来24小时的详细信息.预测的不确定性随着时间的推移而增加." />
+        <text name="seasons_helpText_04_02" text="天气预报显示未来7天的最高温/最低温和天气(晴天、多雾、下雨、下雪、多云).冰雹不会出现在天气预报上,因为现实生活中的冰雹往往是一个意想不到的事." />
+        <text name="seasons_helpText_04_03" text="预测还包括下降预期、风速和草地干燥能力的指标." />
+
+        <text name="seasons_helpTitle_05" text="土壤" />
+        <text name="seasons_helpText_05_01" text="利用热力学方程和历史数据对土壤温度进行了模拟.这意味着当气温下降到某一点以下一定时间后,土壤在冬季会结冰.当气温在一定时间内超过某一临界值时,土壤就会在春天解冻." />
+        <text name="seasons_helpText_05_02" text="地面结冰时,土壤不能耕作.作物不会在冻土中生长." />
+        <text name="seasons_helpText_05_03" text="作物只有在土壤温度高于发芽温度时才会发芽.发芽温度包含在日历中,在季节菜单的第一页上." />
+        <text name="seasons_helpText_05_04" text="土壤温度和湿度影响作物的持续生长.如果天气太冷或太干,部分作物可能会枯萎.看看菜单中每种作物的抗性." />
+
+        <text name="seasons_helpTitle_06" text="作物 - 介绍" />
+        <text name="seasons_helpText_06_01" text="当开始一个新游戏时,所有的作物都将被重置到它们的收获阶段,以模拟自秋季以来田地一直没有工作的事实.在现有的游戏存档中首次使用季节时,您可以选择重置作物." />
+        <text name="seasons_helpText_06_02" text="作物的默认生长模式已被取代.作物现在将遵循其相应季节的实际生长模式的种植和收割时间.这也意味着冬天会杀死大多数作物,而在错误的时间种植的作物不会生长." />
+        <text name="seasons_helpText_06_03" text="除了杨树和白萝卜以外,作物只有在最后生长阶段才能收获,并且将一直保持在最后一个阶段,直到在冬天被冻死." />
+        <text name="seasons_helpText_06_04" text="根据Esc菜单中的生长概述,一旦非根茎作物达到第一个可收获阶段,就可以收获了.这是最后的收获阶段." />
+        <text name="seasons_helpText_06_05" text="你还可以青贮未熟作物." />
+
+        <text name="seasons_helpTitle_07" text="作物 - 耕作" />
+        <text name="seasons_helpText_07_01" text="现在作物的生长时间更长了.作物可能需要半年才能达到可收获阶段." />
+        <text name="seasons_helpText_07_02" text="冬天会杀死大多数作物,但冬天和春天的作物是可能存活的.小麦、大麦、杨树、青草、油菜籽、萝卜、菜籽油等在秋季可作冬作物种植或在春季作春作物种植.确保土壤足够暖和,以使这些作物发芽." />
+        <text name="seasons_helpText_07_03" text="玉米、大豆、向日葵、甜菜和马铃薯必须在春天种植.一定要检查季节菜单中的生长概况,因为有些作物不能在春天的第一个阶段(早春)种植,即使土壤温度高于发芽温度也会死亡." />
+
+        <text name="seasons_helpTitle_08" text="作物 - 田地" />
+        <text name="seasons_helpText_08_01" text="为了获得最佳作物产量,作物需要清除杂草(通过除草或喷洒)、完全生长和充分施肥(三次).土壤也需要有营养,对作物来说不过于紧凑." />
+        <text name="seasons_helpText_08_02" text="为了创造良好的土壤,每年都要轮作作物.要了解更多关于旋轮作的信息,可以使用季节菜单中的轮作计划器.在种植一种不喜欢紧凑土壤的作物之前,可能还需要先犁地." />
+        <text name="seasons_helpText_08_03" text="理想的作物轮作对土壤的抵抗力较弱.通过良好的实践,在播种有利的历史作物时,您将获得一个施肥水平." />
+
+        <text name="seasons_helpTitle_09" text="作物 - 干草, 秸秆和草" />
+        <text name="seasons_helpText_09_01" text="在冬季,草被重置为已收获阶段,以模拟冬季在变冷时杀死草." />
+        <text name="seasons_helpText_09_02" text="草捆无论放在哪里,两天后都会逐渐腐烂消失.为了防止腐烂,捆包需要使用掉或包装起来.一旦包装好,一个季节的1/3之后,它们就会变成青贮饲料包." />
+        <text name="seasons_helpText_09_03" text="草条和草堆的大小将开始减小,几天后最终会消失.每天午夜,草条和草堆都会减少.干草和秸秆条、堆在雨后会减少." />
+        <text name="seasons_helpText_09_04" text="秸秆和干草必须打捆才能出售.松散的秸秆和干草不能出售,只能免费赠送.草打捆或松散都不能出售." />
+
+        <text name="seasons_helpTitle_10" text="作物 - 树" />
+        <text name="seasons_helpText_10_01" text="树木要花更多的时间才能达到完全生长的状态.可种植的树木需要5年才能完全生长,2年后才能被砍伐." />
+        <text name="seasons_helpText_10_02" text="如果树木被种植得太近,它们会抑制其他树木的生长.要重新开始树的生长,你需要把树密度削薄." />
+
+        <text name="seasons_helpTitle_11" text="作物 - 天气效应" />
+        <text name="seasons_helpText_11_01" text="雨、冰雹和雪影响作物的湿度.如果由于天气不好,作物中的水分超过某一点,你将无法收割作物.潮湿的夏夜可能在没有警告的情况下发生." />
+        <text name="seasons_helpText_11_02" text="雨后,作物需要时间晾干,这取决于气温和一年中的时间.意味着温暖的天气作物比寒冷的天气干得更快." />
+        <text name="seasons_helpText_11_03" text="在湿草上使用翻晒机将使草半干.需要阳光把草完全晒成干草.如果割草时草是干的,就不需要翻晒机了." />
+        <text name="seasons_helpText_11_04" text="在一张用季节mask制作的mod地图上,干草和稻草捆暴露在雨雪中会开始腐烂,除非这些捆被存放在棚子里.恶劣天气不会影响没有mask地图上的包裹的捆或捆." />
+
+        <text name="seasons_helpTitle_12" text="维护" />
+        <text name="seasons_helpText_12_01" text="您的拖拉机和收割机需要定期维护,以保持其正常工作.保养周期为每20小时一次.损坏的车辆可能动力不足、速度较慢或效率较低." />
+        <text name="seasons_helpText_12_02" text="你可以在商店或可放置的车库修理你的车辆.修理不会使车辆看起来像新的一样:为此,您需要重新喷漆." />
+
+        <text name="seasons_helpTitle_13" text="经济" />
+        <text name="seasons_helpText_13_01" text="作物和动物的价格随季节的变化而波动,波动的方式更为现实.这是基于全球经济市场." />
+
+        <text name="seasons_helpTitle_14" text="雇用帮手" />
+        <text name="seasons_helpText_14_01" text="雇用帮手需要加班费.如果雇用帮手在上午6点之前和下午6点以后使用,他/她的工资将高出50%." />
+
+        <text name="seasons_helpTitle_15" text="动物 - 简介" />
+        <text name="seasons_helpText_15_01" text="这些动物已经变成了一个更现实的系统.每个品种都有自己的特性.雌性动物可以繁殖或生产,而雄性动物主要用于育肥和出售." />
+        <text name="seasons_helpText_15_02" text="动物的食物和水的消耗取决于它们的年龄、体重和温度.当夏天暖和的时候,动物需要更少的秸秆,但需要更多的水.在冬天结冰时,需要更多的秸秆,但需要更少的水.最大投料量减少到2天.这意味着你需要每天喂你的动物." />
+        <text name="seasons_helpText_15_03" text="动物不进食或不喝水就会死亡." />
+
+        <text name="seasons_helpTitle_16" text="动物 - 生产" />
+        <text name="seasons_helpText_16_01" text="动物的生产取决于它们的品种和食物质量.奶牛在产奶前需要生小牛." />
+        <text name="seasons_helpText_16_02" text="母鸡生蛋.当公鸡靠近并感兴趣时,母鸡可能会在自己的蛋上孵蛋,从而产生后代." />
+
+        <text name="seasons_helpTitle_17" text="动物 - 马房" />
+        <text name="seasons_helpText_17_01" text="马可以被带到农场的马场里.你可以通过喂马、骑马和清洁马匹来照顾它们.每一天你都会得到马主人的报酬,这取决于你所付出的照顾." />
+        <text name="seasons_helpText_17_02" text="不是所有的马都容易照顾." />
+
+        <text name="seasons_helpTitle_18" text="季节菜单" />
+        <text name="seasons_helpText_18_01" text="季节菜单用作种植、作物、天气和经济的参考指南.它还可以用于更改与季节相关的设置." />
+        <text name="seasons_helpText_18_02" text="第一页是种植和收获日历.所有作物的发芽温度都显示在图的左侧.如果作物旁边的温度是白色的,这意味着它足够温暖,可以种植特定的作物.如果温度是蓝色,就太冷了." />
+        <text name="seasons_helpText_18_03" text="第二页给出了详细的天气预报.第三页包含有关抗冻和抗旱的额外作物信息." />
+        <text name="seasons_helpText_18_04" text="在第四页,你可以找到去年产品价格的数据.每天更新数据.未来的价格只是一个估计,因此可能会出现偏差.第五页是作物轮作计划表.每列都可以包含新的轮作,并与游戏一起存储." />
+        <text name="seasons_helpText_18_05" text="第六页和最后一页是设置菜单.在本页上,可以根据您想玩的方式来调整季节." />
+
+        <text name="seasons_helpTitle_19" text="HUD" />
+        <text name="seasons_helpText_19_01" text="在右上角的时钟左边的HUD显示与季节相关的信息.它的顶部显示当前空气温度底部显示地面温度.地面状态(湿作物/冻结地面)也显示在HUD左侧.这里还显示了当前季节的季节时段和日期." />
+
+        <text name="seasons_helpTitle_20" text="测量工具" />
+        <text name="seasons_helpText_20_01" text="MT9是一种手持测量工具,可用于获取有关土壤、树木、捆和托盘的更多信息.在商店购买工具后,它可以像其他任何手工工具和电锯一样被激活.指向某物并激活开始测量.测量可能会失败." />
+        <text name="seasons_helpText_20_02" text="对于种植的树木,可以测量树的类型、树的高度和到最近树的距离.对于捆,您将获得内容物,对于草捆,还将获得发酵状态.地面测量给出了位置、海拔、作物类型、作物生长和作物水分、施肥水平和土壤水分.对于货盘,您可以获得货物." />
+        <text name="seasons_helpText_20_03" text="有关MT9及其符号的详细说明,请参阅Realismus Modding网站:www.realismusmodding.com/season19." />
+
+        <text name="seasons_helpTitle_21" text="其他" />
+        <text name="seasons_helpText_21_01" text="如果您决定在现有的保存游戏中更改季节长度,建议您1)在冬季更改季节长度以减少对现有作物的不希望的影响.2)更改季节长度后重新启动游戏/服务器." />
+        <text name="seasons_helpText_21_02" text="虽然这是你想玩的游戏,但作为一项挑战,建议你只玩一个9天的季节,以5倍的时间加速.这样,你在春天只耕作和种植作物,在夏天照料作物和收割干草,在秋天收割和耕作,在冬天照料动物、机器、森林和销售作物." />
+
+    </texts>
+</l10n>

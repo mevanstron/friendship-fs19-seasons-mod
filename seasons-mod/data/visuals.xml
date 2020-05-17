@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<visuals version="2">
+    <annotation>Copyright (c) Realismus Modding, 2019</annotation>
+
+    <filename>resources/replacementTextures/materialHolder.i3d</filename>
+    <vertexBufferMemoryUsage>96</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>12</indexBufferMemoryUsage>
+    <textureMemoryUsage>35751760</textureMemoryUsage>
+
+    <materials>
+        <cache name="cache_material_holder" />
+
+        <always>
+            <!-- Maple -->
+            <shape name="maple_stage5"          childName="attachments"      to="maple_attachments_shader" />
+            <shape name="maple_stage5"          childName="LOD0"             to="maple_trunk_shader" />
+            <shape name="maple_stage5"          childName="LOD1"             to="maple_stage5_lod_shader" />
+
+            <!-- Maple for US map style naming -->
+            <shape name="mapleTree"             childName="attachments"      to="maple_attachments_shader" />
+            <shape name="mapleTree"             childName="LOD0"             to="maple_trunk_shader" />
+            <shape name="mapleTree"             childName="LOD1"             to="maple_stage5_lod_shader" />
+
+            <!-- Birch -->
+            <shape name="birch_stage1"          childName="LOD0Attachments"  to="birch_attachments_shader" />
+            <shape name="birch_stage1"          childName="attachments"      to="birch_attachments_shader" />
+            <shape name="birch_stage1"          childName="LOD0"             to="birch_trunk_shader" />
+            <shape name="birch_stage1"          childName="LOD1"             to="birch_stage1_lod_shader" />
+
+            <shape name="birch_stage2"          childName="LOD0Attachments"  to="birch_attachments_shader" />
+            <shape name="birch_stage2"          childName="attachments"      to="birch_attachments_shader" />
+            <shape name="birch_stage2"          childName="LOD0"             to="birch_trunk_shader" />
+            <shape name="birch_stage2"          childName="LOD1"             to="birch_stage2_lod_shader" />
+
+            <shape name="birch_stage3"          childName="LOD0Attachments"  to="birch_attachments_shader" />
+            <shape name="birch_stage3"          childName="attachments"      to="birch_attachments_shader" />
+            <shape name="birch_stage3"          childName="LOD0"             to="birch_trunk_shader" />
+            <shape name="birch_stage3"          childName="LOD1"             to="birch_stage3_lod_shader" />
+
+            <shape name="birch_stage4"          childName="LOD0Attachments"  to="birch_attachments_shader" />
+            <shape name="birch_stage4"          childName="attachments"      to="birch_attachments_shader" />
+            <shape name="birch_stage4"          childName="LOD0"             to="birch_trunk_shader" />
+            <shape name="birch_stage4"          childName="LOD1"             to="birch_stage4_lod_shader" />
+
+            <shape name="birch_stage5"          childName="LOD0Attachments"  to="birch_attachments_shader" />
+            <shape name="birch_stage5"          childName="attachments"      to="birch_attachments_shader" />
+            <shape name="birch_stage5"          childName="LOD0"             to="birch_trunk_shader" />
+            <shape name="birch_stage5"          childName="LOD1"             to="birch_stage5_lod_shader" />
+
+            <!-- Volume tree -->
+            <shape name="volumeTree"            childName="attachments"      to="volumeTree_attachments_shader" />
+            <shape name="volumeTree"            childName="LOD0"             to="volumeTree_trunk_shader" />
+            <shape name="volumeTree"            childName="LOD1"             to="volumeTree_lod_shader" />
+
+            <!-- Oak -->
+            <shape name="oak_stage4"            childName="attachments"      to="oak_attachments_shader" />
+            <shape name="oak_stage4"            childName="LOD0"             to="oak_trunk_shader" />
+            <shape name="oak_stage4"            childName="LOD1"             to="oak_stage4_lod_shader" />
+        </always>
+
+        <spring>
+
+        </spring>
+
+        <summer>
+        </summer>
+
+        <autumn>
+        </autumn>
+
+        <winter>
+            <!-- <foliage name="bush01" to="bush01Winter" /> -->
+        </winter>
+    </materials>
+</visuals>

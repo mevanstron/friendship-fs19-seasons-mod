@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle>
+    <annotation>Copyright (c) Realismus Modding, 2018</annotation>
+
+    <workAreaTypes>
+        <workAreaType name="AUXILIARY"      allowedWithFrozenSoil="true" />
+        <workAreaType name="BALER"          allowedWithFrozenSoil="true" />
+        <workAreaType name="COMBINECHOPPER" allowedWithFrozenSoil="true" />
+        <workAreaType name="COMBINESWATH"   allowedWithFrozenSoil="true" />
+        <workAreaType name="CULTIVATOR"     allowedWithFrozenSoil="false" />
+        <workAreaType name="CUTTER"         allowedWithFrozenSoil="true" />
+        <workAreaType name="DEFAULT"        allowedWithFrozenSoil="true" />
+        <workAreaType name="FORAGEWAGON"    allowedWithFrozenSoil="true" />
+        <workAreaType name="FRUITPREPARER"  allowedWithFrozenSoil="true" />
+        <workAreaType name="MOWER"          allowedWithFrozenSoil="true" />
+        <workAreaType name="PLOW"           allowedWithFrozenSoil="false" />
+        <workAreaType name="RIDGEMARKER"    allowedWithFrozenSoil="false" />
+        <workAreaType name="ROLLER"         allowedWithFrozenSoil="true" />
+        <workAreaType name="SOWINGMACHINE"  allowedWithFrozenSoil="false" />
+        <workAreaType name="SPRAYER"        allowedWithFrozenSoil="false" />
+        <workAreaType name="TEDDER"         allowedWithFrozenSoil="true" />
+        <workAreaType name="WEEDER"         allowedWithFrozenSoil="false" />
+        <workAreaType name="WINDROWER"      allowedWithFrozenSoil="true" />
+    </workAreaTypes>
+</vehicle>

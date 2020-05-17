@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<lighting>
+    <annotation>Copyright (c) Realismus Modding, 2018</annotation>
+
+    <envMap basePath="resources/environment/envMaps/">
+        <timeProbe timeHours="0" />
+        <timeProbe timeHours="5.9" />
+        <timeProbe timeHours="5.95" />
+        <timeProbe timeHours="6" />
+        <timeProbe timeHours="6.1" />
+        <timeProbe timeHours="6.2" />
+        <timeProbe timeHours="6.3" />
+        <timeProbe timeHours="6.4" />
+        <timeProbe timeHours="6.5" />
+        <timeProbe timeHours="6.6" />
+        <timeProbe timeHours="6.7" />
+        <timeProbe timeHours="6.8" />
+        <timeProbe timeHours="6.9" />
+        <timeProbe timeHours="7" />
+        <timeProbe timeHours="8" />
+        <timeProbe timeHours="9" />
+        <timeProbe timeHours="10" />
+        <timeProbe timeHours="11" />
+        <timeProbe timeHours="12" />
+        <timeProbe timeHours="13" />
+        <timeProbe timeHours="14" />
+        <timeProbe timeHours="15" />
+        <timeProbe timeHours="16" />
+        <timeProbe timeHours="17" />
+        <timeProbe timeHours="18" />
+        <timeProbe timeHours="18.5" />
+        <timeProbe timeHours="19" />
+        <timeProbe timeHours="19.05" />
+        <timeProbe timeHours="19.1" />
+        <timeProbe timeHours="19.2" />
+        <timeProbe timeHours="19.3" />
+        <timeProbe timeHours="19.4" />
+        <timeProbe timeHours="19.5" />
+        <timeProbe timeHours="19.6" />
+        <timeProbe timeHours="19.7" />
+        <timeProbe timeHours="19.8" />
+        <timeProbe timeHours="19.9" />
+        <timeProbe timeHours="19.99" />
+        <timeProbe timeHours="20" />
+        <timeProbe timeHours="20.05" />
+        <timeProbe timeHours="20.1" />
+        <timeProbe timeHours="20.2" />
+        <timeProbe timeHours="20.3" />
+        <timeProbe timeHours="20.5" />
+        <timeProbe timeHours="21" />
+    </envMap>
+
+    <colorGrading>
+        <day filename="resources/environment/colorGradingDay.xml" />
+        <night filename="resources/environment/colorGradingNight.xml" />
+    </colorGrading>
+
+    <curves>
+        <!-- Rotation position of the sun: used for shadow direction and length -->
+        <sunRotationCurve>
+            <key time=" 0.0" value="0" /> <!-- no shadows at night -->
+            <key time=" 5.5" value="0" /> <!-- - 0.5 -->
+            <key time=" 5.5" value="-89" /> <!-- heigh in the sky at noon: todo center -->
+            <key time="12.0" value="0" /> <!-- + 0.5 so it is past the actual lighting and you don't see the switch -->
+            <key time="20.5" value="87" /> <!-- + 0.5 -->
+            <key time="20.5" value="-87" />
+            <key time="24.0" value="0" />
+        </sunRotationCurve>
+
+        <!-- -Brightness of the moon. Always 0 unless we show a moon. Only scales the actual moon texture. -->
+        <moonBrightnessScaleCurveWithMoon>
+            <key time=" 0" value="0.05" />
+            <key time="24" value="0.05" />
+        </moonBrightnessScaleCurveWithMoon>
+
+        <moonBrightnessScaleCurveWithoutMoon>
+            <key time=" 0" value="0" />
+            <key time="24" value="0" />
+        </moonBrightnessScaleCurveWithoutMoon>
+
+        <!-- Size of the moon texture in the sky. -->
+        <!-- Even if no moon is shown we can keep this constant. If the moon is faded away it doesn't really matter -->
+        <moonSizeScaleCurve>
+            <key time=" 0" value="42" />
+            <key time="24" value="42" />
+        </moonSizeScaleCurve>
+
+        <!-- Whether the sun is the primary (primary color, primary direction ligh). Can switch light source to the moon.
+        We don't have a moon, and if we do it does not give light or shadows. -->
+        <sunIsPrimaryCurve>
+            <key time=" 0.0" value="0" />
+            <key time=" 5.5" value="0" />
+            <key time=" 5.5" value="1" /> <!-- Sun at -0.5 so it switches before it is visible -->
+            <key time="20.5" value="1" /> <!-- Moon at +0.5 so it switches after it was visible -->
+            <key time="20.5" value="0" />
+            <key time="24.0" value="0" />
+        </sunIsPrimaryCurve>
+
+        <!-- Brightness of the visible sun in the sky. Does not affect actual lighting, only the looks of the sky. -->
+        <sunBrightnessScaleCurve>
+            <key time=" 0.0" value="0.00" />
+            <key time=" 5.5" value="0.00" />
+            <key time=" 6.0" value="0.05" />
+            <key time="12.0" value="5.00" />
+            <key time="20.0" value="0.05" />
+            <key time="20.5" value="0.00" />
+            <key time="24.0" value="0.00" />
+        </sunBrightnessScaleCurve>
+
+        <!-- Size of the sun texture, but the values are inverse: so it would be the distance from the planet. -->
+        <sunSizeScaleCurve>
+            <key time=" 0.0" value="15000" />
+            <key time=" 6.0" value="15000" />
+            <key time="12.0" value="20000" />
+            <key time="19.0" value="15000" />
+            <key time="24.0" value="15000" />
+        </sunSizeScaleCurve>
+
+        <!-- The amount of light around the primary light (moon or sun). Brightens the sky -->
+        <asymmetryFactorCurve>
+            <key time=" 0.0" value="0.00" /> <!-- No moon light -->
+            <key time=" 5.5" value="0.00" />
+            <key time=" 6.0" value="0.20" /> <!-- Sun -->
+            <key time=" 7.0" value="0.35" />
+            <key time="12.0" value="0.40" />
+            <key time="19.0" value="0.35" />
+            <key time="19.5" value="0.20" />
+            <key time="20.5" value="0.00" /> <!-- No moon -->
+            <key time="24.0" value="0.00" />
+        </asymmetryFactorCurve>
+
+        <primaryExtraterrestrialColorCurve>
+            <key time=" 0.0" value="0.02 0.02 0.02" />
+            <key time=" 5.5" value="0.05 0.05 0.05" />
+            <key time=" 6.0" value="0.03 0.03 0.03" />
+            <key time=" 7.0" value="0.90 0.90 0.90" />
+            <key time="19.0" value="0.90 0.90 0.90" />
+            <key time="20.0" value="0.02 0.02 0.02" />
+            <key time="24.0" value="0.02 0.02 0.02" />
+        </primaryExtraterrestrialColorCurve>
+
+        <!-- Color of the secondary (the moon at day and sun at night). -->
+        <secondaryExtraterrestrialColorCurve>
+            <key time=" 0.0" value="0.00 0.00 0.00" />
+            <key time=" 5.2" value="0.00 0.00 0.00" />
+            <key time=" 6.1" value="0.07 0.07 0.07" />
+            <key time=" 6.5" value="0.04 0.04 0.04" />
+            <key time=" 7.0" value="0.00 0.00 0.00" />
+            <key time="18.5" value="0.00 0.00 0.00" />
+            <key time="19.5" value="0.04 0.04 0.04" />
+            <key time="20.0" value="0.07 0.07 0.07" /> <!-- Cover up sun sinking into horizon -->
+            <key time="21.0" value="0.02 0.00 0.00" />
+            <key time="24.0" value="0.00 0.00 0.00" />
+        </secondaryExtraterrestrialColorCurve>
+
+        <!-- Main lighting intensity (terrain) -->
+        <primaryDynamicLightingScaleCurve>
+            <key time=" 0.0" value="0.3" />
+            <key time=" 6.0" value="0.3" />
+            <key time=" 7.0" value="1.0" />
+            <key time="19.0" value="1.0" />
+            <key time="20.0" value="0.3" />
+            <key time="24.0" value="0.3" />
+        </primaryDynamicLightingScaleCurve>
+
+        <lightScatteringRotationCurve>
+            <!-- moon/night -->
+            <key time=" 0.0" value="0 -180" />
+            <key time=" 6.0" value="80 -89" />
+
+            <!-- Day -->
+            <key time=" 6.0" value="-89 80" />
+            <key time="12.0" value="0 180" />
+            <key time="12.0" value="0 -180" />
+            <key time="20.5" value="87 -80" />
+
+            <!-- moon/night -->
+            <key time="20.5" value="-80 87" />
+            <key time="24.0" value="0 180" />
+        </lightScatteringRotationCurve>
+
+        <!-- Auto exposure settings throughout the day -->
+        <autoExposureCurve>
+            <key time=" 0.0" value="0.13 -1.5 1.5" />
+            <key time="24.0" value="0.13 -1.5 1.5" />
+        </autoExposureCurve>
+    </curves>
+
+</lighting>

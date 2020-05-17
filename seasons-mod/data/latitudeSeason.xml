@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+<!--–––––––––––––––––––––––––––
+–– latCat = 1 ––  0 to 30 deg
+–– latCat = 2 –– 30 to 35 deg
+–– latCat = 3 –– 35 to 45 deg
+–– latCat = 4 –– 45 to 50 deg
+–– latCat = 5 –– 50 to 60 deg
+–– latCat = 6 –– 60 to 70 deg
+––––––––––––––––––––––––––––-->
+
+<visualSeason>
+    <annotation>Copyright (c) Realismus Modding, 2019</annotation>
+
+    <latitudeCategory type="1">
+        <visual period="1">summer</visual>
+        <visual period="2">summer</visual>
+        <visual period="3">summer</visual>
+        <visual period="4">summer</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">summer</visual>
+        <visual period="8">summer</visual>
+        <visual period="9">summer</visual>
+        <visual period="10">summer</visual>
+        <visual period="11">summer</visual>
+        <visual period="12">summer</visual>
+    </latitudeCategory>
+
+    <latitudeCategory type="2">
+        <visual period="1">spring</visual>
+        <visual period="2">summer</visual>
+        <visual period="3">summer</visual>
+        <visual period="4">summer</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">summer</visual>
+        <visual period="8">summer</visual>
+        <visual period="9">autumn</visual>
+        <visual period="10">winter</visual>
+        <visual period="11">winter</visual>
+        <visual period="12">spring</visual>
+    </latitudeCategory>
+
+    <latitudeCategory type="3">
+        <visual period="1">spring</visual>
+        <visual period="2">summer</visual>
+        <visual period="3">summer</visual>
+        <visual period="4">summer</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">summer</visual>
+        <visual period="8">autumn</visual>
+        <visual period="9">winter</visual>
+        <visual period="10">winter</visual>
+        <visual period="11">winter</visual>
+        <visual period="12">spring</visual>
+    </latitudeCategory>
+
+    <latitudeCategory type="4">
+        <visual period="1">spring</visual>
+        <visual period="2">spring</visual>
+        <visual period="3">summer</visual>
+        <visual period="4">summer</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">summer</visual>
+        <visual period="8">autumn</visual>
+        <visual period="9">winter</visual>
+        <visual period="10">winter</visual>
+        <visual period="11">winter</visual>
+        <visual period="12">winter</visual>
+    </latitudeCategory>
+
+    <latitudeCategory type="5">
+        <visual period="1">winter</visual>
+        <visual period="2">spring</visual>
+        <visual period="3">spring</visual>
+        <visual period="4">summer</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">summer</visual>
+        <visual period="8">autumn</visual>
+        <visual period="9">winter</visual>
+        <visual period="10">winter</visual>
+        <visual period="11">winter</visual>
+        <visual period="12">winter</visual>
+    </latitudeCategory>
+
+    <latitudeCategory type="6">
+        <visual period="1">winter</visual>
+        <visual period="2">winter</visual>
+        <visual period="3">spring</visual>
+        <visual period="4">spring</visual>
+        <visual period="5">summer</visual>
+        <visual period="6">summer</visual>
+        <visual period="7">autumn</visual>
+        <visual period="8">winter</visual>
+        <visual period="9">winter</visual>
+        <visual period="10">winter</visual>
+        <visual period="11">winter</visual>
+        <visual period="12">winter</visual>
+    </latitudeCategory>
+
+</visualSeason>

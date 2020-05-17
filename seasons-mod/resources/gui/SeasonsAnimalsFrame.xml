@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsAnimals">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="ingameMenuAnimalsHeaderIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_ui_ingameMenuAnimals"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsNoHusbandriesBox" id="noHusbandriesBox">
+            <GuiElement type="text" profile="seasonsAnimalsNoAnimalsText" text="$l10n_ui_noHusbandriesPlaced" />
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsHusbandryListBox" id="husbandryListBox">
+            <GuiElement type="stableList" profile="seasonsAnimalsHusbandryList" id="husbandryList" itemTemplateId="husbandryItemTemplate" onSelectionChanged="onHusbandryListSelectionChanged" focusId="husbandries" focusChangeBottom="husbandries" focusChangeTop="husbandries" focusChangeRight="animals" focusChangeLeft="animals">
+                <GuiElement type="listItem" profile="seasonsAnimalsHusbandryListItem" id="husbandryItemTemplate" >
+
+                    <GuiElement type="bitmap" profile="seasonsAnimalsHusbandryListItemTypeIcon" name="icon"/>
+                    <GuiElement type="text" profile="seasonsAnimalsHusbandryListItemTypeName" name="name"/>
+                    <GuiElement type="text" profile="seasonsAnimalsHusbandryListItemTypeNum" name="numAnimals"/>
+
+                    <GuiElement type="bitmap" profile="seasonsAnimalsHusbandryListItemStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsHusbandryListItemStatusBar" name="bar" />
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+           <GuiElement type="bitmap" profile="verticalGlassListSliderBackground" position="-1px -1px" size="28px 706px">
+                <GuiElement type="slider" profile="verticalGlassListSlider" size="16px 694px" id="husbandriesSlider" dataElementId="husbandryList" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailBox" id="husbandryDetailBox">
+
+            <GuiElement type="boxLayout" profile="seasonsAnimalsRequirementsLayout" position="0px -20px" id="husbandryDetailsLayout">
+
+                <GuiElement type="text" profile="seasonsAnimalsRequirementsHeader" id="conditionsHeader" text="$l10n_ui_animalConditions"/>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="conditionRow[1]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="conditionLabel[1]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="conditionValue[1]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="conditionStatusBar[1]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="conditionRow[2]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="conditionLabel[2]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="conditionValue[2]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="conditionStatusBar[2]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="conditionRow[3]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="conditionLabel[3]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="conditionValue[3]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="conditionStatusBar[3]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="text" profile="seasonsAnimalsRequirementsHeader" id="conditionsHeader" text="$l10n_ui_animalFood"/>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="foodRow[1]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="foodLabel[1]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="foodValue[1]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="foodStatusBar[1]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="foodRow[2]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="foodLabel[2]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="foodValue[2]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="foodStatusBar[2]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="foodRow[3]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="foodLabel[3]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="foodValue[3]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="foodStatusBar[3]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsRequirementRow" id="foodRow[4]">
+                    <GuiElement type="empty" profile="seasonsAnimalsRequirementRowTextPanel">
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementLabel" id="foodLabel[4]" />
+                        <GuiElement type="text" profile="seasonsAnimalsRequirementValue" id="foodValue[4]" />
+                    </GuiElement>
+                    <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBarBackground">
+                        <GuiElement type="bitmap" profile="seasonsAnimalsSmallStatusBar" id="foodStatusBar[4]"/>
+                    </GuiElement>
+                </GuiElement>
+
+                <GuiElement type="text" profile="seasonsAnimalsRequirementsHeader" id="conditionsHeader" text="$l10n_seasons_ui_production"/>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[1]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[1]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[2]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[2]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[3]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[3]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[4]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[4]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[5]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[5]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[6]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[6]" />
+                </GuiElement>
+
+                <GuiElement type="empty" profile="seasonsAnimalsHusbandryDetailRow">
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="husbandryDetailLabels[7]" />
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="husbandryDetailValues[7]" />
+                </GuiElement>
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsAnimalListBox" id="animalListBox">
+            <GuiElement type="stableList" profile="seasonsAnimalsAnimalList" id="animalList" itemTemplateId="animalItemTemplate" onSelectionChanged="onAnimalListSelectionChanged" focusId="animals" focusChangeBottom="animals" focusChangeTop="animals" focusChangeRight="husbandries" focusChangeLeft="husbandries">
+                <GuiElement type="listItem" profile="seasonsAnimalsAnimalListItem" id="animalItemTemplate">
+
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalListItemTypeName" name="name"/>
+                    <GuiElement type="text" profile="seasonsAnimalsAnimalListItemWeight" name="weight"/>
+
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="verticalGlassListSliderBackground" position="-1px -1px" size="28px 706px">
+                <GuiElement type="slider" profile="verticalGlassListSlider" size="16px 694px" id="animalsSlider" dataElementId="animalList" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsAnimalDetailBox" id="animalDetailBox">
+
+            <GuiElement type="bitmap" profile="seasonsAnimalsAnimalDetailImage" id="animalDetailImage" />
+            <GuiElement type="text" profile="seasonsAnimalsAnimalDetailTitle" id="animalDetailTitle" />
+            <GuiElement type="text" profile="seasonsAnimalsAnimalDetailBreed" id="animalDetailBreed" />
+
+            <GuiElement type="empty" profile="seasonsAnimalsAnimalDetailsLayout" id="animalDetailsLayout">
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="animalDetailLabels[1]" position="0 0" text="health" textBold="true" textUpperCase="true" />
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="animalDetailValues[1]" position="0 0" />
+                <!-- TODO: BAR with percentage -->
+
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="animalDetailLabels[2]" position="0 -40px" />
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="animalDetailValues[2]" position="0 -40px" />
+
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="animalDetailLabels[3]" position="0 -70px" />
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="animalDetailValues[3]" position="0 -70px" />
+
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="animalDetailLabels[4]" position="0 -100px" />
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="animalDetailValues[4]" position="0 -100px" />
+
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsLabel" id="animalDetailLabels[5]" position="0 -130px" />
+                <GuiElement type="text" profile="seasonsAnimalsAnimalDetailsValue" id="animalDetailValues[5]" position="0 -130px" />
+            </GuiElement>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="seasonsAnimalsNoAnimalsBox" id="noAnimalsBox">
+            <GuiElement type="text" profile="seasonsAnimalsNoAnimalsText" text="$l10n_seasons_ui_noAnimalsInHusbandry" />
+        </GuiElement>
+
+<!--
+
+4 columns
+
+Col1:
+- list
+- item: name of husbandry,
+
+
+Col2:
+- bars
+- info of husbandry
+ - num animals
+ - food required
+ - water required
+ - straw required
+ - amount of liquid manure
+ - amount of manure
+ - amount of milk
+
+Col3:
+- animals
+
+Col4:
+- Animal info
+  - Image
+  - Breed
+  - Male/female
+
+  - Health
+  - Pregnancy
+  - Weight
+  - Age
+
+-->
+
+
+
+
+    </GuiElement>
+</GUI>

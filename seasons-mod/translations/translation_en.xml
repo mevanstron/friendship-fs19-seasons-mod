@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>Rahkiin, theSeb, reallogger</translationContributors>
+    <texts>
+        <text name="action_toggle_plant_distance" text="Toggle planting distance (%d m)" />
+        <text name="fillType_salt" text="Road Salt" />
+        <text name="fillType_snow" text="Snow" />
+        <text name="input_SEASONS_SHOW_MENU" text="Show Seasons menu" />
+        <text name="seasons_forecast_averageTemperature" text="Average temperature" />
+        <text name="seasons_forecast_maximumTemperature" text="Maximum temperature" />
+        <text name="seasons_forecast_minimumTemperature" text="Minimum temperature" />
+        <text name="seasons_forecast_precipitationInMm" text="Precipitation (mm)" />
+        <text name="seasons_forecast_precipitationPercentage" text="Precipitation (%)" />
+        <text name="seasons_forecast_type" text="Type" />
+        <text name="seasons_forecast_windSpeed" text="Wind speed (m/s)" />
+        <text name="seasons_forecast_dryingPotential" text="Drying potential" />
+        <text name="seasons_forecast_info" text="Forecast uncertainty increases with time." />
+        <text name="seasons_function_baleCutter" text="A balecutter can be used to cut open bales." />
+        <text name="seasons_function_bigBagSalt" text="Bigbags are used to refill your salt spreaders."/>
+        <text name="seasons_function_measureTool" text="Using a measuring tool you can get information on the soil, trees, bales, and other objects." />
+        <text name="seasons_helpCategory_1" text="Seasons" />
+        <text name="seasons_intro_0" text="Spring is here; flowers and trees blossom. It is time to cultivate and sow your fields." />
+        <text name="seasons_intro_1" text="The days are long and warm in summer. It is time to make hay and watch the crops grow." />
+        <text name="seasons_intro_2" text="Leaves are getting brown and it is becoming colder - autumn has arrived. Make sure to harvest the crops before winter comes." />
+        <text name="seasons_intro_3" text="Winter has fallen and animals need more care. The ground will be frozen and you cannot work your fields. It is time for forestry and ploughing snow." />
+        <text name="seasons_measuretool_failed" text="Measurement failed" />
+        <text name="seasons_measuretool_fermentation_time" text="%d hours to go" />
+        <text name="seasons_measuretool_fermentation_time_low" text="less than 1 hour to go" />
+        <text name="seasons_measuretool_no_info" text="Measurement failed: no information" />
+        <text name="seasons_measuretool_title" text="Measurement" />
+        <text name="seasons_notification_animalsKilled" text="Animals have died (%d)" />
+        <text name="seasons_notification_animalsDiedOfAge" text="Animals have died of old age (%d)" />
+        <text name="seasons_notification_horseDied" text="%s has died" />
+        <text name="seasons_notification_animalsDiedInTrailer" text="Animals have died in a trailer (%d)" />
+        <text name="seasons_periodNameFull_1" text="Early Spring" />
+        <text name="seasons_periodNameFull_10" text="Early Winter" />
+        <text name="seasons_periodNameFull_11" text="Mid Winter" />
+        <text name="seasons_periodNameFull_12" text="Late Winter" />
+        <text name="seasons_periodNameFull_2" text="Mid Spring" />
+        <text name="seasons_periodNameFull_3" text="Late Spring" />
+        <text name="seasons_periodNameFull_4" text="Early Summer" />
+        <text name="seasons_periodNameFull_5" text="Mid Summer" />
+        <text name="seasons_periodNameFull_6" text="Late Summer" />
+        <text name="seasons_periodNameFull_7" text="Early Autumn" />
+        <text name="seasons_periodNameFull_8" text="Mid Autumn" />
+        <text name="seasons_periodNameFull_9" text="Late Autumn" />
+        <text name="seasons_rotationCategory_0" text="Fallow" />
+        <text name="seasons_rotationCategory_1" text="Oilseed" />
+        <text name="seasons_rotationCategory_2" text="Cereal" />
+        <text name="seasons_rotationCategory_3" text="Legume" />
+        <text name="seasons_rotationCategory_4" text="Root" />
+        <text name="seasons_rotationCategory_5" text="Nightshade" />
+        <text name="seasons_rotationCategory_6" text="Grass" />
+        <text name="seasons_rotation_recommendationAny" text="Any" />
+        <text name="seasons_seasonName_0" text="Spring" />
+        <text name="seasons_seasonName_1" text="Summer" />
+        <text name="seasons_seasonName_2" text="Autumn" />
+        <text name="seasons_seasonName_3" text="Winter" />
+        <text name="seasons_setting_moisture" text="Crop Moisture" />
+        <text name="seasons_setting_seasonIntros" text="Season Introductions" />
+        <text name="seasons_setting_seasonLength" text="Season Length" />
+        <text name="seasons_setting_snow" text="Snow Mode" />
+        <text name="seasons_setting_snowTracks" text="Snow Tracks" />
+        <text name="seasons_shopItem_CHICKEN_TYPE_BLACK"           text="Cornish Cross"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_BROWN"           text="Rhode Island Red"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_ROOSTER"         text="Rooster"/>
+        <text name="seasons_shopItem_CHICKEN_TYPE_WHITE"           text="White Leghorn"/>
+        <text name="seasons_shopItem_COW_TYPE_BLACK"               text="Saler"/>
+        <text name="seasons_shopItem_COW_TYPE_BLACK_WHITE"         text="Holstein"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_BROWN"       text="Brahman (brown)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_GREY"        text="Brahman (grey)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="Brahman (light brown)"/>
+        <text name="seasons_shopItem_COW_TYPE_BRAHMAN_WHITE"       text="Brahman (white)"/>
+        <text name="seasons_shopItem_COW_TYPE_BROWN"               text="Limousin"/>
+        <text name="seasons_shopItem_COW_TYPE_BROWN_WHITE"         text="Ayrshire"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BEIGE"             text="Haflinger"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BLACK"             text="Black Arabian"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN"             text="Thoroughbred"/>
+        <text name="seasons_shopItem_HORSE_TYPE_BROWN_WHITE"       text="Paint"/>
+        <text name="seasons_shopItem_HORSE_TYPE_DARK_BROWN"        text="Tennessee Walking Horse"/>
+        <text name="seasons_shopItem_HORSE_TYPE_GREY"              text="Andalusian"/>
+        <text name="seasons_shopItem_HORSE_TYPE_LIGHT_BROWN"       text="Morgan"/>
+        <text name="seasons_shopItem_HORSE_TYPE_RED_BROWN"         text="Quarter Horse"/>
+        <text name="seasons_shopItem_PIG_TYPE_BLACK"               text="Berkshire"/>
+        <text name="seasons_shopItem_PIG_TYPE_BLACK_WHITE"         text="Spotted"/>
+        <text name="seasons_shopItem_PIG_TYPE_RED"                 text="Yorkshire"/>
+        <text name="seasons_shopItem_PIG_TYPE_WHITE"               text="Gloucestershire Old Spot"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK"             text="Dorper"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BLACK_WHITE"       text="Suffolk"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_BROWN"             text="Merino"/>
+        <text name="seasons_shopItem_SHEEP_TYPE_WHITE"             text="Dorset"/>
+        <text name="seasons_shopItem_baleCutter" text="Bale Cutter" />
+        <text name="seasons_shopItem_bigBagSalt" text="Road Salt Bigbag" />
+        <text name="seasons_shopItem_waterPump" text="Water Pump" />
+        <text name="seasons_statistic_health" text="Health" />
+        <text name="seasons_tooltip_moisture" text="Disallow threshing when crops have excessive moisture (20%)" />
+        <text name="seasons_tooltip_seasonIntros" text="Show a season introduction at the start of a season" />
+        <text name="seasons_tooltip_seasonLength" text="The length of a season in days. A year is four seasons" />
+        <text name="seasons_tooltip_snow" text="Snow will fall in cold winters and block roads" />
+        <text name="seasons_tooltip_snowTracks" text="Vehicles compress snow when driving over it" />
+        <text name="seasons_ui_beforePreviousFruit" text="Before previous" />
+        <text name="seasons_ui_calendar" text="Calendar" />
+        <text name="seasons_ui_cropRotation" text="Crop Rotation" />
+        <text name="seasons_ui_cropRotationExplanation" text="Crop rotation starts over from the beginning after the last crop." />
+        <text name="seasons_ui_cropRotationPlanner" text="Crop Rotation Planner" />
+        <text name="seasons_ui_cropRotation_1" text="Rotation plan A" />
+        <text name="seasons_ui_cropRotation_2" text="Rotation plan B" />
+        <text name="seasons_ui_cropRotation_3" text="Rotation plan C" />
+        <text name="seasons_ui_cropRotation_4" text="Rotation plan D" />
+        <text name="seasons_ui_crop_info" text="Crop info" />
+        <text name="seasons_ui_crops_seed" text="Seed" />
+        <text name="seasons_ui_crops_young" text="Young" />
+        <text name="seasons_ui_crops_mature" text="Mature" />
+        <text name="seasons_ui_crops_frostResistance" text="Frost Resistance" />
+        <text name="seasons_ui_crops_droughtResistance" text="Drought Resistance" />
+        <text name="seasons_ui_crops_high" text="High" />
+        <text name="seasons_ui_crops_medium" text="Medium" />
+        <text name="seasons_ui_crops_low" text="Low" />
+        <text name="seasons_ui_crops_high_none" text="None" />
+        <text name="seasons_ui_days" text="%d days" />
+        <text name="seasons_ui_dontShowAgain" text="Don't show again" />
+        <text name="seasons_ui_economy" text="Economy" />
+        <text name="finance_seasons_livery_stable" text="Livery Stable Income" />
+        <text name="seasons_livery_stable" text="Livery stable" />
+        <text name="seasons_ui_pcf_info" text="The potential for frost damage increase as air temperatures fall below %s. Potential for drought damage increases when the soil water content is below 12%%. Use the measurement tool to monitor the soil water content." />
+        <text name="seasons_ui_fruitGerminated" text="Germinated" /> <!-- Usage: In the Field Info display, when the fruit  germinated. -->
+        <text name="seasons_ui_growthMapGerminationFailed" text="Germination failed" /> <!-- Usage: In the Field Info display, and as toggle in the map overview. -->
+        <text name="seasons_ui_growthMapPlanted" text="Planted" /> <!-- Usage: In the Field Info display, and as toggle in the map overview. -->
+        <text name="seasons_ui_harvestSeason" text="Harvest season" />
+        <text name="seasons_ui_plantingSeason" text="Planting season" />
+        <text name="seasons_ui_previousFruit" text="Previous" />
+        <text name="seasons_ui_products" text="Products" />
+        <text name="seasons_ui_recommendation" text="Recommendation" />
+        <text name="seasons_ui_repaint" text="Repaint"/>
+        <text name="seasons_ui_repaintDialog" text="Do you really want to repaint the vehicle for %s?"/>
+        <text name="seasons_ui_resetGrowth" text="You loaded Seasons on an old savegame. Seasons wants to reset all fields to their bare state to synchronize with the gameday. You will lose all crops. If you do not reset growth, Seasons might not work as expected." />
+        <text name="seasons_ui_resetGrowth_no" text="Keep growth" />
+        <text name="seasons_ui_resetGrowth_title" text="Growth reset" />
+        <text name="seasons_ui_resetGrowth_yes" text="Reset" />
+        <text name="seasons_ui_snowOneLayer" text="1 layer only" />
+        <text name="seasons_ui_weatherForecast" text="Weather Forecast" />
+        <text name="seasons_warning_catchingUp" text="The game is synchronizing after the fast-forward" />
+        <text name="seasons_warning_doNotThreshWithMoistCrops" text="Do not thresh when the crops are too wet!" />
+        <text name="seasons_warning_soilIsFrozen" text="The soil is frozen. You can't work on it!" />
+        <text name="seasons_weekday1" text="Mon" />
+        <text name="seasons_weekday2" text="Tue" />
+        <text name="seasons_weekday3" text="Wed" />
+        <text name="seasons_weekday4" text="Thu" />
+        <text name="seasons_weekday5" text="Fri" />
+        <text name="seasons_weekday6" text="Sat" />
+        <text name="seasons_weekday7" text="Sun" />
+        <text name="unit_feetShort" text="ft" />
+        <text name="unit_meterShort" text="m" />
+        <text name="seasons_animal_sex_male" text="Male" />
+        <text name="seasons_animal_sex_female" text="Female" />
+        <text name="seasons_animal_sex_male_short" text="M" />
+        <text name="seasons_animal_sex_female_short" text="F" />
+        <text name="seasons_animal_age" text="years" />
+        <text name="seasons_animal_age_short" text="y" />
+        <text name="seasons_unit_lbs" text="pounds" />
+        <text name="seasons_unit_kg" text="kg" />
+        <text name="seasons_unit_lbsShort" text="lbs" />
+        <text name="seasons_unit_kgShort" text="kg" />
+        <text name="seasons_statistic_age" text="Age" />
+        <text name="seasons_statistic_weight" text="Weight" />
+        <text name="seasons_ui_animalsFoodInfo" text="This pen requires %d liters of food to feed its animals for the next year." />
+
+        <!-- New in 1.0.2.0 -->
+        <text name="seasons_ui_noAnimalsInHusbandry" text="There are no animals in this pen" />
+        <text name="seasons_ui_production" text="Production" />
+        <text name="seasons_ui_estimatedFoodRequired" text="Estimated food required" />
+        <text name="seasons_ui_estimatedWaterRequired" text="Estimated water required" />
+        <text name="seasons_ui_estimatedStrawRequired" text="Estimated straw required" />
+        <text name="seasons_statistic_year" text="Year" />
+        <text name="seasons_ui_ageClassifier_newborn" text="Newborn" />
+        <text name="seasons_ui_ageClassifier_young" text="Young" />
+        <text name="seasons_ui_ageClassifier_mature" text="Mature" />
+        <text name="seasons_ui_ageClassifier_old" text="Old" />
+        <text name="seasons_contract_finished" text="Contract finished" />
+        <text name="seasons_contract_failed" text="Contract failed" />
+        <text name="seasons_snowContract_jobType" text="Snow clearing" />
+        <text name="seasons_snowContract_action" text="to clear the designated area from all snow." />
+        <text name="seasons_message_failedHeightTypes" text="Seasons was unable to load on the selected map: the map is not compatible with Seasons. (too many fruits on the ground)" />
+
+
+        <text name="overwrite_animalPen_cow" text="Cattle pasture"/>
+        <text name="overwrite_animalPen_cow2" text="Large cattle pasture"/>
+        <text name="overwrite_animals_cowPasture" text="Cattle pasture"/>
+        <text name="overwrite_fillType_cow" text="Cattle"/>
+        <text name="overwrite_function_animalPenCow" text="A place to keep your cattle."/>
+        <text name="overwrite_function_feeder" text="A forage mixer wagon blends silage, hay and straw into Total Mixed Ration (TMR) that can be fed to cattle."/>
+        <text name="overwrite_function_feederBale" text="This machine takes straw bales and uses them to cover the ground of a pen with straw."/>
+        <text name="overwrite_shopItem_animalPenCow" text="Animal pen for cattle"/>
+        <text name="overwrite_shopItem_cow" text="Cattle"/>
+        <text name="overwrite_statistic_cowOwned" text="Cattle owned"/>
+        <text name="overwrite_ui_cowLiquidManureSilo" text="Cattle Slurry tank"/>
+        <text name="overwrite_ui_cowManureHeap" text="Cattle Manure Heap"/>
+        <text name="overwrite_ui_statisticView_cow" text="Cattle"/>
+        <text name="overwrite_animals_descriptionHorse" text="The daily income for the care of a horse is determined by its fitness, health and cleanliness. They should be ridden every day to increase their fitness. Horses require straw for clean bedding and water and food to stay healthy. Periodically they need to be brushed and cleaned."/>
+        <text name="seasons_overwrite_hint_09" text="You can increase the yield of your harvest by fertilizing and spraying your fields." />
+        <text name="seasons_ui_notFertile" text="Not fertile" />
+
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BLACK"           text="This meat breed is extremely fast growing and has a fast turnaround in profit. It requires a lot of feed."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_BROWN"           text="The Rhode Island Red is a hybrid breed (both eggs and meat) and requires an amount of feed in between that of its laying and meat counterparts."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_ROOSTER"         text="This male bird is primarily used for reproduction and will work to fertilize eggs produced by your chickens and produce chicks. Note: You do not need a Rooster to produce eggs."/>
+        <text name="seasons_animalInfo_CHICKEN_TYPE_WHITE"           text="This is the bird of choice if eggs are at the top of your priorities. This breed requires less feed than any of the other breeds."/>
+        <text name="seasons_animalInfo_COW_TYPE_BLACK"               text="The Saler is a cheaper option for starting farmers and is known for their high marbling carcasses that can return a decent investment at market."/>
+        <text name="seasons_animalInfo_COW_TYPE_BLACK_WHITE"         text="The Queen of milk production. This breed requires a lot of feed and is expensive to buy upfront, but produces the most milk."/>
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_BROWN"       text="The Brahman is a heat tolerant specific breed with marginal feed requirements. They are known for their gain potential and good carcass yields." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_GREY"        text="The Brahman is a heat tolerant specific breed with marginal feed requirements. They are known for their gain potential and good carcass yields." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_LIGHT_BROWN" text="The Brahman is a heat tolerant specific breed with marginal feed requirements. They are known for their gain potential and good carcass yields." />
+        <text name="seasons_animalInfo_COW_TYPE_BRAHMAN_WHITE"       text="The Brahman is a heat tolerant specific breed with marginal feed requirements. They are known for their gain potential and good carcass yields." />
+        <text name="seasons_animalInfo_COW_TYPE_BROWN"               text="The “Carcass Breed”. The Limousin is an expensive but feed efficient animal meaning it will grow very quickly and give a great price at market."/>
+        <text name="seasons_animalInfo_COW_TYPE_BROWN_WHITE"         text="Ayrshire farmers can rest assured that low feed consumption and price per head are both two well worthy tradeoffs for lower milk production."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BEIGE"             text="While built strong for use in driving and draft work, the Haflinger is also a great breed for trail and endurance riding as well as show jumping."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BLACK"             text="Known for their capacity for high stamina and endurance, the Arabian is known for their competence in endurance riding and racing."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN"             text="Used mainly for racing and jumping, this agile breed has short leg bones allowing for long and easy stride."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_BROWN_WHITE"       text="Developed from spotted horses from Quarter and Thoroughbred bloodlines, the American Paint Horse is now recognized as its own breed. Great for Western pleasure events and shows."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_DARK_BROWN"        text="Known for their four beat running walk and riding ability, the Walking Horse has a calm disposition and is a great showing horse."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_GREY"              text="Bred for their athleticism, Andalusian’s are known for their ability to both ride and drive and today are used for show jumping and western pleasure."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_LIGHT_BROWN"       text="The Morgan is an all purpose horse. They are compact in build, have strong legs and are known to be easy to keep and handle."/>
+        <text name="seasons_animalInfo_HORSE_TYPE_RED_BROWN"         text="Known as one of the most versatile breeds, the Quarter Horse is short and stocky, with heavy muscular development, fast starting, turning, and stopping ability."/>
+
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK"               text="The Berkshire is a fast growing animal that requires a modest amount of capital to purchase. Is known for their flavorful meat."/>
+        <text name="seasons_animalInfo_PIG_TYPE_BLACK_WHITE"         text="Known for their carcass quality, the Spotted grows relatively fast and can be purchased for a modest amount."/>
+        <text name="seasons_animalInfo_PIG_TYPE_RED"                 text="Known as the “Mother Breed”, this breed of pig is a very fast growing animal but requires a high amount capital for the initial purchase."/>
+        <text name="seasons_animalInfo_PIG_TYPE_WHITE"               text="The Old Spot is a slower growing animal, but is much cheaper to purchase initially. Very hardy and great for the starting farmer."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK"             text="A medium sized breed that grows fast, but produces no wool. Very prolific and fast maturing. Requires little feed as an adult. Great for 40-45 kg (85-100 lbs) lambs."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BLACK_WHITE"       text="A large breed of sheep that grows extremely fast, produces a modest amount of wool, requires a lot of feed as adult, is prolific and slow maturing. Good for 45-65 kg (100-140 lbs) lambs."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_BROWN"             text="The Merino is a medium breed that is used for wool production. It grows slowly, is not very prolific, but doesn’t require a lot of feed as an adult."/>
+        <text name="seasons_animalInfo_SHEEP_TYPE_WHITE"             text="A large breed of sheep that grows moderately fast, has modest wool production and requires a medium amount of feed as an adult. Is relatively prolific and good for 25-40 kg (50-85 lbs) lambs."/>
+
+        <text name="seasons_hint_01" text="Plan your crop rotations using the crop rotation planner." />
+        <text name="seasons_hint_02" text="Seeds need to germinate successfully to grow into a plant." />
+        <text name="seasons_hint_03" text="Even after germination, crops need enough warmth and moisture to survive." />
+        <text name="seasons_hint_04" text="Grass takes a full period to turn into silage after being wrapped or covered." />
+        <text name="seasons_hint_05" text="Animals need continued attention to stay healthy and grow to reproduce." />
+        <text name="seasons_hint_06" text="Grass needs to dry in the sun to produce hay." />
+        <text name="seasons_hint_07" text="Extreme droughts can have a bad influence on your crops." />
+        <text name="seasons_hint_08" text="Hay or straw left outside in the rain will rot over time. Grass will always rot away over time." />
+        <text name="seasons_hint_09" text="Repaint your vehicles and tools to make them look as if new again." />
+        <text name="seasons_hint_10" text="Use the calendar and the crop info display to determine crops that fit the climate." />
+        <text name="seasons_hint_11" text="Using the historic price graphs you can see when it is best to sell your products." />
+        <text name="seasons_hint_12" text="The calendar shows what crops you can plant. Make sure the soil temperature is right." />
+        <text name="seasons_hint_13" text="Animal breeds have different advantages and disadvantages." />
+        <text name="seasons_hint_14" text="Always feed your animals and provide water, otherwise they will die." />
+        <text name="seasons_hint_15" text="Horses can be acquired for your livery stable. You earn a daily amount based on their health, food, cleanness, and activity." />
+        <text name="seasons_hint_16" text="Chickens will brood their eggs when they get attention from a rooster." />
+        <text name="seasons_hint_17" text="Food and water intake of animals increases when they get larger and older." />
+        <text name="seasons_hint_18" text="Health of cattle can be improved by giving them better food. The best food is Total Mixed Ration (TMR), which is produced by mixing hay, straw and silage in a mixer wagon." />
+        <text name="seasons_hint_19" text="Ayrshire cows produce less milk, but also consume less food and cost less." />
+        <text name="seasons_hint_20" text="The Rode Island Red is a chicken breed that is useful for both egg and meat production." />
+        <text name="seasons_hint_21" text="Animals can die of old age, being overweight, or underfed." />
+        <text name="seasons_hint_22" text="Trees can't grow when other trees are too close." />
+        <text name="seasons_hint_23" text="The weather forecast gets more uncertain when predicting the future." />
+        <text name="seasons_hint_24" text="Wet grass needs to be tedded and then dry in the sun to become hay. Dry grass only needs to dry in the sun." />
+        <text name="seasons_hint_25" text="The weather forecast gives an indication of how well grass can dry." />
+
+        <text name="seasons_helpTitle_01" text="Seasons" />
+        <text name="seasons_helpText_01_01" text="Seasons is a mod that improves realism in the Farming Simulator game by adjusting nearly all aspects to more realistic parameters. Everything from seasonal effects to crop growth patterns and animal production has been changed to a more realistic level." />
+        <text name="seasons_helpText_01_02" text="The game year has been broken up into 4 seasons: spring, summer, autumn and winter. Each season is broken into 3 periods: early, mid and late." />
+        <text name="seasons_helpText_01_03" text="Your activities are tied to the time of year they take place in real life." />
+
+        <text name="seasons_helpTitle_02" text="Seasonal Effects (1)" />
+        <text name="seasons_helpText_02_01" text="Weather is random from day to day, but follows a pattern from season to season. This pattern is different for each GEO, but the default is as follows:" />
+        <text name="seasons_helpText_02_02" text="Spring will be rainy and foggy with some chances of sunny weather. Summer will be warmer and drier. Hail storms can occur without any warning. Autumn will be rainy with some sunny weather. Winter will be rainy, but often cold enough to allow snow to fall and maybe even stay on the ground." />
+        <text name="seasons_helpText_02_03" text="Snow will fill tippers and shovels, unless the tipper or shovel is covered in a shed with a snow mask or a tarp. Snow will also reduce traction, thus making vehicles slower." />
+
+        <text name="seasons_helpTitle_03" text="Seasonal Effects (2)" />
+        <text name="seasons_helpText_03_01" text="Daylight hours are also affected with the seasons. Winters have shorter days (8 hours) while summers have longer days (17 hours)." />
+        <text name="seasons_helpText_03_02" text="Bunker silos and silage bales require time to ferment. It takes one third of a season (1 period) to fully ferment either a bunker silo or a silage bale. Wrapped hay will not ferment, but will be protected against the weather." />
+        <text name="seasons_helpText_03_03" text="Seasons will also affect trees and foliage. The trees will change state according to seasonal temperature changes. Leaves will turn color and drop in the autumn. Trees will go bare in winter and will be lighter green in the spring." />
+
+        <text name="seasons_helpTitle_04" text="Weather Forecast" />
+        <text name="seasons_helpText_04_01" text="The weather forecast for the next 7 days can be seen in the forecast menu, with the next 24 hours detailed. The uncertainty of the forecast increases with time." />
+        <text name="seasons_helpText_04_02" text="The weather forecast shows the high/low temperatures and the weather (sunny, foggy, rainy, snowy, cloudy) for the next 7 days. Hailstorms will not appear on the weather forecast, because hail in real life is often an unexpected event." />
+        <text name="seasons_helpText_04_03" text="The forecast also contains downfall expectancy, wind speed, and an indication on the drying potential of grass." />
+
+        <text name="seasons_helpTitle_05" text="Soil" />
+        <text name="seasons_helpText_05_01" text="Soil temperature is modeled using thermodynamic equations and historical data. This means the soil will freeze in the winter when the air temperature drops below a certain point for a certain length of time. The soil will then thaw in the spring when the air temperature rises above a certain threshold for a certain of length of time." />
+        <text name="seasons_helpText_05_02" text="The soil cannot be worked when the ground is frozen. Crops will not grow in frozen soil." />
+        <text name="seasons_helpText_05_03" text="Crops will only germinate when the soil temperature is above their germination temperatures. The germination temperatures are included in the calendar, on the first page of the Seasons menu." />
+        <text name="seasons_helpText_05_04" text="Soil temperature and moisture influence continued growth of crops. If it gets too cold, or dry, parts of the crop might die off. Look at the resistances of each crop in the menu." />
+
+        <text name="seasons_helpTitle_06" text="Crops - Intro" />
+        <text name="seasons_helpText_06_01" text="When starting a new game all crops will be reset to their harvested stages to simulate the fact the fields have not been worked since the autumn. When using Seasons for the first time in an existing save game you will have the option to reset the crops." />
+        <text name="seasons_helpText_06_02" text="The default growth patterns of crops have been replaced. Crops will now follow a realistic growth pattern following their corresponding seasonal planting and harvesting times. This also means that winter will kill most crops and crops planted at the wrong time will not grow." />
+        <text name="seasons_helpText_06_03" text="Crops are only harvestable in their final growth stage, except for poplar and oilseed radish, and will stay in this final stage until they are killed off in the winter." />
+        <text name="seasons_helpText_06_04" text="Once a non-root crop reaches the first harvestable stage according to the growth overview in the esc menu, it is ready to harvest. This is the final harvestable stage." />
+        <text name="seasons_helpText_06_05" text="You can still silage green crops." />
+
+        <text name="seasons_helpTitle_07" text="Crops - Arable Crops" />
+        <text name="seasons_helpText_07_01" text="Crop growth is now much longer. It may take a half a year for a crop to reach the harvestable stage." />
+        <text name="seasons_helpText_07_02" text="Winter will kill most crops, but winter and spring crops are possible. Wheat, barley, poplar, grass, oilseed radishes and canola can be planted in the autumn for winter crops or planted in the spring for spring crops. Be certain that the soil is warm enough for the germination of these crops." />
+        <text name="seasons_helpText_07_03" text="Corn, soybeans, sunflower, sugar beets and potatoes must be planted in the spring. Be sure to check the growth overview in the Seasons Menu because some crops cannot be planted in the first transition of spring (early spring) and will die, even if the soil temperature is above germination temperature." />
+
+        <text name="seasons_helpTitle_08" text="Crops - Yield" />
+        <text name="seasons_helpText_08_01" text="For the best crop yield, a crop needs to be clear of weeds (by weeding or spraying), fully grown and fully fertilized (three times). The soil also needs to be nutricious and not too compact for the crop." />
+        <text name="seasons_helpText_08_02" text="To create good soil, rotate the crops every year. To learn more about rotations you can use the planner in the Seasons menu. It may also be necessary to plow a field before planting a crop that prefers less compact soil." />
+        <text name="seasons_helpText_08_03" text="Ideal crop rotations are less hardy on the soil. With good practice you are awarded one fertilization level when sowing crops beneficial to its history." />
+
+        <text name="seasons_helpTitle_09" text="Crops - Hay, Straw and Grass" />
+        <text name="seasons_helpText_09_01" text="In winter grass is reset to its harvested stage to simulate the winter killing off the grass when it becomes cold." />
+        <text name="seasons_helpText_09_02" text="Grass bales will gradually rot and disappears after two days no matter where they are placed. To prevent the decay the bales need to be used or wrapped. Once wrapped they will turn into silage bales after 1/3 of a season." />
+        <text name="seasons_helpText_09_03" text="Swaths and piles of grass will begin to reduce in size, and will eventually disappear after several days. Grass swaths and piles are reduced at midnight every day. Hay and straw swaths and piles are reduced after being exposed to rain." />
+        <text name="seasons_helpText_09_04" text="Straw and hay must be baled before it can be sold - loose straw and hay cannot be sold, only given away for free. Grass, baled or loose, cannot be sold either." />
+
+        <text name="seasons_helpTitle_10" text="Crops - Trees" />
+        <text name="seasons_helpText_10_01" text="Trees take more time to reach their fully grown state. It will take plantable trees 5 game years to be fully grown and after 2 years they can be cut." />
+        <text name="seasons_helpText_10_02" text="Trees inhibit the growth of other trees if they have been planted too close together. To restart the growth of the tree you will need to thin out the trees." />
+
+        <text name="seasons_helpTitle_11" text="Crops - Weather Effects" />
+        <text name="seasons_helpText_11_01" text="Rain, hail and snow affect the moisture levels of the crops. If the moisture in the crops is above a certain point because of bad weather, you will not be able to harvest your crops. Moist summer nights can occur without warning." />
+        <text name="seasons_helpText_11_02" text="After the rain your crops will need time to dry out, which is dependent upon the air temperature and the time of year. Warmer weather means crops will dry out faster than in cooler weather." />
+        <text name="seasons_helpText_11_03" text="Using a tedder on wet grass will turn the grass semi-dry. Sunlight is needed to fully dry the grass into hay. If the grass was dry when cutting, tedding is not necessary." />
+        <text name="seasons_helpText_11_04" text="On a mod map that has been prepared with a Seasons mask by the modder hay and straw bales that have been exposed to the rain or snow will begin to rot, unless the bales are stored in a shed. Bad weather will not affect wrapped bales or bales on a map without a mask." />
+
+        <text name="seasons_helpTitle_12" text="Maintenance" />
+        <text name="seasons_helpText_12_01" text="Your tractors and harvesters require periodic maintenance in order to keep them operational. The maintenance period is every 20 hours. Vehicles that are damaged might be less powerful, slower, or less efficient." />
+        <text name="seasons_helpText_12_02" text="You can repair your vehicles either at the vehicle shop or the placeable garage. Repairing will not make the vehicle look new again: for that you need to repaint the vehicle." />
+
+        <text name="seasons_helpTitle_13" text="Economy" />
+        <text name="seasons_helpText_13_01" text="Crop and animal prices fluctuate with the changes in the seasons in a more realistic manner. This is based on the global economic market." />
+
+        <text name="seasons_helpTitle_14" text="Hired Help" />
+        <text name="seasons_helpText_14_01" text="Hired workers require overtime pay. If a hired worker is used before 6AM and after 6PM his/her pay will be 50% higher." />
+
+        <text name="seasons_helpTitle_15" text="Animals - Intro" />
+        <text name="seasons_helpText_15_01" text="The animals have been changed into a more realistic system. There are breeds each with their own properties. Female animals can reproduce or produce, while male animals are mainly for fattening and selling." />
+        <text name="seasons_helpText_15_02" text="Food and water consumption of an animal is based on their age and weight, and on the temperature. When it is warm in the summer an animal requires less straw but more water. In the winter when it freezes it requires more straw but less water. The maximum feeding capacity is reduced to 2 days. This means you need to feed your animals every day." />
+        <text name="seasons_helpText_15_03" text="Animals die when not fed, or given water." />
+
+        <text name="seasons_helpTitle_16" text="Animals - Production" />
+        <text name="seasons_helpText_16_01" text="Production of an animal depends on their breed and their food quality. Cows need to have calves before producing milk." />
+        <text name="seasons_helpText_16_02" text="Female chickens produce eggs. When a rooster is near and interested, the hen might brood on her eggs instead, creating offspring." />
+
+        <text name="seasons_helpTitle_17" text="Animals - Livery stable" />
+        <text name="seasons_helpText_17_01" text="Horses can be brought to a livery stable at the farm. You can care for horses by feeding, riding and cleaning them. Each day you get paid by the owner of the horse an amount depending on the care given." />
+        <text name="seasons_helpText_17_02" text="Not every horse is as easy to care for." />
+
+        <text name="seasons_helpTitle_18" text="Seasons Menu" />
+        <text name="seasons_helpText_18_01" text="The Seasons Menu is used as a reference guide for planting, crops, weather, and the economy. It can also be used to change settings related to Seasons." />
+        <text name="seasons_helpText_18_02" text="The first page is the planting and harvesting calendar. The germination temperatures of all crops are shown on the left of the graph. If the temperature next to a crop is white, it means it is warm enough to plant that particular crop. If the temperature is blue, it is too cold." />
+        <text name="seasons_helpText_18_03" text="The second page gives a detailed weather forecast. The third page contains extra crop information regarding their frost and drought resistance." />
+        <text name="seasons_helpText_18_04" text="On the fourth page you can find data on the prices of products in the last year. The data is updated every day. The future price is only an estimation so deviations can occur. The fifth page is a crop rotation planner. Every column can contain a new rotation, and is stored with your game." />
+        <text name="seasons_helpText_18_05" text="The sixth and last page is the settings menu. On this page various options are available to adjust Seasons based on how you want to play." />
+
+        <text name="seasons_helpTitle_19" text="HUD" />
+        <text name="seasons_helpText_19_01" text="A HUD to the left of the clock in the upper right corner displays information relevant to Seasons. It shows the current air temperature on top and ground temperature on bottom. The state of the ground (wet crops/frozen ground) is also displayed to the left of this HUD. The seasonal period and day of the current season is also displayed there." />
+
+        <text name="seasons_helpTitle_20" text="Measurement tool" />
+        <text name="seasons_helpText_20_01" text="The MT9 is a measurement hand tool that can be used to gain more information about soil, trees, bales and pallets. After buying the tool in the store, it can be activated like any other handtool and chainsaw. Point at something and activate to start measuring. A measurement may fail." />
+        <text name="seasons_helpText_20_02" text="For planted trees you can measure the tree type, tree height and distance to nearest tree. For bales you get the contents and for grass bales also the fermentation state. Measuring the ground gives the location, elevation, crop type, crop growth and crop moisture, fertilization level and soil moisture. For pallets you get the contents." />
+        <text name="seasons_helpText_20_03" text="For more information about the MT9 and a detailed explanation of its symbols, see the Realismus Modding website: www.realismusmodding.com/seasons19." />
+
+        <text name="seasons_helpTitle_21" text="Miscellaneous" />
+        <text name="seasons_helpText_21_01" text="If you decide to change the season length in the middle of an existing save game, it is recommended that you 1) change the season length during the winter to reduce undesired effects on existing crops and 2) restart the game/server after changing the season length." />
+        <text name="seasons_helpText_21_02" text="While it is your game to play as you want, it is suggested, as a challenge, to only play with a 9-day season and at 5x time acceleration. This way you spend the spring only cultivating and planting crops, tending to crops and cutting hay in the summer, harvesting and plowing in the fall, and tending to the animals, machines, forests, and selling crops during the winter." />
+
+
+    </texts>
+</l10n>
+

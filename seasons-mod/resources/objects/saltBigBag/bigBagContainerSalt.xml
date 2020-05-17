@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet">
+    <storeData>
+        <name>$l10n_seasons_shopItem_bigBagSalt</name>
+        <functions>
+            <function>$l10n_seasons_function_bigBagSalt</function>
+        </functions>
+        <specs>
+            <capacity>1000</capacity>
+            <fillTypes>salt</fillTypes>
+        </specs>
+        <image>resources/objects/saltBigBag/store_bigBagContainerSalt.png</image>
+        <price>1920</price>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <brand>LIZARD</brand>
+        <category>bigbags</category>
+        <financeCategory>OTHER</financeCategory>
+        <vertexBufferMemoryUsage>162484</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>31872</indexBufferMemoryUsage>
+        <textureMemoryUsage>2839680</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>resources/objects/saltBigBag/bigBagContainer.i3d</filename>
+        <size width="2" length="2" />
+        <input allowed="false"/>
+        <canBeReset>false</canBeReset>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="150" />
+        </components>
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits removeVehicleIfEmpty="true">
+                    <fillUnit unit="$l10n_unit_literShort" fillTypes="salt" capacity="1000" startFillType="salt" startFillLevel="1000" >
+                        <fillRootNode index="0>" />
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <dischargeable requiresTipOcclusionArea="false">
+        <dischargeNode node="raycastNode" emptySpeed="100" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true">
+            <raycast useWorldNegYDirection="true" />
+            <info width="0.4" length="0.4" />
+            <activationTrigger node="dischargeActivationTrigger" />
+
+            <effects>
+                <effectNode effectClass="PipeEffect" effectNode="pipeEffect" materialType="pipe"  materialTypeId="1" delay="0"   maxBending="1"  positionUpdateNodes="smokeEffect"/>
+                <effectNode                          effectNode="smokeEffect" materialType="smoke" materialTypeId="1" delay="0.1" alignToWorldY="true"/>
+            </effects>
+        </dischargeNode>
+    </dischargeable>
+
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" litersPerSecond="200"/>
+
+    <dynamicMount triggerNode="dynamicMountTrigger" />
+
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="bigBagContainer_vis"/>
+        </meshNodes>
+    </tensionBeltObject>
+
+    <i3dMappings>
+        <i3dMapping id="dynamicMountTrigger" node="0>0" />
+        <i3dMapping id="raycastNode" node="0>1|0" />
+        <i3dMapping id="pipeEffect" node="0>1|1|0" />
+        <i3dMapping id="smokeEffect" node="0>1|1|1" />
+        <i3dMapping id="fillTrigger" node="0>1|2" />
+        <i3dMapping id="dischargeActivationTrigger" node="0>1|3" />
+        <i3dMapping id="bigBagContainer_vis" node="0>2|0" />
+    </i3dMappings>
+</vehicle>

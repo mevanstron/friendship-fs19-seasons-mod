@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="particle_materialHolder" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="8.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/particleSystems/fx_grass4x1_diffuse.png"/>
+    <File fileId="5" filename="$data/particleSystems/fx_grass4x1_normal.png"/>
+    <File fileId="8" filename="$data/particleSystems/fx_grassDry4x1_diffuse.png"/>
+    <File fileId="1" filename="$data/particleSystems/fx_smoke6x6_01_diffuse.png"/>
+    <File fileId="2" filename="$data/particleSystems/fx_smoke6x6_01_normal.png"/>
+    <File fileId="6" filename="$data/shaders/psColorShader.xml"/>
+    <File fileId="3" filename="$data/shaders/psSubUVShader.xml"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fx_smoke01_mat" materialId="6" alphaBlending="true" customShaderId="3" customShaderVariation="SUBUV_MOVIE">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <CustomParameter name="psPlayScale" value="30 60 1 0"/>
+      <CustomParameter name="psColor" value="0.3493 0.2825 0.052 1"/>
+    </Material>
+    <Material name="fx_grass_mat" materialId="4" customShaderId="6">
+      <Texture fileId="4"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="psColor" value="1 1 1 1"/>
+    </Material>
+    <Material name="fx_grassDry4x1_mat" materialId="7" customShaderId="6">
+      <Texture fileId="8"/>
+      <Normalmap fileId="5"/>
+      <CustomParameter name="psColor" value="1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="5" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="particle_materialHolder.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+    <ParticleSystem name="smokeEmitter" dynamicId="1" type="sprite" rate="0.01" lifespan="2500" maxCount="500" speed="0.00075" speedRandom="0.00025" tangentSpeed="0.5" normalSpeed="1" spriteScaleX="1" spriteScaleY="1" spriteScaleXGain="0.0025" spriteScaleYGain="0.0025" blendFactor="0.2" blendInFactor="0.5" blendOutFactor="0.5" depthSort="true" randomInitRotation="true" deltaRotateMin="-0.000349066" deltaRotateMax="0.000349066" textureAtlasSizeX="6" textureAtlasSizeY="6">
+      <Gravity force="0 0 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="chopper" dynamicId="4" type="sprite" rate="0.03" lifespan="700" maxCount="90" speed="0.004" speedRandom="0" tangentSpeed="0" normalSpeed="1" spriteScaleX="0.9" spriteScaleY="0.9" spriteScaleXGain="0.0017" spriteScaleYGain="0.0017" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" textureAtlasSizeX="4">
+      <Gravity force="0 -0.2 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="forageEmitter" dynamicId="3" type="sprite" rate="0.25" lifespan="800" maxCount="1000" speed="0.002" speedRandom="0" tangentSpeed="0.01" normalSpeed="1" spriteScaleX="0.5" spriteScaleY="0.5" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" deltaRotateMin="-0.0015708" deltaRotateMax="0.0015708" textureAtlasSizeX="4">
+      <Gravity force="0 -1.5 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="chopper" dynamicId="6" type="sprite" rate="0.1" lifespan="100" maxCount="500" speed="0.002" speedRandom="0.001" tangentSpeed="0" normalSpeed="1" spriteScaleX="0.4" spriteScaleY="0.4" spriteScaleXGain="0.0001" spriteScaleYGain="0.0001" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" textureAtlasSizeX="4">
+      <Gravity force="0 -0.2 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="chopper" dynamicId="7" type="sprite" rate="0.001" lifespan="1500" maxCount="500" speed="0" speedRandom="0" tangentSpeed="0" normalSpeed="1" spriteScaleX="0.4" spriteScaleY="0.4" spriteScaleXGain="0.0004" spriteScaleYGain="0.0004" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" textureAtlasSizeX="4">
+      <Gravity force="0 -0.3 0"/>
+    </ParticleSystem>
+    <ParticleSystem name="chopper" dynamicId="5" type="sprite" rate="0.08" lifespan="1000" maxCount="90" speed="0.002" speedRandom="0" tangentSpeed="0.7" normalSpeed="1" spriteScaleX="0.9" spriteScaleY="0.9" spriteScaleXGain="0.0017" spriteScaleYGain="0.0017" blendFactor="1" blendInFactor="0" blendOutFactor="1" randomInitRotation="true" textureAtlasSizeX="4">
+      <Gravity force="0 -0.5 0"/>
+    </ParticleSystem>
+  </Dynamics>
+
+  <Scene>
+    <TransformGroup name="smokeParticleSystems" nodeId="22">
+      <TransformGroup name="semiDry_grass_windrow" nodeId="23">
+        <Dynamic dynamicId="1" emitterShapeNodeId="26" name="smokeEmitter" clipDistance="100" nodeId="25" materialIds="6" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="26" materialIds="6" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="unloadingParticles" nodeId="27">
+      <TransformGroup name="semiDry_grass" nodeId="28">
+        <Dynamic dynamicId="3" emitterShapeNodeId="31" name="grassEmitter" clipDistance="100" nodeId="30" materialIds="4" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="31" materialIds="5" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="windrower" nodeId="32">
+      <TransformGroup name="semiDry_grass_windrow" nodeId="33">
+        <Dynamic dynamicId="4" emitterShapeNodeId="36" name="semiDry_grass_Emitter" clipDistance="100" nodeId="35" materialIds="7" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" scale="0.5 0.6 1" nodeId="36" materialIds="5" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="tedder" nodeId="37">
+      <TransformGroup name="semiDry_grass_windrow" nodeId="38">
+        <Dynamic dynamicId="5" emitterShapeNodeId="41" name="semiDry_grass_emitter" clipDistance="100" nodeId="40" materialIds="7" distanceBlending="false">
+          <Shape shapeId="2" name="emitShape" nodeId="41" materialIds="5" nonRenderable="true"/>
+        </Dynamic>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="pickup" nodeId="42">
+      <TransformGroup name="pickup" nodeId="43">
+        <TransformGroup name="semiDry_grass_windrow" nodeId="44">
+          <Dynamic dynamicId="6" emitterShapeNodeId="47" name="grassDryEmitter" clipDistance="100" nodeId="46" materialIds="7" distanceBlending="false">
+            <Shape shapeId="2" name="emitShape" rotation="90 -0 0" scale="1 0.2 1" nodeId="47" materialIds="5" nonRenderable="true"/>
+          </Dynamic>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="pickup_falling" nodeId="48">
+        <TransformGroup name="semiDry_grass_windrow" nodeId="49">
+          <Dynamic dynamicId="7" emitterShapeNodeId="52" name="grassDryEmitter" clipDistance="100" nodeId="51" materialIds="7" distanceBlending="false">
+            <Shape shapeId="2" name="emitShape" rotation="90 -0 0" nodeId="52" materialIds="5" nonRenderable="true"/>
+          </Dynamic>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="25">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="SMOKE"/>
+    </UserAttribute>
+    <UserAttribute nodeId="30">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="UNLOADING"/>
+    </UserAttribute>
+    <UserAttribute nodeId="35">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="WINDROWER"/>
+    </UserAttribute>
+    <UserAttribute nodeId="40">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="TEDDER"/>
+    </UserAttribute>
+    <UserAttribute nodeId="46">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="PICKUP"/>
+    </UserAttribute>
+    <UserAttribute nodeId="51">
+      <Attribute name="fillType" type="string" value="semiDry_grass_windrow"/>
+      <Attribute name="onCreate" type="scriptCallback" value="MaterialUtil.onCreateParticleSystem"/>
+      <Attribute name="particleType" type="string" value="PICKUP_FALLING"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

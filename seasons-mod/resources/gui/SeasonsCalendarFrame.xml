@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<GUI name="seasonsCalendar">
+    <GuiElement type="empty" profile="uiInGameMenuFrame">
+        <!-- Static page header -->
+        <GuiElement type="empty" profile="ingameMenuFrameHeaderPanel" position="130px -60px">
+            <GuiElement type="bitmap" profile="seasonsMenuCalendarIcon" position="0px 0px"/>
+            <GuiElement type="text" profile="ingameMenuFrameHeaderText" position="80px 0px" text="$l10n_seasons_ui_calendar"/>
+        </GuiElement>
+
+        <GuiElement type="empty" profile="ingameMenuSettingsBox" position="130px -124px" id="container">
+            <!-- Header with season icons -->
+            <GuiElement type="boxLayout" profile="seasonsCalendarHeaderBox" position="1px 0px" id="tableHeaderBox">
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="50px 50px"  />
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="300px 50px" />
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="80px 50px"  />
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="1-3" profile="seasonsCalendarHeaderPeriod" frameThickness="1dp 0 1dp 0" id="calendarHeader[1]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="4-6" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[2]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[3]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[4]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[5]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[6]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[7]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[8]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[9]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[10]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[11]" />
+                </GuiElement>
+                <GuiElement type="tableHeader" profile="seasonsCalendarHeader" size="100px 50px">
+                    <GuiElement type="text" text="7-9" profile="seasonsCalendarHeaderPeriod" id="calendarHeader[12]" />
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="seasonsCalendarHeaderSeason" imageUVs="384px 240px 48px 48px" position="580px -16px" />
+            <GuiElement type="bitmap" profile="seasonsCalendarHeaderSeason" imageUVs="432px 240px 48px 48px" position="880px -16px" />
+            <GuiElement type="bitmap" profile="seasonsCalendarHeaderSeason" imageUVs="480px 240px 48px 48px" position="1180px -16px" />
+            <GuiElement type="bitmap" profile="seasonsCalendarHeaderSeason" imageUVs="336px 240px 48px 48px" position="1480px -16px" />
+
+            <!-- set row for periods -->
+
+            <GuiElement type="empty" profile="baseReference" size="1200px 600px" position="430px -104px" screenAlign="topLeft" positionOrigin="topLeft">
+                <GuiElement type="bitmap" profile="seasonsCalendarDividerBar" size="2dp 600px" position="300px 0px" />
+                <GuiElement type="bitmap" profile="seasonsCalendarDividerBar" size="2dp 600px" position="600px 0px" />
+                <GuiElement type="bitmap" profile="seasonsCalendarDividerBar" size="2dp 600px" position="900px 0px" />
+            </GuiElement>
+
+            <GuiElement type="list" profile="seasonsCalendarTable" position="1px -104px" itemTemplateId="fruitRowTemplate" id="calendar" handleFocus="false">
+                <GuiElement type="listItem" profile="seasonsCalendarFruitRow" id="fruitRowTemplate" handleFocus="false">
+                    <GuiElement type="flowLayout" flowDirection="horizontal" size="1630px 50px" screenAlign="topLeft" positionOrigin="topLeft">
+
+                        <GuiElement type="bitmap" profile="seasonsCalendarFruitIconCell" name="fruitIcon" />
+                        <GuiElement type="text" profile="seasonsCalendarFruitNameCell" name="fruitName" />
+                        <GuiElement type="localizedText" profile="seasonsCalendarGerminationCell" name="germination" />
+
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period1">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period2">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period3">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period4">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period5">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period6">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period7">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period8">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period9">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period10">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period11">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+                        <GuiElement type="empty" profile="seasonsCalendarPeriodCell" name="period12">
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellPlant" />
+                            <GuiElement type="bitmap" profile="seasonsCalendarPeriodCellHarvest" />
+                        </GuiElement>
+
+                    </GuiElement>
+                </GuiElement>
+            </GuiElement>
+
+            <GuiElement type="empty" profile="baseReference" size="1200px 600px" position="430px -104px" screenAlign="topLeft" positionOrigin="topLeft">
+                <GuiElement type="bitmap" profile="seasonsCalendarDividerBar" position="1dp 0px" />
+
+                <GuiElement type="bitmap" profile="seasonsCalendarTodayBar" id="todayBar" />
+            </GuiElement>
+
+            <GuiElement type="bitmap" profile="verticalGlassListSliderBackground" position="-1px -104px" size="28px 600px">
+                <GuiElement type="slider" profile="verticalGlassListSlider" size="16px 588px" id="calendarSlider" dataElementId="calendar" focusInit="onOpen" />
+            </GuiElement>
+
+            <GuiElement type="flowLayout" profile="seasonsCalendarLegendBox">
+                <GuiElement type="bitmap" profile="seasonsCalendarLegendIcon" id="legendPlantingSeason" />
+                <GuiElement type="text" profile="seasonsCalendarLegendText" text="$l10n_seasons_ui_plantingSeason" />
+                <GuiElement type="bitmap" profile="seasonsCalendarLegendIcon" id="legendHarvestSeason" />
+                <GuiElement type="text" profile="seasonsCalendarLegendText" text="$l10n_seasons_ui_harvestSeason" />
+            </GuiElement>
+
+        </GuiElement>
+
+    </GuiElement>
+</GUI>

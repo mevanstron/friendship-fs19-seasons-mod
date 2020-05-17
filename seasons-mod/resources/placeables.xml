@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables>
+
+    <!-- start = relative to root of placeable. width/height are relative to start -->
+
+    <!-- SHEDS -->
+    <placeable xmlFilename="data/placeables/sheds/easyShed01.xml">
+        <maskAreas>
+            <maskArea startX="-15" startZ="-7.5" widthX="30" widthZ="0" heightX="0" heightZ="15" />
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/sheds/easyShed02.xml">
+        <maskAreas>
+            <maskArea startX="-15" startZ="-20" widthX="29.5" widthZ="0" heightX="0" heightZ="40" />
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/sheds/easyShed03.xml">
+        <maskAreas>
+            <maskArea startX="-15" startZ="-13" widthX="30" widthZ="0" heightX="0" heightZ="26" />
+        </maskAreas>
+    </placeable>
+
+    <!-- MISC -->
+    <placeable xmlFilename="data/placeables/workshop/workshop.xml">
+        <maskAreas>
+            <maskArea startX="-3.6" startZ="-4.5" widthX="5.3" widthZ="0" heightX="0" heightZ="9.4" /> <!-- big roof -->
+            <maskArea startX="1.3" startZ="-2" widthX="1.16" widthZ="0" heightX="0" heightZ="6.5" /> <!-- small roof -->
+        </maskAreas>
+    </placeable>
+
+    <!-- SILOS -->
+    <placeable xmlFilename="data/placeables/hayLoft/hayLoft.xml">
+        <maskAreas>
+            <maskArea startX="-6.5" startZ="-4.6" widthX="13" widthZ="0" heightX="0" heightZ="9" />
+        </maskAreas>
+    </placeable>
+
+    <placeable xmlFilename="data/placeables/farmSilos/farmSiloSmall.xml">
+        <maskAreas>
+            <maskArea startX="-11.2" startZ="-9.48" widthX="21" widthZ="0" heightX="0" heightZ="7" /> <!-- grate -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/farmSilos/farmSiloLarge.xml">
+        <maskAreas>
+            <maskArea startX="-11.2" startZ="-14.5" widthX="21" widthZ="0" heightX="0" heightZ="7" /> <!-- grate -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/farmSilos/siloExtension.xml">
+        <maskAreas />
+    </placeable>
+
+    <!-- HUSBANDRIES -->
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryChicken.xml">
+        <maskAreas>
+            <maskArea startX="8.3" startZ="1" widthX="1.5" widthZ="0" heightX="0" heightZ="5.76" /> <!-- feeding trough -->
+            <maskArea startX="-9.1" startZ="11" widthX="4" widthZ="0" heightX="0" heightZ="4" /> <!-- egg spawn -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryChickenLarge.xml">
+        <maskAreas>
+            <maskArea startX="14.3" startZ="1" widthX="1.46" widthZ="0" heightX="0" heightZ="5.9" /> <!-- feeding trough -->
+            <maskArea startX="-9.1" startZ="11" widthX="4" widthZ="0" heightX="0" heightZ="4" /> <!-- egg spawn -->
+        </maskAreas>
+    </placeable>
+
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryCow.xml">
+        <maskAreas>
+            <maskArea startX="-5" startZ="0.6" widthX="25.6" widthZ="0" heightX="0" heightZ="23" /> <!-- shed -->
+            <maskArea startX="-11.6" startZ="-19.5" widthX="8" widthZ="0" heightX="0" heightZ="7" /> <!-- slurry -->
+            <maskArea startX="-21.4" startZ="-19.5" widthX="9" widthZ="0" heightX="0" heightZ="14" /> <!-- manure -->
+            <maskArea startX="20" startZ="-14.8" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- feeding trough -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryCowLarge.xml">
+        <maskAreas>
+            <maskArea startX="-11.6" startZ="-2.4" widthX="39.12" widthZ="0" heightX="0" heightZ="22.7" /> <!-- shed -->
+            <maskArea startX="-11.6" startZ="-28.5" widthX="8" widthZ="0" heightX="0" heightZ="7" /> <!-- slurry -->
+            <maskArea startX="-25.4" startZ="-28.5" widthX="9" widthZ="0" heightX="0" heightZ="14" /> <!-- manure -->
+            <maskArea startX="26" startZ="-18" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- feeding trough -->
+        </maskAreas>
+    </placeable>
+
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryPig.xml">
+        <maskAreas>
+            <maskArea startX="-1" startZ="-19.5" widthX="8" widthZ="0" heightX="0" heightZ="7" /> <!-- slurry -->
+            <maskArea startX="-13.7" startZ="-20.5" widthX="8.7" widthZ="0" heightX="0" heightZ="14" /> <!-- manure -->
+            <maskArea startX="-4.2" startZ="14.3" widthX="11.6" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="15.7" startZ="0.2" widthX="1.5" widthZ="0" heightX="0" heightZ="12" /> <!-- water trough -->
+            <maskArea startX="-20.5" startZ="-3.6" widthX="15" widthZ="0" heightX="0" heightZ="16" /> <!-- shed -->
+            <maskArea startX="-3.7" startZ="-11" widthX="4.5" widthZ="0" heightX="0" heightZ="3.8" /> <!-- cover1 -->
+            <maskArea startX="2" startZ="1" widthX="2.6" widthZ="-1.37" heightX="1.6" heightZ="3" /> <!-- cover2 -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryPigLarge.xml">
+        <maskAreas>
+            <maskArea startX="-1" startZ="-21.5" widthX="8" widthZ="0" heightX="0" heightZ="7" /> <!-- slurry -->
+            <maskArea startX="-13.7" startZ="-20.5" widthX="8.7" widthZ="0" heightX="0" heightZ="14" /> <!-- manure -->
+            <maskArea startX="-4.2" startZ="24.3" widthX="11.6" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="15.7" startZ="4.2" widthX="1.5" widthZ="0" heightX="0" heightZ="12" /> <!-- water trough -->
+            <maskArea startX="-20.5" startZ="-3.6" widthX="15" widthZ="0" heightX="0" heightZ="26" /> <!-- shed -->
+            <maskArea startX="-3.7" startZ="-11" widthX="4.5" widthZ="0" heightX="0" heightZ="3.8" /> <!-- cover1 -->
+            <maskArea startX="2" startZ="8" widthX="2.6" widthZ="-1.37" heightX="1.6" heightZ="3" /> <!-- cover2 -->
+            <maskArea startX="10.5" startZ="22" widthX="3.2" widthZ="-3" heightX="2.7" heightZ="2.8" /> <!-- cover3 -->
+        </maskAreas>
+    </placeable>
+
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryHorse.xml">
+        <maskAreas>
+            <maskArea startX="-13.7" startZ="-3" widthX="3" widthZ="0" heightX="0" heightZ="6" /> <!-- shed -->
+            <maskArea startX="-3.8" startZ="14.2" widthX="11.6" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="16.2" startZ="0.2" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- water trough -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandryHorseLarge.xml">
+        <maskAreas>
+            <maskArea startX="-19.7" startZ="-3" widthX="3" widthZ="0" heightX="0" heightZ="6" /> <!-- shed -->
+            <maskArea startX="-3.8" startZ="14.2" widthX="11.6" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="22.2" startZ="0.2" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- water trough -->
+        </maskAreas>
+    </placeable>
+
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandrySheep.xml">
+        <maskAreas>
+            <maskArea startX="-11.7" startZ="5.5" widthX="7.6" widthZ="0" heightX="0" heightZ="13.4" /> <!-- shed -->
+            <maskArea startX="-1.4" startZ="17.2" widthX="11.8" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="15.6" startZ="0" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- water trough -->
+            <maskArea startX="-17" startZ="14" widthX="4" widthZ="0" heightX="0" heightZ="4" /> <!-- pallet spawn area -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/animalHusbandry/husbandrySheepLarge.xml">
+        <maskAreas>
+            <maskArea startX="-13.655" startZ="-5.5" widthX="7.4" widthZ="0" heightX="0" heightZ="20.3" /> <!-- shed -->
+            <maskArea startX="-3.545" startZ="15.3" widthX="11.8" widthZ="0" heightX="0" heightZ="1.5" /> <!-- feeding trough -->
+            <maskArea startX="13.7" startZ="-4.8" widthX="1.5" widthZ="0" heightX="0" heightZ="11.6" /> <!-- water trough -->
+            <maskArea startX="-19" startZ="9" widthX="4" widthZ="0" heightX="0" heightZ="4" /> <!-- pallet spawn area -->
+        </maskAreas>
+    </placeable>
+
+
+    <!-- Map US -->
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmHouse.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmBarn.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmGarage.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmHut.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmShack.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmShed.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmStable.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmStorage.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmTrailer.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapUS/farmBuildings/farmOldBarn.xml">
+        <maskAreas />
+    </placeable>
+
+    <!-- Map DE -->
+    <placeable xmlFilename="data/placeables/mapDE/farmBuildings/farmHouse.xml">
+        <maskAreas>
+            <maskArea startX="-7" startZ="-15.4" widthX="14" widthZ="0" heightX="0" heightZ="20.6" /> <!-- house -->
+            <maskArea startX="-5.8" startZ="5.5" widthX="11.7" widthZ="0" heightX="0" heightZ="9" /> <!-- garage -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapDE/farmBuildings/farmHousePreplaced.xml">
+        <maskAreas>
+            <maskArea startX="-12.082" startZ="-12.355" widthX="14" widthZ="0" heightX="0" heightZ="20.6" /> <!-- house -->
+            <maskArea startX="-10.895" startZ="8.106" widthX="11.7" widthZ="0" heightX="0" heightZ="9" /> <!-- garage -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapDE/farmBuildings/farmBarn.xml">
+        <maskAreas>
+            <maskArea startX="-14.2" startZ="-9.2" widthX="13.3" widthZ="0" heightX="0" heightZ="20.3" /> <!-- shed -->
+            <maskArea startX="-22.6" startZ="0.4" widthX="9.3" widthZ="0" heightX="0" heightZ="11.8" /> <!-- covered1 -->
+            <maskArea startX="-3.7" startZ="1" widthX="19.2" widthZ="0" heightX="0" heightZ="13.4" /> <!-- covered2 -->
+        </maskAreas>
+    </placeable>
+    <placeable xmlFilename="data/placeables/mapDE/farmBuildings/farmGarage.xml">
+        <maskAreas>
+            <maskArea startX="-5.8" startZ="-5.5" widthX="11.7" widthZ="0" heightX="0" heightZ="11" /> <!-- shed -->
+        </maskAreas>
+    </placeable>
+    <!-- This covers ground and is usable storage -->
+    <placeable xmlFilename="data/placeables/mapDE/farmBuildings/farmStorageBarn.xml">
+        <maskAreas>
+            <maskArea startX="-10" startZ="-10.3" widthX="19" widthZ="0" heightX="0" heightZ="20" /> <!-- shed -->
+        </maskAreas>
+    </placeable>
+
+    <!-- Disable mask for placeables that are small, or convex -->
+
+    <placeable xmlFilename="data/placeables/highPressureWasher/kaercher/kaercherHDS918-4M.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/doghouse/doghouse.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/sandCastle/sandCastle.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/waterTank/waterTank.xml">
+        <maskAreas />
+    </placeable>
+    <placeable xmlFilename="data/placeables/woodCrusher/woodCrusher.xml">
+        <maskAreas />
+    </placeable>
+
+</placeables>
