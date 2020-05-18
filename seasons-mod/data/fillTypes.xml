@@ -3,11 +3,11 @@
     <annotation>Copyright (c) Realismus Modding, 2019</annotation>
 
     <fillType name="DIGESTATE"          allowedWithFrozenSoil="true" />
-    <fillType name="FERTILIZER"         allowedWithFrozenSoil="false" />
-    <fillType name="HERBICIDE"          allowedWithFrozenSoil="false" />
+    <fillType name="FERTILIZER"         allowedWithFrozenSoil="true" />
+    <fillType name="HERBICIDE"          allowedWithFrozenSoil="true" />
     <fillType name="LIME"               allowedWithFrozenSoil="true" />
-    <fillType name="LIQUIDFERTILIZER"   allowedWithFrozenSoil="false" />
+    <fillType name="LIQUIDFERTILIZER"   allowedWithFrozenSoil="true" />
     <fillType name="LIQUIDMANURE"       allowedWithFrozenSoil="true" />
-    <fillType name="MANURE"             allowedWithFrozenSoil="false" />
+    <fillType name="MANURE"             allowedWithFrozenSoil="true" />
     <fillType name="SILAGE"             allowedWithFrozenSoil="true" />
 </fillTypes>
