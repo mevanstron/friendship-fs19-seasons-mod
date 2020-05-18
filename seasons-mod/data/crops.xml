@@ -25,200 +25,200 @@
 
         <growthTransitions>
             <gt index="1"> <!--late winter to early spring-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="2"> <!--early spring to mid spring-->
-                <crop name="BARLEY"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="3"> <!--mid spring to late spring-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="4"> <!--late spring to early summer-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="5"> <!--early summer to mid summer-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <!-- <crop name="WEED" /> -->
             </gt>
             <gt index="6"> <!--mid summer to late summer-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <!-- <crop name="WEED" /> -->
             </gt>
             <gt index="7"> <!--late summer to early autumn-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <!-- <crop name="WEED" /> -->
             </gt>
             <gt index="8"> <!--early autumn to mid autumn-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="9"> <!--mid autumn to late autumn-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="10"> <!--late autumn to early winter-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="11"> <!--early winter to mid winter-->
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
             <gt index="12"/> <!--mid winter to late winter-->
             <gt index="FIRST_LOAD_TRANSITION">
-                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="BARLEY"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="OAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="WHEAT"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="CANOLA"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="MAIZE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SOYBEAN"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUNFLOWER"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="POTATO"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="SUGARBEET"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
                 <crop name="POPLAR" incrementByOneRange="1-MAX" setRange="CUT" setTo="2"/>
                 <crop name="GRASS" incrementByOneRange="1-MAX" setRange="CUT"  setTo="2"/>
                 <crop name="OILSEEDRADISH" incrementByOneRange="1-MAX"/>
-                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
-                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-7"/>
+                <crop name="SUGARCANE"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
+                <crop name="COTTON"  setRange="1-2" setTo="3" incrementByOneRange="3-4" incrementByRange="5-6" incrementBy="2"/>
             </gt>
         </growthTransitions>
     </growth>
